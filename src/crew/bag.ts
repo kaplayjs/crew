@@ -3,6 +3,7 @@ import bagSprite from "../../assets/crew/bag.png";
 import type { CrewItem } from "../types/crew";
 
 export const bagData: CrewItem = {
+    name: "Bag",
     sprite: bagSprite,
     outlined: bagSpriteO,
     description: "Bag is the one who carries the crew.",
