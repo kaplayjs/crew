@@ -1,12 +1,13 @@
 export type Author = "tga" | "lajbel";
+export type Type = "crew" | "object";
 
 export type CrewItem = {
     sprite?: string;
     outlined?: string;
-    description?: string;
-    secret?: string;
-    author?: Author;
-    type?: string;
+    description: string;
+    secret: string;
+    author: Author;
+    type: Type;
     crewmeta?: CrewMemberMeta;
 };
 

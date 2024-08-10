@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            "./src/env.d.ts"
+        ]
+    }
+}
