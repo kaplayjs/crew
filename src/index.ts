@@ -13,8 +13,8 @@ export const assets = {
         "type": "crew",
         crewmeta: {
             "age": 4,
-            "height": 0.5,
-            "weight": 0.5,
+            "height": 0.05,
+            "weight": 0.001,
             "species": "bean",
             "origin": "Beanland",
             "hobbies": ["jumping", "bouncing", "rolling"],
