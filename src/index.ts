@@ -1,6 +1,7 @@
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
+import { ghostinyData } from "./crew/ghostiny";
 import { ghostyData } from "./crew/ghosty";
 import { moneyBagData } from "./crew/money_bag";
 import type { CrewItem } from "./types/crew";
@@ -11,4 +12,5 @@ export const assets: Record<string, CrewItem> = {
     "bobo": boboData,
     "money_bag": moneyBagData,
     "ghosty": ghostyData,
+    "ghostiny": ghostinyData,
 };
