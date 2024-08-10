@@ -2,6 +2,7 @@ export type Author = "tga" | "lajbel";
 export type Type = "crew" | "object";
 
 export type CrewItem = {
+    name: string;
     sprite?: string;
     outlined?: string;
     description: string;

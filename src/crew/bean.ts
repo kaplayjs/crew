@@ -3,6 +3,7 @@ import beanSprite from "../../assets/crew/bean.png";
 import type { CrewItem } from "../types/crew";
 
 export const beanData: CrewItem = {
+    name: "Bean",
     sprite: beanSprite,
     outlined: beanSpriteO,
     description: "A bean, one of much beans.",

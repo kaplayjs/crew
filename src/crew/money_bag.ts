@@ -3,6 +3,7 @@ import moneyBagSprite from "../../assets/crew/money_bag.png";
 import type { CrewItem } from "../types/crew";
 
 export const moneyBagData: CrewItem = {
+    name: "Money Bag",
     sprite: moneyBagSprite,
     outlined: moneyBagSpriteO,
     description:

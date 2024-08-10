@@ -3,6 +3,7 @@ import boboSprite from "../../assets/crew/bobo.png";
 import type { CrewItem } from "../types/crew";
 
 export const boboData: CrewItem = {
+    name: "Bobo",
     sprite: boboSprite,
     outlined: boboSpriteO,
     description:
