@@ -2,6 +2,8 @@ import bagSpriteO from "./assets/crew/bag-o.png";
 import bagSprite from "./assets/crew/bag.png";
 import beanSpriteO from "./assets/crew/bean-o.png";
 import beanSprite from "./assets/crew/bean.png";
+import boboSpriteO from "./assets/crew/bobo-o.png";
+import boboSprite from "./assets/crew/bobo.png";
 
 export const assets = {
     "bean": {
@@ -13,7 +15,7 @@ export const assets = {
         "type": "crew",
         crewmeta: {
             "age": 4,
-            "height": 0.05,
+            "height": 0.005,
             "weight": 0.001,
             "species": "bean",
             "origin": "Beanland",
@@ -39,6 +41,25 @@ export const assets = {
             "hobbies": ["carrying", "eating", "sleeping"],
             "favoriteFood": "grass",
             "favoriteColor": "purple",
+        },
+    },
+    "bobo": {
+        "sprite": boboSprite,
+        "outlined": boboSpriteO,
+        "description":
+            "A fish in the sea of KAWORLD, but a friend in the heart of everyone.",
+        "secret": "He's scared about water.",
+        "author": "tga",
+        "type": "crew",
+        crewmeta: {
+            "age": 3,
+            "height": 0.10,
+            "weight": 3,
+            "species": "fish",
+            "origin": "KAWORLD",
+            "hobbies": ["swimming", "singing", "dancing"],
+            "favoriteFood": "fish",
+            "favoriteColor": "blue",
         },
     },
 };
