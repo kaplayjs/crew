@@ -8,6 +8,11 @@ import { markData } from "./crew/mark";
 import { moneyBagData } from "./crew/money_bag";
 import { tgaData } from "./crew/tga";
 import { appleData } from "./food/apple";
+import { grapeData } from "./food/grape";
+import { meatData } from "./food/meat";
+import { mushroomData } from "./food/mushroom";
+import { pineappleData } from "./food/pineapple";
+import { watermelonData } from "./food/watermelon";
 import type { CrewItem } from "./types/crew";
 
 export const assets: Record<string, CrewItem> = {
@@ -23,4 +28,9 @@ export const assets: Record<string, CrewItem> = {
 
     // food
     "apple": appleData,
+    "grape": grapeData,
+    "meat": meatData,
+    "mushroom": mushroomData,
+    "watermelon": watermelonData,
+    "pineapple": pineappleData,
 };
