@@ -24,6 +24,9 @@ import { moonData } from "./objects/moon";
 import { portalData } from "./objects/portal";
 import { sunData } from "./objects/sun";
 import { swordData } from "./objects/sword";
+import { grassData } from "./tiles/grass";
+import { spikeData } from "./tiles/spike";
+import { steelData } from "./tiles/steel";
 import type { CrewItem } from "./types/crew";
 
 export const assets: Record<string, CrewItem> = {
@@ -46,7 +49,6 @@ export const assets: Record<string, CrewItem> = {
     "pineapple": pineappleData,
 
     // objects
-
     "cloud": cloudData,
     "coin": coinData,
     "door": doorData,
@@ -58,4 +60,9 @@ export const assets: Record<string, CrewItem> = {
     "portal": portalData,
     "sun": sunData,
     "sword": swordData,
+
+    // tiles
+    "grass": grassData,
+    "spike": spikeData,
+    "steel": steelData,
 };
