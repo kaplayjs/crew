@@ -1,8 +1,13 @@
 {
   "name": "@kaplayjs/crew",
+  "description": "The home of the KAPLAY assets.",
   "module": "index.ts",
   "version": "1.0.0",
   "type": "module",
+  "main": "./dist/index.mjs",
+  "exports": {
+    "import": "./dist/index.mjs"
+  },
   "scripts": {
     "build": "node --experimental-strip-types scripts/build.ts"
   },

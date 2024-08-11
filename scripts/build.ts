@@ -4,7 +4,7 @@ buildSync({
     format: "esm",
     entryPoints: ["src/index.ts"],
     bundle: true,
-    outdir: "dist",
+    outfile: "dist/index.mjs",
     loader: {
         ".png": "dataurl",
     },
