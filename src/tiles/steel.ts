@@ -3,7 +3,7 @@ import steelSprite from "../../assets/tiles/steel.png";
 import type { CrewItem } from "../types/crew";
 
 export const steelData: CrewItem = {
-    name: "steel",
+    name: "Steel",
     description: "Hard steel.",
     author: "tga",
     secret: "Maybe it's not steel.",

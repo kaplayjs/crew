@@ -3,7 +3,7 @@ import grassSprite from "../../assets/tiles/grass.png";
 import type { CrewItem } from "../types/crew";
 
 export const grassData: CrewItem = {
-    name: "grass",
+    name: "Grass",
     description: "Grass of KAWorld.",
     author: "tga",
     secret: "Hopefully is real grass.",

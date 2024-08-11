@@ -3,7 +3,7 @@ import spikeSprite from "../../assets/tiles/spike.png";
 import type { CrewItem } from "../types/crew";
 
 export const spikeData: CrewItem = {
-    name: "spike",
+    name: "Spike",
     description: "A spike, be careful!",
     author: "tga",
     secret: "Gigagantrum eat them as breakfast.",
