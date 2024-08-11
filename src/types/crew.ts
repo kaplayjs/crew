@@ -1,5 +1,13 @@
 export type Author = "tga" | "lajbel";
-export type Type = "crew" | "food" | "object";
+export type Type =
+    | "crew"
+    | "food"
+    | "objects"
+    | "animals"
+    | "brand"
+    | "fonts"
+    | "ui"
+    | "tiles";
 
 export type CrewItem = {
     name: string;

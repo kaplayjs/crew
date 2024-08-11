@@ -1,0 +1,22 @@
+{
+	"crewItem": {
+		"scope": "javascript,typescript",
+		"prefix": "citem-nc",
+		"body": [
+			"import ${TM_FILENAME_BASE}SpriteO from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}-o.png\";",
+			"import ${TM_FILENAME_BASE}Sprite from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}.png\";",
+			"import type { CrewItem } from \"../types/crew\";",
+            "",
+			"export const ${TM_FILENAME_BASE}Data: CrewItem = {",
+			"    name: \"${TM_FILENAME_BASE}\",",
+			"    description: \"\",",
+			"    author: \"\",",
+			"    secret: \"\",",
+			"    type: \"${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}\",",
+			"    sprite: ${TM_FILENAME_BASE}Sprite,",
+			"    outlined: ${TM_FILENAME_BASE}SpriteO,",
+			"};",
+		],
+		"description": "Create a crew item"
+	}
+}

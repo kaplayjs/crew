@@ -13,6 +13,17 @@ import { meatData } from "./food/meat";
 import { mushroomData } from "./food/mushroom";
 import { pineappleData } from "./food/pineapple";
 import { watermelonData } from "./food/watermelon";
+import { cloudData } from "./objects/cloud";
+import { coinData } from "./objects/coin";
+import { doorData } from "./objects/door";
+import { gunData } from "./objects/gun";
+import { heartData } from "./objects/heart";
+import { keyData } from "./objects/key";
+import { lighteningData } from "./objects/lightening";
+import { moonData } from "./objects/moon";
+import { portalData } from "./objects/portal";
+import { sunData } from "./objects/sun";
+import { swordData } from "./objects/sword";
 import type { CrewItem } from "./types/crew";
 
 export const assets: Record<string, CrewItem> = {
@@ -33,4 +44,18 @@ export const assets: Record<string, CrewItem> = {
     "mushroom": mushroomData,
     "watermelon": watermelonData,
     "pineapple": pineappleData,
+
+    // objects
+
+    "cloud": cloudData,
+    "coin": coinData,
+    "door": doorData,
+    "gun": gunData,
+    "heart": heartData,
+    "key": keyData,
+    "lightening": lighteningData,
+    "moon": moonData,
+    "portal": portalData,
+    "sun": sunData,
+    "sword": swordData,
 };
