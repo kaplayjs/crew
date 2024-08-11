@@ -15,7 +15,7 @@ export const ghostinyData: CrewItem = {
         favoriteColor: "NaN",
         favoriteFood: "undefined",
         height: NaN,
-        hobbies: [],
+        hobbies: ["gaming"],
         origin: "unknown",
         species: "ghost",
         weight: -1,

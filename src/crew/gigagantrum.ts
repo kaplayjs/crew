@@ -13,9 +13,9 @@ export const gigagantrumData: CrewItem = {
     crewmeta: {
         age: 20,
         favoriteColor: "red",
-        favoriteFood: "bugs",
+        favoriteFood: "bombs",
         height: 4,
-        hobbies: [],
+        hobbies: ["rocking"],
         origin: "Somewhere in KAWORLD",
         species: "rock",
         weight: 100,

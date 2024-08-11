@@ -6,6 +6,7 @@ import { ghostyData } from "./crew/ghosty";
 import { gigagantrumData } from "./crew/gigagantrum";
 import { markData } from "./crew/mark";
 import { moneyBagData } from "./crew/money_bag";
+import { tgaData } from "./crew/tga";
 import type { CrewItem } from "./types/crew";
 
 export const assets: Record<string, CrewItem> = {
@@ -17,4 +18,5 @@ export const assets: Record<string, CrewItem> = {
     "ghostiny": ghostinyData,
     "mark": markData,
     "gigagantrum": gigagantrumData,
+    "tga": tgaData,
 };
