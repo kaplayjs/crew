@@ -1,6 +1,7 @@
 import { buildSync } from "esbuild";
 
-const build = buildSync({
+buildSync({
+    format: "esm",
     entryPoints: ["src/index.ts"],
     bundle: true,
     outdir: "dist",

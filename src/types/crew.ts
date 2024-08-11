@@ -1,5 +1,5 @@
 export type Author = "tga" | "lajbel";
-export type Type = "crew" | "object";
+export type Type = "crew" | "food" | "object";
 
 export type CrewItem = {
     name: string;
