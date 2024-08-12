@@ -29,7 +29,7 @@ import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
 import type { CrewItem } from "./types/crew";
 
-export const assets: Record<string, CrewItem> = {
+export const assets = {
     "bean": beanData,
     "bag": bagData,
     "bobo": boboData,
@@ -65,4 +65,20 @@ export const assets: Record<string, CrewItem> = {
     "grass": grassData,
     "spike": spikeData,
     "steel": steelData,
-};
+} satisfies Record<string, CrewItem>;
+
+export const crew = Object.values(assets).filter((item) =>
+    item.type === "crew"
+);
+
+export const foods = Object.values(assets).filter((item) =>
+    item.type === "food"
+);
+
+export const objects = Object.values(assets).filter((item) =>
+    item.type === "objects"
+);
+
+export const tiles = Object.values(assets).filter((item) =>
+    item.type === "tiles"
+);
