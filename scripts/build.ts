@@ -9,3 +9,13 @@ buildSync({
         ".png": "dataurl",
     },
 });
+
+buildSync({
+    format: "cjs",
+    entryPoints: ["src/index.ts"],
+    bundle: true,
+    outfile: "dist/index.cjs",
+    loader: {
+        ".png": "dataurl",
+    },
+});
