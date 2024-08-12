@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      esbuild:
-        specifier: ^0.23.0
-        version: 0.23.0
+      typescript:
+        specifier: ^5.0.0
+        version: 5.5.4
       vite:
         specifier: ^5.4.0
         version: 5.4.0(@types/node@20.12.14)
@@ -21,6 +21,9 @@ importers:
       dprint:
         specifier: ^0.47.2
         version: 0.47.2
+      esbuild:
+        specifier: ^0.23.0
+        version: 0.23.0
 
 packages:
 
@@ -475,6 +478,11 @@ packages:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
     engines: {node: '>=0.10.0'}
 
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
@@ -835,6 +843,8 @@ snapshots:
       fsevents: 2.3.3
 
   source-map-js@1.2.0: {}
+
+  typescript@5.5.4: {}
 
   undici-types@5.26.5:
     optional: true

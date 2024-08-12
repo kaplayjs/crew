@@ -1,10 +1,17 @@
 {
     "compilerOptions": {
+        "emitDeclarationOnly": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "outDir": "./dist",
         "lib": [
             "ESNext"
         ],
         "typeRoots": [
             "./src/env.d.ts"
         ]
-    }
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
 }
