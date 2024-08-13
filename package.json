@@ -7,7 +7,7 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
-    "*": {
+    ".": {
       "import": {
         "default": "./dist/index.mjs",
         "types": "./dist/index.d.ts"
