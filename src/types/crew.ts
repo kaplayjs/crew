@@ -7,7 +7,8 @@ export type Type =
     | "brand"
     | "fonts"
     | "ui"
-    | "tiles";
+    | "tiles"
+    | "icons";
 
 export type CrewItem = {
     name: string;

@@ -3,7 +3,7 @@ import mushroomSprite from "../../assets/food/mushroom.png";
 import type { CrewItem } from "../types/crew";
 
 export const mushroomData: CrewItem = {
-    name: "mushroom",
+    name: "Mushroom",
     description: "A mushroom, with unknown effects. Maybe it makes you grow.",
     author: "tga",
     secret: "It's blue.",

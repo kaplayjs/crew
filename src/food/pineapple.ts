@@ -3,7 +3,7 @@ import pineappleSprite from "../../assets/food/pineapple.png";
 import type { CrewItem } from "../types/crew";
 
 export const pineappleData: CrewItem = {
-    name: "pineapple",
+    name: "Pineapple",
     description: "A tasty pineapple.",
     author: "tga",
     secret: "Hates apples.",
