@@ -3,7 +3,7 @@ import cakeSprite from "../../assets/icons/cake.png";
 import type { CrewItem } from "../types/crew";
 
 export const cakeData: CrewItem = {
-    name: "cake",
+    name: "Cake",
     description: "A piece of cake.",
     author: "lajbel",
     secret: "Is the cake icon lol.",

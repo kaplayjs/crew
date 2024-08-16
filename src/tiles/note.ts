@@ -3,7 +3,7 @@ import noteSprite from "../../assets/tiles/note.png";
 import type { CrewItem } from "../types/crew";
 
 export const noteData: CrewItem = {
-    name: "note",
+    name: "Note",
     description: "A musical note block!",
     author: "tga",
     secret:

@@ -3,7 +3,7 @@ import tgaSprite from "../../assets/crew/tga.png";
 import type { CrewItem } from "../types/crew";
 
 export const tgaData: CrewItem = {
-    name: "TGA",
+    name: "tga",
     author: "tga",
     description: "A dino, he was the crew's babysitter when they were small.",
     secret: "https://space55.xyz",
