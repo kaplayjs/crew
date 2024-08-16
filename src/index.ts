@@ -1,3 +1,6 @@
+import { btflyData } from "./animals/btfly";
+import { eggData } from "./animals/egg";
+import { eggCrackData } from "./animals/eggCrack";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
@@ -34,6 +37,7 @@ import { steelData } from "./tiles/steel";
 import type { CrewItem } from "./types/crew";
 
 export const assets = {
+    // crew
     "bean": beanData,
     "bag": bagData,
     "bobo": boboData,
@@ -51,6 +55,11 @@ export const assets = {
     "mushroom": mushroomData,
     "watermelon": watermelonData,
     "pineapple": pineappleData,
+
+    // animals
+    "btfly": btflyData,
+    "egg": eggData,
+    "eggCrack": eggCrackData,
 
     // objects
     "cloud": cloudData,
@@ -91,4 +100,12 @@ export const objects = Object.values(assets).filter((item) =>
 
 export const tiles = Object.values(assets).filter((item) =>
     item.type === "tiles"
+);
+
+export const icons = Object.values(assets).filter((item) =>
+    item.type === "icons"
+);
+
+export const animals = Object.values(assets).filter((item) =>
+    item.type === "animals"
 );
