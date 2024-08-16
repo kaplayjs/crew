@@ -4,9 +4,11 @@ import { eggCrackData } from "./animals/eggCrack";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
+import { burpmanData } from "./crew/burpman";
 import { ghostinyData } from "./crew/ghostiny";
 import { ghostyData } from "./crew/ghosty";
 import { gigagantrumData } from "./crew/gigagantrum";
+import { katData } from "./crew/kat";
 import { markData } from "./crew/mark";
 import { moneyBagData } from "./crew/money_bag";
 import { tgaData } from "./crew/tga";
@@ -47,6 +49,8 @@ export const assets = {
     "mark": markData,
     "gigagantrum": gigagantrumData,
     "tga": tgaData,
+    "burpman": burpmanData,
+    "kat": katData,
 
     // food
     "apple": appleData,
