@@ -1,7 +1,7 @@
 {
   "name": "@kaplayjs/crew",
   "description": "The home of the KAPLAY assets.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -29,7 +29,8 @@
   "scripts": {
     "build": "pnpm run tsc && node --experimental-strip-types scripts/build.ts",
     "tsc": "tsc",
-    "prepublish": "pnpm run build"
+    "prepublish": "pnpm run build",
+    "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
