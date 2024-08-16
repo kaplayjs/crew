@@ -14,6 +14,8 @@ import { mushroomData } from "./food/mushroom";
 import { pineappleData } from "./food/pineapple";
 import { watermelonData } from "./food/watermelon";
 import { cakeData } from "./icons/cake";
+import { ruleData } from "./icons/rule";
+import { strangerData } from "./icons/stranger";
 import { weightData } from "./icons/weight";
 import { cloudData } from "./objects/cloud";
 import { coinData } from "./objects/coin";
@@ -71,6 +73,8 @@ export const assets = {
     // icons
     "cake": cakeData,
     "weight": weightData,
+    "rule": ruleData,
+    "stranger": strangerData,
 } satisfies Record<string, CrewItem>;
 
 export const crew = Object.values(assets).filter((item) =>
