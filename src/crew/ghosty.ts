@@ -19,5 +19,6 @@ export const ghostyData: CrewItem = {
         origin: "unknown",
         species: "ghost",
         weight: 0,
+        gender: 2,
     },
 };

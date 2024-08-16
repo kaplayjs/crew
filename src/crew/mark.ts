@@ -19,5 +19,6 @@ export const markData: CrewItem = {
         origin: "Bing Kabang",
         species: "mark",
         weight: 20,
+        gender: 0,
     },
 };

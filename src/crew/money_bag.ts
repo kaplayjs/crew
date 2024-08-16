@@ -20,5 +20,6 @@ export const moneyBagData: CrewItem = {
         hobbies: ["coing", "greeding", "sleeping"],
         favoriteFood: "coin",
         favoriteColor: "yellow",
+        gender: 1,
     },
 };

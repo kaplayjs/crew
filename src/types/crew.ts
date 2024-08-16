@@ -30,4 +30,5 @@ export type CrewMemberMeta = {
     hobbies: string[];
     favoriteFood: string;
     favoriteColor: string;
+    gender: 0 | 1 | 2;
 };

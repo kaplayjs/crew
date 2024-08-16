@@ -20,5 +20,6 @@ export const bagData: CrewItem = {
         hobbies: ["carrying", "eating", "sleeping"],
         favoriteFood: "grass",
         favoriteColor: "purple",
+        gender: 0,
     },
 };

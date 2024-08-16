@@ -20,5 +20,6 @@ export const boboData: CrewItem = {
         hobbies: ["swimming", "singing", "dancing"],
         favoriteFood: "algae",
         favoriteColor: "blue",
+        gender: 0,
     },
 };

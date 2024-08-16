@@ -19,5 +19,6 @@ export const tgaData: CrewItem = {
         origin: "A red country",
         species: "dinosaaur",
         weight: 60,
+        gender: 0,
     },
 };

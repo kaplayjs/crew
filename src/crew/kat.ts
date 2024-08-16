@@ -19,5 +19,6 @@ export const katData: CrewItem = {
         hobbies: ["sleeping", "eating", "playing"],
         origin: "space",
         species: "alien",
+        gender: 1,
     },
 };

@@ -1,7 +1,7 @@
 {
   "name": "@kaplayjs/crew",
   "description": "The home of the KAPLAY assets.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",

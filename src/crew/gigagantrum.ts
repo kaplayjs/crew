@@ -6,7 +6,7 @@ export const gigagantrumData: CrewItem = {
     name: "Gigagantrum",
     author: "tga",
     description: "A guy who is very strong",
-    secret: "Tga is his best friend.",
+    secret: "Tga is Gigagantrum best friend.",
     type: "crew",
     outlined: gigagantrumSpriteO,
     sprite: gigagantrumSprite,
@@ -19,5 +19,6 @@ export const gigagantrumData: CrewItem = {
         origin: "Somewhere in KAWORLD",
         species: "rock",
         weight: 100,
+        gender: 2,
     },
 };

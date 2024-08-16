@@ -19,5 +19,6 @@ export const beanData: CrewItem = {
         hobbies: ["jumping", "bouncing", "rolling"],
         favoriteFood: "rice",
         favoriteColor: "green",
+        gender: 1,
     },
 };
