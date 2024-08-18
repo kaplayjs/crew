@@ -3,7 +3,7 @@ import lampSprite from "../../assets/crew/lamp.png";
 import type { CrewItem } from "../types/crew";
 
 export const lampData: CrewItem = {
-    name: "lamp",
+    name: "Lamp",
     description: "A lamp that lights up the KAWorld.",
     author: "lajbel",
     secret: "Best Gigagantrum friend.",

@@ -8,9 +8,12 @@ import { burpmanData } from "./crew/burpman";
 import { ghostinyData } from "./crew/ghostiny";
 import { ghostyData } from "./crew/ghosty";
 import { gigagantrumData } from "./crew/gigagantrum";
+import { goldflyData } from "./crew/goldfly";
 import { katData } from "./crew/kat";
+import { lampData } from "./crew/lamp";
 import { markData } from "./crew/mark";
 import { moneyBagData } from "./crew/money_bag";
+import { onionData } from "./crew/onion";
 import { tgaData } from "./crew/tga";
 import { appleData } from "./food/apple";
 import { grapeData } from "./food/grape";
@@ -51,6 +54,9 @@ export const assets = {
     "tga": tgaData,
     "burpman": burpmanData,
     "kat": katData,
+    "lamp": lampData,
+    "goldfly": goldflyData,
+    "onion": onionData,
 
     // food
     "apple": appleData,

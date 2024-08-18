@@ -3,7 +3,7 @@ import goldflySprite from "../../assets/crew/goldfly.png";
 import type { CrewItem } from "../types/crew";
 
 export const goldflyData: CrewItem = {
-    name: "goldfly",
+    name: "Goldfly",
     description: "A ghost that likes to fly around.",
     author: "lajbel",
     secret: "She hates Ghosty and Ghostiny.",

@@ -3,7 +3,7 @@ import onionSprite from "../../assets/crew/onion.png";
 import type { CrewItem } from "../types/crew";
 
 export const onionData: CrewItem = {
-    name: "onion",
+    name: "Onion",
     description: "The Onion, is here, say hi, because he won't leave.",
     author: "lajbel",
     secret: "The forgotten",
