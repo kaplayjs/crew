@@ -12,10 +12,10 @@ export const tgaData: CrewItem = {
     sprite: tgaSprite,
     crewmeta: {
         age: 26,
-        favoriteColor: "unknown",
-        favoriteFood: "unknown",
+        favoriteColor: "green",
+        favoriteFood: "anything with potato",
         height: 1.78,
-        hobbies: ["coding", "playing"],
+        hobbies: ["coding", "playing", "playing instruments"],
         origin: "A red country",
         species: "dinosaaur",
         weight: 59,
