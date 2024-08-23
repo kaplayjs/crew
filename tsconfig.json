@@ -12,6 +12,7 @@
         ]
     },
     "include": [
-        "./src/**/*.ts"
+        "./src/**/*.ts",
+        "src/fonts/happy_28x36.png"
     ]
 }

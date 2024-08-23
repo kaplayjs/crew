@@ -1,6 +1,10 @@
 import { btflyData } from "./animals/btfly";
 import { eggData } from "./animals/egg";
 import { eggCrackData } from "./animals/eggCrack";
+import { how_to_be_a_bean_wizardData } from "./books/how_to_be_a_bean_wizard";
+import { marks_legendData } from "./books/marks_legend";
+import { kaboomData } from "./brand/kaboom";
+import { kaplayData } from "./brand/kaplay";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
@@ -15,6 +19,7 @@ import { markData } from "./crew/mark";
 import { moneyBagData } from "./crew/money_bag";
 import { onionData } from "./crew/onion";
 import { tgaData } from "./crew/tga";
+import { happyData } from "./fonts/happy";
 import { appleData } from "./food/apple";
 import { grapeData } from "./food/grape";
 import { meatData } from "./food/meat";
@@ -22,7 +27,12 @@ import { mushroomData } from "./food/mushroom";
 import { pineappleData } from "./food/pineapple";
 import { watermelonData } from "./food/watermelon";
 import { cakeData } from "./icons/cake";
+import { configData } from "./icons/config";
+import { fontsData } from "./icons/fonts";
+import { paletteData } from "./icons/palette";
+import { playData } from "./icons/play";
 import { ruleData } from "./icons/rule";
+import { soundsData } from "./icons/sounds";
 import { strangerData } from "./icons/stranger";
 import { weightData } from "./icons/weight";
 import { cloudData } from "./objects/cloud";
@@ -40,6 +50,8 @@ import { grassData } from "./tiles/grass";
 import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
 import type { CrewItem } from "./types/crew";
+import { cursorData } from "./ui/cursor";
+import { pointerData } from "./ui/pointer";
 
 export const assets = {
     // crew
@@ -94,6 +106,26 @@ export const assets = {
     "weight": weightData,
     "rule": ruleData,
     "stranger": strangerData,
+    "config": configData,
+    "fonts": fontsData,
+    "palette": paletteData,
+    "play": playData,
+    "sounds": soundsData,
+
+    // books
+    "marks_legend": marks_legendData,
+    "how_to_be_a_bean_wizard": how_to_be_a_bean_wizardData,
+
+    // fonts
+    "happy": happyData,
+
+    // ui
+    "cursor": cursorData,
+    "pointer": pointerData,
+
+    // brand
+    "kaboom": kaboomData,
+    "kaplay": kaplayData,
 } satisfies Record<string, CrewItem>;
 
 export const crew = Object.values(assets).filter((item) =>
