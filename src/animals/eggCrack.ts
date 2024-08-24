@@ -1,8 +1,8 @@
 import eggCrackSpriteO from "../../assets/animals/egg-crack-o.png";
 import eggCrackSprite from "../../assets/animals/egg-crack.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const eggCrackData: CrewItem = {
+export const eggCrackData: SpriteCrewItem = {
     name: "Egg crack",
     description: "A cracked egg. A new life is coming.",
     author: "tga",

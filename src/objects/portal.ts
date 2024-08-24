@@ -1,8 +1,8 @@
 import portalSpriteO from "../../assets/objects/portal-o.png";
 import portalSprite from "../../assets/objects/portal.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const portalData: CrewItem = {
+export const portalData: SpriteCrewItem = {
     name: "Portal",
     description: "A portal out the KAWorld.",
     author: "tga",

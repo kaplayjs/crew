@@ -1,8 +1,8 @@
 import ruleSpriteO from "../../assets/icons/rule-o.png";
 import ruleSprite from "../../assets/icons/rule.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const ruleData: CrewItem = {
+export const ruleData: SpriteCrewItem = {
     name: "Rule",
     description: "A rule.",
     author: "lajbel",

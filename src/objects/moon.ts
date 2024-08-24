@@ -1,8 +1,8 @@
 import moonSpriteO from "../../assets/objects/moon-o.png";
 import moonSprite from "../../assets/objects/moon.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const moonData: CrewItem = {
+export const moonData: SpriteCrewItem = {
     name: "Moon",
     description: "The moon, behind it, there's a secret.",
     author: "tga",

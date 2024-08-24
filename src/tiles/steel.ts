@@ -1,8 +1,8 @@
 import steelSpriteO from "../../assets/tiles/steel-o.png";
 import steelSprite from "../../assets/tiles/steel.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const steelData: CrewItem = {
+export const steelData: SpriteCrewItem = {
     name: "Steel",
     description: "Hard steel.",
     author: "tga",

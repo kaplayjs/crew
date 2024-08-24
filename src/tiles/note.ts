@@ -1,8 +1,8 @@
 import noteSpriteO from "../../assets/tiles/note-o.png";
 import noteSprite from "../../assets/tiles/note.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const noteData: CrewItem = {
+export const noteData: SpriteCrewItem = {
     name: "Note",
     description: "A musical note block!",
     author: "tga",

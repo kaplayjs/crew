@@ -49,7 +49,7 @@ import { swordData } from "./objects/sword";
 import { grassData } from "./tiles/grass";
 import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
-import type { CrewItem } from "./types/crew";
+import type { SpriteCrewItem } from "./types/crew";
 import { cursorData } from "./ui/cursor";
 import { pointerData } from "./ui/pointer";
 
@@ -126,7 +126,7 @@ export const assets = {
     // brand
     "kaboom": kaboomData,
     "kaplay": kaplayData,
-} satisfies Record<string, CrewItem>;
+} satisfies Record<string, SpriteCrewItem>;
 
 export const crew = Object.values(assets).filter((item) =>
     item.type === "crew"

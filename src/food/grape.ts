@@ -1,8 +1,8 @@
 import grapeSpriteO from "../../assets/food/grape-o.png";
 import grapeSprite from "../../assets/food/grape.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const grapeData: CrewItem = {
+export const grapeData: SpriteCrewItem = {
     name: "Grape",
     description: "A tasty grape.",
     author: "tga",

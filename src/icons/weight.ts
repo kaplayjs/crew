@@ -1,8 +1,8 @@
 import weightSpriteO from "../../assets/icons/weight-o.png";
 import weightSprite from "../../assets/icons/weight.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const weightData: CrewItem = {
+export const weightData: SpriteCrewItem = {
     name: "Weight",
     description: "The weight",
     author: "lajbel",

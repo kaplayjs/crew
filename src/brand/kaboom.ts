@@ -1,8 +1,8 @@
 import kaboomSpriteO from "../../assets/brand/kaboom-o.png";
 import kaboomSprite from "../../assets/brand/kaboom.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const kaboomData: CrewItem = {
+export const kaboomData: SpriteCrewItem = {
     name: "kaboom",
     description: "What's the game library...?",
     author: "lajbel",

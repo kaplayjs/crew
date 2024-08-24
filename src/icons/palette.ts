@@ -1,8 +1,8 @@
 import paletteSpriteO from "../../assets/icons/palette-o.png";
 import paletteSprite from "../../assets/icons/palette.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const paletteData: CrewItem = {
+export const paletteData: SpriteCrewItem = {
     name: "palette",
     description: "A color palette.",
     author: "lajbel",

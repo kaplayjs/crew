@@ -1,8 +1,8 @@
 import ghostinySpriteO from "../../assets/crew/ghostiny-o.png";
 import ghostinySprite from "../../assets/crew/ghostiny.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const ghostinyData: CrewItem = {
+export const ghostinyData: SpriteCrewItem = {
     name: "Ghostiny",
     author: "lajbel",
     description: "Lil Ghosty's brother, very quiet.",

@@ -1,8 +1,8 @@
 import onionSpriteO from "../../assets/crew/onion-o.png";
 import onionSprite from "../../assets/crew/onion.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const onionData: CrewItem = {
+export const onionData: SpriteCrewItem = {
     name: "Onion",
     description: "The Onion, is here, say hi, because he won't leave.",
     author: "lajbel",

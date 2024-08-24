@@ -1,8 +1,8 @@
 import cloudSpriteO from "../../assets/objects/cloud-o.png";
 import cloudSprite from "../../assets/objects/cloud.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const cloudData: CrewItem = {
+export const cloudData: SpriteCrewItem = {
     name: "Cloud",
     description: "A cloud in the sky!",
     author: "tga",

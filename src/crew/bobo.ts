@@ -1,8 +1,8 @@
 import boboSpriteO from "../../assets/crew/bobo-o.png";
 import boboSprite from "../../assets/crew/bobo.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const boboData: CrewItem = {
+export const boboData: SpriteCrewItem = {
     name: "Bobo",
     sprite: boboSprite,
     outlined: boboSpriteO,

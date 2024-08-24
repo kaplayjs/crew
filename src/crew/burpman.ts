@@ -1,8 +1,8 @@
 import burpmanSpriteO from "../../assets/crew/burpman-o.png";
 import burpmanSprite from "../../assets/crew/burpman.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const burpmanData: CrewItem = {
+export const burpmanData: SpriteCrewItem = {
     name: "burpman",
     description: "The king of burps, burpman, here for your burping needs.",
     author: "lajbel",

@@ -1,8 +1,8 @@
 import gunSpriteO from "../../assets/objects/gun-o.png";
 import gunSprite from "../../assets/objects/gun.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const gunData: CrewItem = {
+export const gunData: SpriteCrewItem = {
     name: "Gun",
     description: "A gun, used to shoot enemies, not friends.",
     author: "tga",

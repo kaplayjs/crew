@@ -1,8 +1,8 @@
 import sunSpriteO from "../../assets/objects/sun-o.png";
 import sunSprite from "../../assets/objects/sun.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const sunData: CrewItem = {
+export const sunData: SpriteCrewItem = {
     name: "Sun",
     description: "The source of light.",
     author: "lajbel",

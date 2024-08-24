@@ -1,8 +1,8 @@
 import meatSpriteO from "../../assets/food/meat-o.png";
 import meatSprite from "../../assets/food/meat.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const meatData: CrewItem = {
+export const meatData: SpriteCrewItem = {
     name: "Meat",
     description: "What are you looking for?",
     author: "tga",

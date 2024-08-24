@@ -1,8 +1,8 @@
 import pineappleSpriteO from "../../assets/food/pineapple-o.png";
 import pineappleSprite from "../../assets/food/pineapple.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const pineappleData: CrewItem = {
+export const pineappleData: SpriteCrewItem = {
     name: "Pineapple",
     description: "A tasty pineapple.",
     author: "tga",

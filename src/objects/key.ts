@@ -1,8 +1,8 @@
 import keySpriteO from "../../assets/objects/key-o.png";
 import keySprite from "../../assets/objects/key.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const keyData: CrewItem = {
+export const keyData: SpriteCrewItem = {
     name: "Key",
     description: "A key for the door.",
     author: "tga",

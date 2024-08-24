@@ -1,8 +1,8 @@
 import happy_28x36Sprite from "../../assets/fonts/happy_28x36.png";
 import happy_28x36SpriteO from "../../assets/fonts/happy_31x39-o.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const happyData: CrewItem = {
+export const happyData: SpriteCrewItem = {
     name: "Happy",
     description: "The happy letters.",
     author: "tga",

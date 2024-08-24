@@ -11,10 +11,10 @@ export type Type =
     | "icons"
     | "books";
 
-export type CrewItem = {
+export type SpriteCrewItem = {
     name: string;
-    sprite?: string;
-    outlined?: string;
+    sprite: string;
+    outlined: string;
     description: string;
     secret: string;
     author: Author;

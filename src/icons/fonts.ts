@@ -1,8 +1,8 @@
 import fontsSpriteO from "../../assets/icons/fonts-o.png";
 import fontsSprite from "../../assets/icons/fonts.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const fontsData: CrewItem = {
+export const fontsData: SpriteCrewItem = {
     name: "fonts",
     description: "Two font sisters.",
     author: "lajbel",

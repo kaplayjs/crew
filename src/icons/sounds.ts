@@ -1,8 +1,8 @@
 import soundsSpriteO from "../../assets/icons/sounds-o.png";
 import soundsSprite from "../../assets/icons/sounds.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const soundsData: CrewItem = {
+export const soundsData: SpriteCrewItem = {
     name: "Sounds",
     description: "Two sound brothers.",
     author: "lajbel",

@@ -1,8 +1,8 @@
 import spikeSpriteO from "../../assets/tiles/spike-o.png";
 import spikeSprite from "../../assets/tiles/spike.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const spikeData: CrewItem = {
+export const spikeData: SpriteCrewItem = {
     name: "Spike",
     description: "A spike, be careful!",
     author: "tga",

@@ -1,8 +1,8 @@
 import lampSpriteO from "../../assets/crew/lamp-o.png";
 import lampSprite from "../../assets/crew/lamp.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const lampData: CrewItem = {
+export const lampData: SpriteCrewItem = {
     name: "Lamp",
     description: "A lamp that lights up the KAWorld.",
     author: "lajbel",

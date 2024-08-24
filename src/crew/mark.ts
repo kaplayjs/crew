@@ -1,8 +1,8 @@
 import markSpriteO from "../../assets/crew/mark-o.png";
 import markSprite from "../../assets/crew/mark.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const markData: CrewItem = {
+export const markData: SpriteCrewItem = {
     name: "Mark",
     author: "tga",
     description: "ohhi.",

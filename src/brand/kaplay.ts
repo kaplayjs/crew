@@ -1,8 +1,8 @@
 import kaplaySpriteO from "../../assets/brand/kaplay-o.png";
 import kaplaySprite from "../../assets/brand/kaplay.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const kaplayData: CrewItem = {
+export const kaplayData: SpriteCrewItem = {
     name: "kaplay",
     description:
         "KAPLAY logo. KAPLAY is the JavaScript library for creating games.",

@@ -1,8 +1,8 @@
 import beanSpriteO from "../../assets/crew/bean-o.png";
 import beanSprite from "../../assets/crew/bean.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const beanData: CrewItem = {
+export const beanData: SpriteCrewItem = {
     name: "Bean",
     sprite: beanSprite,
     outlined: beanSpriteO,

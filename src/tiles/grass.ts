@@ -1,8 +1,8 @@
 import grassSpriteO from "../../assets/tiles/grass-o.png";
 import grassSprite from "../../assets/tiles/grass.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const grassData: CrewItem = {
+export const grassData: SpriteCrewItem = {
     name: "Grass",
     description: "Grass of KAWorld.",
     author: "tga",

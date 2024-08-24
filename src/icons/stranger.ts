@@ -1,8 +1,8 @@
 import strangerSpriteO from "../../assets/icons/stranger-o.png";
 import strangerSprite from "../../assets/icons/stranger.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const strangerData: CrewItem = {
+export const strangerData: SpriteCrewItem = {
     name: "Stranger",
     description: "A Bean, a elephant, a stranger?.",
     author: "lajbel",

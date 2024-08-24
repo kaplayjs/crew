@@ -1,8 +1,8 @@
 import marks_legendSpriteO from "../../assets/books/marks_legend-o.png";
 import marks_legendSprite from "../../assets/books/marks_legend.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const marks_legendData: CrewItem = {
+export const marks_legendData: SpriteCrewItem = {
     name: "marks_legend",
     description: `
     One day, in an unknown place and time, the world has been corrupted by the evil forces of the dark lord named Deprecation,

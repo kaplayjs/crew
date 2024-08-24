@@ -1,8 +1,8 @@
 import configSpriteO from "../../assets/icons/config-o.png";
 import configSprite from "../../assets/icons/config.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const configData: CrewItem = {
+export const configData: SpriteCrewItem = {
     name: "Config",
     description: "A gear.",
     author: "lajbel",

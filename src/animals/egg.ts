@@ -1,8 +1,8 @@
 import eggSpriteO from "../../assets/animals/egg-o.png";
 import eggSprite from "../../assets/animals/egg.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const eggData: CrewItem = {
+export const eggData: SpriteCrewItem = {
     name: "egg",
     description: "The egg of a chicken or another species.",
     author: "lajbel",

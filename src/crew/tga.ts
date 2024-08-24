@@ -1,8 +1,8 @@
 import tgaSpriteO from "../../assets/crew/tga-o.png";
 import tgaSprite from "../../assets/crew/tga.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const tgaData: CrewItem = {
+export const tgaData: SpriteCrewItem = {
     name: "tga",
     author: "tga",
     description: "A dino, he was the crew's babysitter when they were small.",

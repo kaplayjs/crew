@@ -1,8 +1,8 @@
 import lighteningSpriteO from "../../assets/objects/lightening-o.png";
 import lighteningSprite from "../../assets/objects/lightening.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const lighteningData: CrewItem = {
+export const lighteningData: SpriteCrewItem = {
     name: "Lightening",
     description: "Scrash!",
     author: "tga",

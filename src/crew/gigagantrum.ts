@@ -1,8 +1,8 @@
 import gigagantrumSpriteO from "../../assets/crew/gigagantrum-o.png";
 import gigagantrumSprite from "../../assets/crew/gigagantrum.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const gigagantrumData: CrewItem = {
+export const gigagantrumData: SpriteCrewItem = {
     name: "Gigagantrum",
     author: "tga",
     description: "A guy who is very strong",

@@ -1,8 +1,8 @@
 import mushroomSpriteO from "../../assets/food/mushroom-o.png";
 import mushroomSprite from "../../assets/food/mushroom.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const mushroomData: CrewItem = {
+export const mushroomData: SpriteCrewItem = {
     name: "Mushroom",
     description: "A mushroom, with unknown effects. Maybe it makes you grow.",
     author: "tga",

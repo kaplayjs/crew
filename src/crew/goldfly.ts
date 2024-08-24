@@ -1,8 +1,8 @@
 import goldflySpriteO from "../../assets/crew/goldfly-o.png";
 import goldflySprite from "../../assets/crew/goldfly.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const goldflyData: CrewItem = {
+export const goldflyData: SpriteCrewItem = {
     name: "Goldfly",
     description: "A ghost that likes to fly around.",
     author: "lajbel",

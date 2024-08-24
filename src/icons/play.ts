@@ -1,8 +1,8 @@
 import playSpriteO from "../../assets/icons/play-o.png";
 import playSprite from "../../assets/icons/play.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const playData: CrewItem = {
+export const playData: SpriteCrewItem = {
     name: "play",
     description: "The play button.",
     author: "lajbel",

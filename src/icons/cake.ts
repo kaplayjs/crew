@@ -1,8 +1,8 @@
 import cakeSpriteO from "../../assets/icons/cake-o.png";
 import cakeSprite from "../../assets/icons/cake.png";
-import type { CrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../types/crew";
 
-export const cakeData: CrewItem = {
+export const cakeData: SpriteCrewItem = {
     name: "Cake",
     description: "A piece of cake.",
     author: "lajbel",
