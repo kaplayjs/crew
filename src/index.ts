@@ -3,6 +3,7 @@ import { eggData } from "./animals/egg";
 import { eggCrackData } from "./animals/eggCrack";
 import { how_to_be_a_bean_wizardData } from "./books/how_to_be_a_bean_wizard";
 import { marks_legendData } from "./books/marks_legend";
+import { dinoData } from "./brand/dino";
 import { kaboomData } from "./brand/kaboom";
 import { kaplayData } from "./brand/kaplay";
 import { bagData } from "./crew/bag";
@@ -128,6 +129,7 @@ export const assets = {
     // brand
     "kaboom": kaboomData,
     "kaplay": kaplayData,
+    "dino": dinoData,
 } satisfies Record<string, SpriteCrewItem>;
 
 export const crew = Object.values(assets).filter((item) =>
