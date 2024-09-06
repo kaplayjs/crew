@@ -112,7 +112,7 @@ export const assets = {
     "palette": paletteData,
     "play": playData,
     "sounds": soundsData,
-    "api_books": api_bookData,
+    "api_book": api_bookData,
 
     // books
     "marks_legend": marks_legendData,
