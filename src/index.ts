@@ -26,6 +26,7 @@ import { meatData } from "./food/meat";
 import { mushroomData } from "./food/mushroom";
 import { pineappleData } from "./food/pineapple";
 import { watermelonData } from "./food/watermelon";
+import { api_bookData } from "./icons/api_book";
 import { cakeData } from "./icons/cake";
 import { configData } from "./icons/config";
 import { fontsData } from "./icons/fonts";
@@ -111,6 +112,7 @@ export const assets = {
     "palette": paletteData,
     "play": playData,
     "sounds": soundsData,
+    "api_books": api_bookData,
 
     // books
     "marks_legend": marks_legendData,

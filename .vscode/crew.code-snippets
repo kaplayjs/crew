@@ -5,9 +5,9 @@
 		"body": [
 			"import ${TM_FILENAME_BASE}SpriteO from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}-o.png\";",
 			"import ${TM_FILENAME_BASE}Sprite from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}.png\";",
-			"import type { CrewItem } from \"../types/crew\";",
+			"import type { SpriteCrewItem } from \"../types/crew\";",
             "",
-			"export const ${TM_FILENAME_BASE}Data: CrewItem = {",
+			"export const ${TM_FILENAME_BASE}Data: SpriteCrewItem = {",
 			"    name: \"${TM_FILENAME_BASE}\",",
 			"    description: \"\",",
 			"    author: \"\",",

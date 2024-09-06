@@ -3,7 +3,7 @@ import marks_legendSprite from "../../assets/books/marks_legend.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const marks_legendData: SpriteCrewItem = {
-    name: "marks_legend",
+    name: "Mark's Legend",
     description: `
     One day, in an unknown place and time, the world has been corrupted by the evil forces of the dark lord named Deprecation,
     who was spreading his malicious magic across the land.

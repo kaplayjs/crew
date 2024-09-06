@@ -7,6 +7,7 @@ buildSync({
     outfile: "dist/index.mjs",
     loader: {
         ".png": "dataurl",
+        ".webp": "dataurl",
     },
 });
 
@@ -17,5 +18,6 @@ buildSync({
     outfile: "dist/index.cjs",
     loader: {
         ".png": "dataurl",
+        ".webp": "dataurl",
     },
 });
