@@ -40,6 +40,7 @@ import { githubData } from "./icons/github";
 import { paletteData } from "./icons/palette";
 import { paperData } from "./icons/paper";
 import { playData } from "./icons/play";
+import { plusData } from "./icons/plus";
 import { question_markData } from "./icons/question_mark";
 import { ruleData } from "./icons/rule";
 import { soundsData } from "./icons/sounds";
@@ -133,6 +134,7 @@ export const assets = {
     "toolbox": toolboxData,
     "trash": trashData,
     "paper": paperData,
+    "plus": plusData,
 
     // books
     "marks_legend": marks_legendData,
