@@ -1,7 +1,7 @@
 {
 	"crewItem": {
 		"scope": "javascript,typescript",
-		"prefix": "citem-nc",
+		"prefix": "sprite-item",
 		"body": [
 			"import ${TM_FILENAME_BASE}SpriteO from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}-o.png\";",
 			"import ${TM_FILENAME_BASE}Sprite from \"../../assets/${TM_DIRECTORY/^.+[\\/\\\\]+(.*)$/$1/}/${TM_FILENAME_BASE}.png\";",

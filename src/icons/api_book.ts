@@ -3,7 +3,7 @@ import api_bookSprite from "../../assets/icons/api_book.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const api_bookData: SpriteCrewItem = {
-    name: "api_book",
+    name: "API Book",
     description:
         "Some people say it talks about mythical creatures, others say it's a book of math.",
     author: "lajbel",

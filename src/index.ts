@@ -28,14 +28,23 @@ import { mushroomData } from "./food/mushroom";
 import { pineappleData } from "./food/pineapple";
 import { watermelonData } from "./food/watermelon";
 import { api_bookData } from "./icons/api_book";
+import { arrowData } from "./icons/arrow";
+import { artData } from "./icons/art";
+import { assetbrewData } from "./icons/assetbrew";
 import { cakeData } from "./icons/cake";
 import { configData } from "./icons/config";
+import { discordData } from "./icons/discord";
 import { fontsData } from "./icons/fonts";
+import { githubData } from "./icons/github";
 import { paletteData } from "./icons/palette";
+import { paperData } from "./icons/paper";
 import { playData } from "./icons/play";
+import { question_markData } from "./icons/question_mark";
 import { ruleData } from "./icons/rule";
 import { soundsData } from "./icons/sounds";
 import { strangerData } from "./icons/stranger";
+import { toolboxData } from "./icons/toolbox";
+import { trashData } from "./icons/trash";
 import { weightData } from "./icons/weight";
 import { cloudData } from "./objects/cloud";
 import { coinData } from "./objects/coin";
@@ -114,6 +123,15 @@ export const assets = {
     "play": playData,
     "sounds": soundsData,
     "api_book": api_bookData,
+    "arrow": arrowData,
+    "art": artData,
+    "assetbrew": assetbrewData,
+    "discord": discordData,
+    "github": githubData,
+    "question_mark": question_markData,
+    "toolbox": toolboxData,
+    "trash": trashData,
+    "paper": paperData,
 
     // books
     "marks_legend": marks_legendData,
