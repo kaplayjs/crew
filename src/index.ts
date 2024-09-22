@@ -18,6 +18,7 @@ import { goldflyData } from "./crew/goldfly";
 import { katData } from "./crew/kat";
 import { lampData } from "./crew/lamp";
 import { markData } from "./crew/mark";
+import { marrocData } from "./crew/marroc";
 import { moneyBagData } from "./crew/money_bag";
 import { onionData } from "./crew/onion";
 import { tgaData } from "./crew/tga";
@@ -64,6 +65,7 @@ import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
 import type { SpriteCrewItem } from "./types/crew";
 import { cursorData } from "./ui/cursor";
+import { likeData } from "./ui/like";
 import { pointerData } from "./ui/pointer";
 
 export const assets = {
@@ -82,6 +84,7 @@ export const assets = {
     "lamp": lampData,
     "goldfly": goldflyData,
     "onion": onionData,
+    "marroc": marrocData,
 
     // food
     "apple": appleData,
@@ -146,6 +149,7 @@ export const assets = {
     // ui
     "cursor": cursorData,
     "pointer": pointerData,
+    "like": likeData,
 
     // brand
     "kaboom": kaboomData,
