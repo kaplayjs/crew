@@ -10,4 +10,15 @@ export const marrocData: SpriteCrewItem = {
     type: "crew",
     sprite: marrocSprite,
     outlined: marrocSpriteO,
+    crewmeta: {
+        age: 4,
+        favoriteColor: "brown",
+        favoriteFood: "bones",
+        gender: 0,
+        height: 0.5,
+        hobbies: ["barking", "running", "eating"],
+        origin: "Argentina",
+        species: "dog",
+        weight: 20,
+    },
 };
