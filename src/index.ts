@@ -21,6 +21,7 @@ import { markData } from "./crew/mark";
 import { marrocData } from "./crew/marroc";
 import { moneyBagData } from "./crew/money_bag";
 import { onionData } from "./crew/onion";
+import { sukomiData } from "./crew/sukomi";
 import { tgaData } from "./crew/tga";
 import { happyData } from "./fonts/happy";
 import { appleData } from "./food/apple";
@@ -85,6 +86,7 @@ export const assets = {
     "goldfly": goldflyData,
     "onion": onionData,
     "marroc": marrocData,
+    "sukomi": sukomiData,
 
     // food
     "apple": appleData,
