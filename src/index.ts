@@ -45,6 +45,7 @@ import { playData } from "./icons/play";
 import { plusData } from "./icons/plus";
 import { question_markData } from "./icons/question_mark";
 import { ruleData } from "./icons/rule";
+import { saveData } from "./icons/save";
 import { soundsData } from "./icons/sounds";
 import { strangerData } from "./icons/stranger";
 import { toolboxData } from "./icons/toolbox";
@@ -140,6 +141,7 @@ export const assets = {
     "trash": trashData,
     "paper": paperData,
     "plus": plusData,
+    "save": saveData,
 
     // books
     "marks_legend": marks_legendData,
