@@ -8,6 +8,7 @@ buildSync({
     loader: {
         ".png": "dataurl",
         ".webp": "dataurl",
+        ".gif": "dataurl",
     },
 });
 
@@ -19,5 +20,6 @@ buildSync({
     loader: {
         ".png": "dataurl",
         ".webp": "dataurl",
+        ".gif": "dataurl",
     },
 });
