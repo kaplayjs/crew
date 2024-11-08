@@ -9,7 +9,8 @@ export type Type =
     | "ui"
     | "tiles"
     | "icons"
-    | "books";
+    | "books"
+    | "emojis";
 
 export type SpriteCrewItem = {
     name: string;
@@ -24,6 +25,9 @@ export type SpriteCrewItem = {
 
 export type CrewMemberMeta = {
     age: number;
+    /**
+     * Height in meters
+     */
     height: number;
     weight: number;
     species: string;

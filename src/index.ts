@@ -1,10 +1,13 @@
 import { btflyData } from "./animals/btfly";
 import { eggData } from "./animals/egg";
 import { eggCrackData } from "./animals/eggCrack";
+import { karatData } from "./animals/karat";
 import { how_to_be_a_bean_wizardData } from "./books/how_to_be_a_bean_wizard";
 import { marks_legendData } from "./books/marks_legend";
 import { dinoData } from "./brand/dino";
+import { draculaData } from "./brand/dracula";
 import { kaboomData } from "./brand/kaboom";
+import { kajamData } from "./brand/kajam";
 import { kaplayData } from "./brand/kaplay";
 import { kaplaygroundData } from "./brand/kaplayground";
 import { bagData } from "./crew/bag";
@@ -21,8 +24,13 @@ import { markData } from "./crew/mark";
 import { marrocData } from "./crew/marroc";
 import { moneyBagData } from "./crew/money_bag";
 import { onionData } from "./crew/onion";
+import { skullerData } from "./crew/skuller";
 import { sukomiData } from "./crew/sukomi";
 import { tgaData } from "./crew/tga";
+import { zombeanData } from "./crew/zombean";
+import { beantData } from "./emojis/beant";
+import { burpmanBurpingData } from "./emojis/burpman-burping";
+import { pogData } from "./emojis/pog";
 import { happyData } from "./fonts/happy";
 import { appleData } from "./food/apple";
 import { grapeData } from "./food/grape";
@@ -67,6 +75,7 @@ import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
 import type { SpriteCrewItem } from "./types/crew";
 import { cursorData } from "./ui/cursor";
+import { knockData } from "./ui/knock";
 import { likeData } from "./ui/like";
 import { pointerData } from "./ui/pointer";
 
@@ -88,6 +97,8 @@ export const assets = {
     "onion": onionData,
     "marroc": marrocData,
     "sukomi": sukomiData,
+    "skuller": skullerData,
+    "zombean": zombeanData,
 
     // food
     "apple": appleData,
@@ -101,6 +112,7 @@ export const assets = {
     "btfly": btflyData,
     "egg": eggData,
     "eggCrack": eggCrackData,
+    "karat": karatData,
 
     // objects
     "cloud": cloudData,
@@ -114,6 +126,11 @@ export const assets = {
     "portal": portalData,
     "sun": sunData,
     "sword": swordData,
+
+    // emojis
+    "superburp": burpmanBurpingData,
+    "pog": pogData,
+    "beant": beantData,
 
     // tiles
     "grass": grassData,
@@ -154,12 +171,15 @@ export const assets = {
     "cursor": cursorData,
     "pointer": pointerData,
     "like": likeData,
+    "knock": knockData,
 
     // brand
     "kaboom": kaboomData,
     "kaplay": kaplayData,
     "dino": dinoData,
     "kaplayground": kaplaygroundData,
+    "dracula": draculaData,
+    "kajam": kajamData,
 } satisfies Record<string, SpriteCrewItem>;
 
 export const crew = Object.values(assets).filter((item) =>
