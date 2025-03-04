@@ -7,7 +7,7 @@ export const toolboxData: SpriteCrewItem = {
     description: "Can we fix it? Yes we can!",
     author: "lajbel",
     secret: "Gigagantrum's toolbox",
-    type: "icons",
+    category: "icons",
     sprite: toolboxSprite,
     outlined: toolboxSpriteO,
 };

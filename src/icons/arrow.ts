@@ -7,7 +7,7 @@ export const arrowData: SpriteCrewItem = {
     description: "An arrow pointing to the left.",
     author: "lajbel",
     secret: "rotate()",
-    type: "icons",
+    category: "icons",
     sprite: arrowSprite,
     outlined: arrowSpriteO,
 };

@@ -7,7 +7,7 @@ export const pogData: SpriteCrewItem = {
     description: "Express your awesomeness with this pog!",
     author: "lajbel",
     secret: "Awesome!",
-    type: "emojis",
+    category: "emojis",
     sprite: pogSprite,
     outlined: pogSpriteO,
 };

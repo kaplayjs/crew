@@ -3,11 +3,11 @@ import kaplaygroundSprite from "../../assets/brand/kaplayground.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const kaplaygroundData: SpriteCrewItem = {
-    name: "kaplayground",
+    name: "OG KPLG",
     description: "The official KAPLAY Playground.",
     author: "lajbel",
     secret: "Ultimatum power.",
-    type: "brand",
+    category: "brand",
     sprite: kaplaygroundSprite,
     outlined: kaplaygroundSpriteO,
 };

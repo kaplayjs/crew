@@ -7,7 +7,7 @@ export const ghostyData: SpriteCrewItem = {
     author: "tga",
     description: "A ghost who likes to help others.",
     secret: "Their family is very bad people.",
-    type: "crew",
+    category: "crew",
     outlined: ghostySpriteO,
     sprite: ghostySprite,
     crewmeta: {

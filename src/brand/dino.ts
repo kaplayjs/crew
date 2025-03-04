@@ -3,11 +3,11 @@ import dinoSprite from "../../assets/brand/dino.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const dinoData: SpriteCrewItem = {
-    name: "dino",
+    name: "OG Dino",
     description: "The dinosaur",
     author: "lajbel",
     secret: "Roar",
-    type: "brand",
+    category: "brand",
     sprite: dinoSprite,
     outlined: dinoSpriteO,
 };

@@ -7,7 +7,7 @@ export const pineappleData: SpriteCrewItem = {
     description: "A tasty pineapple.",
     author: "tga",
     secret: "Hates apples.",
-    type: "food",
+    category: "food",
     sprite: pineappleSprite,
     outlined: pineappleSpriteO,
 };

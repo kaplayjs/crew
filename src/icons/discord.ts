@@ -7,7 +7,7 @@ export const discordData: SpriteCrewItem = {
     description: "Logo of Discord, a social media app.",
     author: "lajbel",
     secret: "Where all KAPLAYERS go.",
-    type: "icons",
+    category: "icons",
     sprite: discordSprite,
     outlined: discordSpriteO,
 };

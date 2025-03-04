@@ -7,7 +7,7 @@ export const eggData: SpriteCrewItem = {
     description: "The egg of a chicken or another species.",
     author: "lajbel",
     secret: "In fact, it's a Bean egg.",
-    type: "animals",
+    category: "animals",
     sprite: eggSprite,
     outlined: eggSpriteO,
 };

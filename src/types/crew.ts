@@ -1,5 +1,5 @@
-export type Author = "tga" | "lajbel";
-export type Type =
+export type Author = "tga" | "lajbel" | "misanthrope";
+export type Category =
     | "crew"
     | "food"
     | "objects"
@@ -12,15 +12,33 @@ export type Type =
     | "books"
     | "emojis";
 
-export type SpriteCrewItem = {
+export type CrewItem = {
     name: string;
+    description: string;
+    author: Author;
+    category: Category;
+    secret: string;
+    crewmeta?: CrewMemberMeta;
+};
+
+export type SpriteCrewItem = CrewItem & {
     sprite: string;
     outlined: string;
-    description: string;
-    secret: string;
-    author: Author;
-    type: Type;
-    crewmeta?: CrewMemberMeta;
+};
+
+export type BrandCrewItem = CrewItem & {
+    sprite: string;
+    outlined?: string;
+};
+
+export type FontItem = CrewItem & {
+    sprite: string;
+    outlined: string;
+    ttf?: boolean;
+    width: number;
+    height: number;
+    width_o: number;
+    height_o: number;
 };
 
 export type CrewMemberMeta = {

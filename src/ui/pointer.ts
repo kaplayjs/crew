@@ -7,7 +7,7 @@ export const pointerData: SpriteCrewItem = {
     description: "Is pointing.",
     author: "lajbel",
     secret: "Is pointing a secret?",
-    type: "ui",
+    category: "ui",
     sprite: pointerSprite,
     outlined: pointerSpriteO,
 };

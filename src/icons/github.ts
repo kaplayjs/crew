@@ -7,7 +7,7 @@ export const githubData: SpriteCrewItem = {
     description: "Logo of GitHub, a code hosting platform.",
     author: "lajbel",
     secret: "Optocat should be a crew member too.",
-    type: "icons",
+    category: "icons",
     sprite: githubSprite,
     outlined: githubSpriteO,
 };

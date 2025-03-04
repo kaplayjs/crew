@@ -7,7 +7,7 @@ export const grassData: SpriteCrewItem = {
     description: "Grass of KAWorld.",
     author: "tga",
     secret: "Hopefully is real grass.",
-    type: "tiles",
+    category: "tiles",
     sprite: grassSprite,
     outlined: grassSpriteO,
 };

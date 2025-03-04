@@ -7,7 +7,7 @@ export const paletteData: SpriteCrewItem = {
     description: "A color palette.",
     author: "lajbel",
     secret: "Mulfok32 is our color palette.",
-    type: "icons",
+    category: "icons",
     sprite: paletteSprite,
     outlined: paletteSpriteO,
 };

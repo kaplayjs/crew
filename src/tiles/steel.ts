@@ -7,7 +7,7 @@ export const steelData: SpriteCrewItem = {
     description: "Hard steel.",
     author: "tga",
     secret: "Maybe it's not steel.",
-    type: "tiles",
+    category: "tiles",
     sprite: steelSprite,
     outlined: steelSpriteO,
 };

@@ -16,7 +16,7 @@ export const marks_legendData: SpriteCrewItem = {
     `,
     author: "lajbel",
     secret: "Written by lajbel",
-    type: "books",
+    category: "books",
     sprite: marks_legendSprite,
     outlined: marks_legendSpriteO,
 };

@@ -7,7 +7,7 @@ export const strangerData: SpriteCrewItem = {
     description: "A Bean, a elephant, a stranger?.",
     author: "lajbel",
     secret: "Is a monkey.",
-    type: "icons",
+    category: "icons",
     sprite: strangerSprite,
     outlined: strangerSpriteO,
 };

@@ -7,7 +7,7 @@ export const knockData: SpriteCrewItem = {
     description: "A grabbing hand.",
     author: "lajbel",
     secret: "Knock knock!",
-    type: "ui",
+    category: "ui",
     sprite: knockSprite,
     outlined: knockSpriteO,
 };

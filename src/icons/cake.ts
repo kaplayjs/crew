@@ -7,7 +7,7 @@ export const cakeData: SpriteCrewItem = {
     description: "A piece of cake.",
     author: "lajbel",
     secret: "Is the cake icon lol.",
-    type: "icons",
+    category: "icons",
     sprite: cakeSprite,
     outlined: cakeSpriteO,
 };

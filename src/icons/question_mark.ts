@@ -7,7 +7,7 @@ export const question_markData: SpriteCrewItem = {
     description: "What is this?",
     author: "lajbel",
     secret: "The secret Marktool",
-    type: "icons",
+    category: "icons",
     sprite: question_markSprite,
     outlined: question_markSpriteO,
 };

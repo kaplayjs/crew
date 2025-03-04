@@ -7,7 +7,7 @@ export const beantData: SpriteCrewItem = {
     description: "Express your dissatisfaction with this bean't!",
     author: "lajbel",
     secret: "MF's favorite emoji",
-    type: "emojis",
+    category: "emojis",
     sprite: beantSprite,
     outlined: beantSpriteO,
 };

@@ -41,6 +41,7 @@
   "devDependencies": {
     "@kaplayjs/dprint-config": "^1.0.0",
     "dprint": "^0.47.2",
-    "esbuild": "^0.23.0"
+    "esbuild": "^0.23.0",
+    "kaplay": "^3001.0.9"
   }
 }

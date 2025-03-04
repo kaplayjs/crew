@@ -7,7 +7,7 @@ export const sunData: SpriteCrewItem = {
     description: "The source of light.",
     author: "lajbel",
     secret: "It gives important vitamins for beans.",
-    type: "objects",
+    category: "objects",
     sprite: sunSprite,
     outlined: sunSpriteO,
 };

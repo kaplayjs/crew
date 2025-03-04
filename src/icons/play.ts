@@ -7,7 +7,7 @@ export const playData: SpriteCrewItem = {
     description: "The play button.",
     author: "lajbel",
     secret: "Start everything.",
-    type: "icons",
+    category: "icons",
     sprite: playSprite,
     outlined: playSpriteO,
 };

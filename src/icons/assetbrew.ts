@@ -7,7 +7,7 @@ export const assetbrewData: SpriteCrewItem = {
     description: "A lot of assets merged.",
     author: "lajbel",
     secret: "PentaMark",
-    type: "icons",
+    category: "icons",
     sprite: assetbrewSprite,
     outlined: assetbrewSpriteO,
 };

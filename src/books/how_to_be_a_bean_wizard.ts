@@ -9,7 +9,7 @@ export const how_to_be_a_bean_wizardData: SpriteCrewItem = {
     `,
     author: "lajbel",
     secret: "Written by MF",
-    type: "books",
+    category: "books",
     sprite: how_to_be_a_bean_wizardSprite,
     outlined: how_to_be_a_bean_wizardSpriteO,
 };

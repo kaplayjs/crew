@@ -7,7 +7,7 @@ export const likeData: SpriteCrewItem = {
     description: "Do you like it?",
     author: "lajbel",
     secret: "Like button",
-    type: "ui",
+    category: "ui",
     sprite: likeSprite,
     outlined: likeSpriteO,
 };

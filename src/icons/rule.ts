@@ -7,7 +7,7 @@ export const ruleData: SpriteCrewItem = {
     description: "A rule.",
     author: "lajbel",
     secret: "It's a 5cm rule.",
-    type: "icons",
+    category: "icons",
     sprite: ruleSprite,
     outlined: ruleSpriteO,
 };

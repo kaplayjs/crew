@@ -7,7 +7,7 @@ export const saveData: SpriteCrewItem = {
     description: "A chill diskette",
     author: "lajbel",
     secret: "Saving Kaboom memories",
-    type: "icons",
+    category: "icons",
     sprite: saveSprite,
     outlined: saveSpriteO,
 };

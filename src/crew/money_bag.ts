@@ -10,7 +10,7 @@ export const moneyBagData: SpriteCrewItem = {
         "A pink bag who likes much coins, but she doesn't know what to do with them.",
     secret: "She usually gives her coins to KAPLAY Collective.",
     author: "lajbel",
-    type: "crew",
+    category: "crew",
     crewmeta: {
         age: 4,
         height: 6,

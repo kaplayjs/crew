@@ -10,6 +10,7 @@ import { kaboomData } from "./brand/kaboom";
 import { kajamData } from "./brand/kajam";
 import { kaplayData } from "./brand/kaplay";
 import { kaplaygroundData } from "./brand/kaplayground";
+import { oldKaplayData } from "./brand/old-kaplay.js";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
@@ -73,13 +74,14 @@ import { swordData } from "./objects/sword";
 import { grassData } from "./tiles/grass";
 import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
-import type { SpriteCrewItem } from "./types/crew";
+import type { BrandCrewItem, FontItem, SpriteCrewItem } from "./types/crew";
 import { cursorData } from "./ui/cursor";
 import { knockData } from "./ui/knock";
 import { likeData } from "./ui/like";
 import { pointerData } from "./ui/pointer";
+export { crew } from "./plugin.js";
 
-export const assets = {
+export const crewAssets = {
     // crew
     "bean": beanData,
     "bag": bagData,
@@ -164,44 +166,25 @@ export const assets = {
     "marks_legend": marks_legendData,
     "how_to_be_a_bean_wizard": how_to_be_a_bean_wizardData,
 
-    // fonts
-    "happy": happyData,
-
     // ui
     "cursor": cursorData,
     "pointer": pointerData,
     "like": likeData,
     "knock": knockData,
+} satisfies Record<string, SpriteCrewItem>;
 
-    // brand
-    "kaboom": kaboomData,
+export const brandAssets = {
     "kaplay": kaplayData,
+    "kaboom": kaboomData,
     "dino": dinoData,
     "kaplayground": kaplaygroundData,
     "dracula": draculaData,
     "kajam": kajamData,
-} satisfies Record<string, SpriteCrewItem>;
+    "old_kaplay": oldKaplayData,
+} satisfies Record<string, BrandCrewItem>;
 
-export const crew = Object.values(assets).filter((item) =>
-    item.type === "crew"
-);
+export const fontAssets = {
+    "happy": happyData,
+} satisfies Record<string, FontItem>;
 
-export const foods = Object.values(assets).filter((item) =>
-    item.type === "food"
-);
-
-export const objects = Object.values(assets).filter((item) =>
-    item.type === "objects"
-);
-
-export const tiles = Object.values(assets).filter((item) =>
-    item.type === "tiles"
-);
-
-export const icons = Object.values(assets).filter((item) =>
-    item.type === "icons"
-);
-
-export const animals = Object.values(assets).filter((item) =>
-    item.type === "animals"
-);
+export const assets = { ...crewAssets, ...brandAssets, ...fontAssets };

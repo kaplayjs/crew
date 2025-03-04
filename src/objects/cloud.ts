@@ -7,7 +7,7 @@ export const cloudData: SpriteCrewItem = {
     description: "A cloud in the sky!",
     author: "tga",
     secret: "They are also bushes.",
-    type: "objects",
+    category: "objects",
     sprite: cloudSprite,
     outlined: cloudSpriteO,
 };

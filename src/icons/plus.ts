@@ -7,7 +7,7 @@ export const plusData: SpriteCrewItem = {
     description: "A plus sign.",
     author: "lajbel",
     secret: "1+1=3",
-    type: "icons",
+    category: "icons",
     sprite: plusSprite,
     outlined: plusSpriteO,
 };

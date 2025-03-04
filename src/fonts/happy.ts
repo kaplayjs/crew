@@ -1,14 +1,18 @@
-import happy_28x36Sprite from "../../assets/fonts/happy_28x36.png";
-import happy_28x36SpriteO from "../../assets/fonts/happy_31x39-o.png";
-import type { SpriteCrewItem } from "../types/crew";
+import happy_28x37Sprite from "../../assets/fonts/happy_28x37.png";
+import happy_36x45SpriteO from "../../assets/fonts/happy_36x45-o.png";
+import type { FontItem } from "../types/crew";
 
-export const happyData: SpriteCrewItem = {
+export const happyData: FontItem = {
     name: "Happy",
     description: "The happy letters.",
     author: "tga",
     secret:
         "It was the default font in Kaboom.js, but has been replaced by monospace.",
-    type: "fonts",
-    sprite: happy_28x36Sprite,
-    outlined: happy_28x36SpriteO,
+    category: "fonts",
+    sprite: happy_28x37Sprite,
+    outlined: happy_36x45SpriteO,
+    width: 28,
+    height: 37,
+    width_o: 36,
+    height_o: 45,
 };

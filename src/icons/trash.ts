@@ -7,7 +7,7 @@ export const trashData: SpriteCrewItem = {
     description: "A trash can.",
     author: "lajbel",
     secret: "Who's inside? Oscar?",
-    type: "icons",
+    category: "icons",
     sprite: trashSprite,
     outlined: trashSpriteO,
 };

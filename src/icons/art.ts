@@ -7,7 +7,7 @@ export const artData: SpriteCrewItem = {
     description: "A piece of art.",
     author: "lajbel",
     secret: "It was drawn by Mark, Mark is a great artist.",
-    type: "icons",
+    category: "icons",
     sprite: artSprite,
     outlined: artSpriteO,
 };

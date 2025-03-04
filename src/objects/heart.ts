@@ -7,7 +7,7 @@ export const heartData: SpriteCrewItem = {
     description: "A heart, love, love, love!",
     author: "tga",
     secret: "Is the heart of the KAWorld.",
-    type: "objects",
+    category: "objects",
     sprite: heartSprite,
     outlined: heartSpriteO,
 };

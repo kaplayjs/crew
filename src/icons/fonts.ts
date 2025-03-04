@@ -7,7 +7,7 @@ export const fontsData: SpriteCrewItem = {
     description: "Two font sisters.",
     author: "lajbel",
     secret: "The languages of the world.",
-    type: "icons",
+    category: "icons",
     sprite: fontsSprite,
     outlined: fontsSpriteO,
 };

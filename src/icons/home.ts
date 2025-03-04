@@ -7,7 +7,7 @@ export const homeData: SpriteCrewItem = {
     description: "Home, sweet home.",
     author: "lajbel",
     secret: "Yes is the egg of the dinosaur.",
-    type: "icons",
+    category: "icons",
     sprite: homeSprite,
     outlined: homeSpriteO,
 };

@@ -7,7 +7,7 @@ export const goldflyData: SpriteCrewItem = {
     description: "A ghost that likes to fly around.",
     author: "lajbel",
     secret: "She hates Ghosty and Ghostiny.",
-    type: "crew",
+    category: "crew",
     sprite: goldflySprite,
     outlined: goldflySpriteO,
     crewmeta: {

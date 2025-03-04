@@ -7,7 +7,7 @@ export const configData: SpriteCrewItem = {
     description: "A gear.",
     author: "lajbel",
     secret: "Is the MarkBot's steel heart",
-    type: "icons",
+    category: "icons",
     sprite: configSprite,
     outlined: configSpriteO,
 };

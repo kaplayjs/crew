@@ -7,7 +7,7 @@ export const burpmanBurpingData: SpriteCrewItem = {
     description: "A super burp is what everyone needs!",
     author: "lajbel",
     secret: "What have eaten Burman?",
-    type: "emojis",
+    category: "emojis",
     sprite: burpmanburpingSprite,
     outlined: burpmanburpingSpriteO,
 };

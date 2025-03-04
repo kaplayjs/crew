@@ -7,7 +7,7 @@ export const soundsData: SpriteCrewItem = {
     description: "Two sound brothers.",
     author: "lajbel",
     secret: "Sounds of the world.",
-    type: "icons",
+    category: "icons",
     sprite: soundsSprite,
     outlined: soundsSpriteO,
 };

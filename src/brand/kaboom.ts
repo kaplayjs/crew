@@ -3,11 +3,11 @@ import kaboomSprite from "../../assets/brand/kaboom.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const kaboomData: SpriteCrewItem = {
-    name: "kaboom",
+    name: "Kaboom.js",
     description: "What's the game library...?",
     author: "lajbel",
     secret: "It's the destruction of the world.",
-    type: "brand",
+    category: "brand",
     sprite: kaboomSprite,
     outlined: kaboomSpriteO,
 };
