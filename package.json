@@ -29,7 +29,8 @@
   "scripts": {
     "build": "pnpm run tsc && node --experimental-strip-types scripts/build.ts",
     "tsc": "tsc",
-    "prepare": "pnpm run build"
+    "prepare": "pnpm run build",
+    "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

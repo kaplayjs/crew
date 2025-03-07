@@ -22,10 +22,26 @@ bun add @kaplayjs/crew
 
 ### Using it on KAPLAY
 
+Crew package comes with a plugin for load all KAPLAY crew sprites!
+
 ```js
-import { assets } from "@kaplayjs/crew";
+import { crew } from "@kaplayjs/crew";
+import kaplay from "kaplay";
 
-kaplay();
+const k = kaplay({
+    plugins: [crew],
+    font: "happy",
+});
 
-loadSprite("grass", assets.grass.sprite);
+k.loadCrew("apple");
+k.loadCrewFont("happy");
+
+k.add([
+    k.sprite("apple"),
+]);
+
+k.add([
+    k.pos(40, 40),
+    k.text("ohhi"),
+]);
 ```
