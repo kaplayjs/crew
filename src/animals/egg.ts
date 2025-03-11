@@ -3,7 +3,7 @@ import eggSprite from "../../assets/animals/egg.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const eggData: SpriteCrewItem = {
-    name: "egg",
+    name: "Egg",
     description: "The egg of a chicken or another species.",
     author: "lajbel",
     secret: "In fact, it's a Bean egg.",

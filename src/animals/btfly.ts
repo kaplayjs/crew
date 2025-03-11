@@ -3,7 +3,7 @@ import btflySprite from "../../assets/animals/btfly.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const btflyData: SpriteCrewItem = {
-    name: "btfly",
+    name: "Butterfly",
     description: "Beatiful butterfly.",
     author: "tga",
     secret: "Can't fly.",

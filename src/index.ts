@@ -6,10 +6,12 @@ import { how_to_be_a_bean_wizardData } from "./books/how_to_be_a_bean_wizard";
 import { marks_legendData } from "./books/marks_legend";
 import { dinoData } from "./brand/dino";
 import { draculaData } from "./brand/dracula";
+import { kaData } from "./brand/ka.js";
 import { kaboomData } from "./brand/kaboom";
 import { kajamData } from "./brand/kajam";
 import { kaplayData } from "./brand/kaplay";
 import { kaplaygroundData } from "./brand/kaplayground";
+import { kaplayjsData } from "./brand/kaplayjs.js";
 import { oldKaplayData } from "./brand/old-kaplay.js";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
@@ -80,6 +82,7 @@ import { knockData } from "./ui/knock";
 import { likeData } from "./ui/like";
 import { pointerData } from "./ui/pointer";
 export { crew } from "./plugin.js";
+export type * from "./plugin.js";
 
 export const crewAssets = {
     // crew
@@ -174,12 +177,14 @@ export const crewAssets = {
 } satisfies Record<string, SpriteCrewItem>;
 
 export const brandAssets = {
+    "kaplayjs": kaplayjsData,
     "kaplay": kaplayData,
-    "kaboom": kaboomData,
     "dino": dinoData,
-    "kaplayground": kaplaygroundData,
     "dracula": draculaData,
     "kajam": kajamData,
+    "kaplayground": kaplaygroundData,
+    "kaboom": kaboomData,
+    "ka": kaData,
     "old_kaplay": oldKaplayData,
 } satisfies Record<string, BrandCrewItem>;
 

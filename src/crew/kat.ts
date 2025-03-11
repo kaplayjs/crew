@@ -3,7 +3,7 @@ import katSprite from "../../assets/crew/kat.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const katData: SpriteCrewItem = {
-    name: "kat",
+    name: "Kat",
     description: "A cute alien cat.",
     author: "lajbel",
     secret: "Is the Luluxia's pet.",

@@ -1,3 +1,4 @@
+import kaplaySpriteO from "../../assets/brand/kaplay-o.png";
 import kaplaySprite from "../../assets/brand/kaplay.png";
 import type { BrandCrewItem } from "../types/crew";
 
@@ -9,4 +10,5 @@ export const kaplayData: BrandCrewItem = {
     secret: "It's the power that gives life in the world.",
     category: "brand",
     sprite: kaplaySprite,
+    outlined: kaplaySpriteO,
 };

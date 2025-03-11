@@ -3,7 +3,7 @@ import karatSprite from "../../assets/animals/karat.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const karatData: SpriteCrewItem = {
-    name: "karat",
+    name: "KaRat",
     description: "A little Rat who lives in the rocks of the KAWorld.",
     author: "lajbel",
     secret: "Ryan's rat, a life companion",

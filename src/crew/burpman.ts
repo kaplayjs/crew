@@ -3,7 +3,7 @@ import burpmanSprite from "../../assets/crew/burpman.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const burpmanData: SpriteCrewItem = {
-    name: "burpman",
+    name: "Burp Man",
     description: "The king of burps, burpman, here for your burping needs.",
     author: "lajbel",
     secret: "He had a party, but nobody came.",

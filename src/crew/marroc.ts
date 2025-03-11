@@ -3,10 +3,10 @@ import marrocSprite from "../../assets/crew/marroc.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const marrocData: SpriteCrewItem = {
-    name: "marroc",
+    name: "Marroc",
     description: "Woof woof",
     author: "lajbel",
-    secret: "lajbel's dog, RIP Marroc",
+    secret: "lajbel's dog",
     category: "crew",
     sprite: marrocSprite,
     outlined: marrocSpriteO,

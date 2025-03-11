@@ -7,10 +7,11 @@ const k = kaplay({
 });
 
 k.loadCrew("apple");
+k.loadCrew("grape", "purplefruit");
 k.loadCrewFont("happy");
 
 k.add([
-    k.sprite("apple"),
+    k.sprite("purplefruit"),
 ]);
 
 k.add([
