@@ -34,7 +34,16 @@ and this project adheres to
 
 ### Changed
 
+- Remaked Assets:
+  - `api_book`
+  - `art`
+  - `assetbrew`
+  - `discord`
+  - `play`
+  - `plus`
+
 - Changed Assets:
+  - `play`: Updated colors
   - `marroc`: Updated description
   - `sukomi`: Updated description
 
