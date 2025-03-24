@@ -3,7 +3,7 @@ import saveSprite from "../../assets/icons/save.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const saveData: SpriteCrewItem = {
-    name: "save",
+    name: "Save",
     description: "A chill diskette",
     author: "lajbel",
     secret: "Saving Kaboom memories",

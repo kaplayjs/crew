@@ -3,7 +3,7 @@ import assetbrewSprite from "../../assets/icons/assetbrew.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const assetbrewData: SpriteCrewItem = {
-    name: "Assetbrew",
+    name: "AssetBrew",
     description: "A lot of assets merged.",
     author: "lajbel",
     secret: "PentaMark",

@@ -47,9 +47,11 @@ import { artData } from "./icons/art";
 import { assetbrewData } from "./icons/assetbrew";
 import { cakeData } from "./icons/cake";
 import { configData } from "./icons/config";
+import { controllerData } from "./icons/controller.js";
 import { discordData } from "./icons/discord";
 import { fontsData } from "./icons/fonts";
 import { githubData } from "./icons/github";
+import { homeData } from "./icons/home.js";
 import { paletteData } from "./icons/palette";
 import { paperData } from "./icons/paper";
 import { playData } from "./icons/play";
@@ -164,6 +166,8 @@ export const crewAssets = {
     "paper": paperData,
     "plus": plusData,
     "save": saveData,
+    "home": homeData,
+    "controller": controllerData,
 
     // books
     "marks_legend": marks_legendData,

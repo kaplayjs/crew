@@ -41,6 +41,10 @@ export type FontItem = CrewItem & {
     height_o: number;
 };
 
+export type SoundItem = CrewItem & {
+    sound: string;
+};
+
 export type CrewMemberMeta = {
     age: number;
     /**

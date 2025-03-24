@@ -3,7 +3,7 @@ import playSprite from "../../assets/icons/play.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const playData: SpriteCrewItem = {
-    name: "play",
+    name: "Play",
     description: "The play button.",
     author: "lajbel",
     secret: "Start everything.",
