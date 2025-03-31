@@ -10,9 +10,9 @@ import { kaData } from "./brand/ka.js";
 import { kaboomData } from "./brand/kaboom";
 import { kajamData } from "./brand/kajam";
 import { kaplayData } from "./brand/kaplay";
+import { kaplayDinoData } from "./brand/kaplay-dino.js";
 import { kaplaygroundData } from "./brand/kaplayground";
 import { kaplaygroundDinoData } from "./brand/kaplayground-dino";
-import { kaplayjsData } from "./brand/kaplayjs.js";
 import { oldKaplayData } from "./brand/old-kaplay.js";
 import { oldKaplaygroundData } from "./brand/old-kaplayground";
 import { bagData } from "./crew/bag";
@@ -183,8 +183,8 @@ export const crewAssets = {
 } satisfies Record<string, SpriteCrewItem>;
 
 export const brandAssets = {
-    "kaplayjs": kaplayjsData,
     "kaplay": kaplayData,
+    "kaplay-dino": kaplayDinoData,
     "dino": dinoData,
     "dracula": draculaData,
     "kajam": kajamData,

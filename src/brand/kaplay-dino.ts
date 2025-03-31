@@ -2,8 +2,8 @@ import kaplayjsSpriteO from "../../assets/brand/kaplayjs-o.png";
 import kaplayjsSprite from "../../assets/brand/kaplayjs.png";
 import type { SpriteCrewItem } from "../types/crew";
 
-export const kaplayjsData: SpriteCrewItem = {
-    name: "kaplayjs",
+export const kaplayDinoData: SpriteCrewItem = {
+    name: "KAPLAY with Dino",
     description: "The fun game library for HTML5 games",
     author: "misanthrope",
     secret: "KaPlay!",
