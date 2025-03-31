@@ -11,8 +11,10 @@ import { kaboomData } from "./brand/kaboom";
 import { kajamData } from "./brand/kajam";
 import { kaplayData } from "./brand/kaplay";
 import { kaplaygroundData } from "./brand/kaplayground";
+import { kaplaygroundDinoData } from "./brand/kaplayground-dino";
 import { kaplayjsData } from "./brand/kaplayjs.js";
 import { oldKaplayData } from "./brand/old-kaplay.js";
+import { oldKaplaygroundData } from "./brand/old-kaplayground";
 import { bagData } from "./crew/bag";
 import { beanData } from "./crew/bean";
 import { boboData } from "./crew/bobo";
@@ -187,6 +189,8 @@ export const brandAssets = {
     "dracula": draculaData,
     "kajam": kajamData,
     "kaplayground": kaplaygroundData,
+    "kaplayground_dino": kaplaygroundDinoData,
+    "old_kaplayground": oldKaplaygroundData,
     "kaboom": kaboomData,
     "ka": kaData,
     "old_kaplay": oldKaplayData,
