@@ -22,6 +22,7 @@ import { burpmanData } from "./crew/burpman";
 import { ghostinyData } from "./crew/ghostiny";
 import { ghostyData } from "./crew/ghosty";
 import { gigagantrumData } from "./crew/gigagantrum";
+import { gladyData } from "./crew/glady.js";
 import { goldflyData } from "./crew/goldfly";
 import { katData } from "./crew/kat";
 import { lampData } from "./crew/lamp";
@@ -108,6 +109,7 @@ export const crewAssets = {
     "sukomi": sukomiData,
     "skuller": skullerData,
     "zombean": zombeanData,
+    "glady": gladyData,
 
     // food
     "apple": appleData,
