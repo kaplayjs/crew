@@ -3,7 +3,7 @@ import gladySprite from "../../assets/crew/glady.png";
 import type { SpriteCrewItem } from "../types/crew";
 
 export const gladyData: SpriteCrewItem = {
-    name: "glady",
+    name: "Glady",
     description: "A gladiator who loves to fight",
     author: "lajbel",
     secret: "He has come from a coliseum, to battle!",
