@@ -1,20 +1,20 @@
 {
   "name": "@kaplayjs/crew",
   "description": "The home of the KAPLAY assets.",
-  "version": "2.0.0-beta.5",
+  "version": "2.0.0-beta.6",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types.d.ts",
   "exports": {
     ".": {
       "import": {
         "default": "./dist/index.mjs",
-        "types": "./dist/index.d.ts"
+        "types": "./dist/types.d.ts"
       },
       "require": {
         "default": "./dist/index.cjs",
-        "types": "./dist/index.d.ts"
+        "types": "./dist/types.d.ts"
       }
     }
   },
@@ -27,7 +27,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "pnpm run tsc && node --experimental-strip-types scripts/build.ts",
+    "build": "pnpm run build:dts && node --experimental-strip-types scripts/build.ts",
+    "build:dts": "dts-bundle-generator -o dist/types.d.ts src/index.ts",
     "tsc": "tsc",
     "prepare": "pnpm run build",
     "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www"
@@ -36,12 +37,10 @@
     "typescript": "^5.0.0"
   },
   "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e",
-  "dependencies": {
-    "vite": "^5.4.0"
-  },
   "devDependencies": {
     "@kaplayjs/dprint-config": "^1.0.0",
     "dprint": "^0.47.2",
+    "dts-bundle-generator": "^9.5.1",
     "esbuild": "^0.23.0",
     "kaplay": "^3001.0.9"
   }

@@ -78,6 +78,7 @@ import { moonData } from "./objects/moon";
 import { portalData } from "./objects/portal";
 import { sunData } from "./objects/sun";
 import { swordData } from "./objects/sword";
+import { crew } from "./plugin.js";
 import { grassData } from "./tiles/grass";
 import { spikeData } from "./tiles/spike";
 import { steelData } from "./tiles/steel";
@@ -86,10 +87,8 @@ import { cursorData } from "./ui/cursor";
 import { knockData } from "./ui/knock";
 import { likeData } from "./ui/like";
 import { pointerData } from "./ui/pointer";
-export { crew } from "./plugin.js";
-export type * from "./plugin.js";
 
-export const crewAssets = {
+const crewAssets = {
     // crew
     "bean": beanData,
     "bag": bagData,
@@ -184,7 +183,7 @@ export const crewAssets = {
     "knock": knockData,
 } satisfies Record<string, SpriteCrewItem>;
 
-export const brandAssets = {
+const brandAssets = {
     "kaplay": kaplayData,
     "kaplay-dino": kaplayDinoData,
     "dino": dinoData,
@@ -198,8 +197,10 @@ export const brandAssets = {
     "old_kaplay": oldKaplayData,
 } satisfies Record<string, BrandCrewItem>;
 
-export const fontAssets = {
+const fontAssets = {
     "happy": happyData,
 } satisfies Record<string, FontItem>;
 
-export const assets = { ...crewAssets, ...brandAssets, ...fontAssets };
+const assets = { ...crewAssets, ...brandAssets, ...fontAssets };
+
+export { assets, brandAssets, crew, crewAssets, fontAssets };

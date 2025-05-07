@@ -2,17 +2,21 @@
     "compilerOptions": {
         "emitDeclarationOnly": true,
         "skipLibCheck": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
         "declaration": true,
         "outDir": "./dist",
         "lib": [
-            "ESNext"
+            "ESNext",
+            "DOM",
         ],
-        "typeRoots": [
-            "./src/env.d.ts"
+        "types": [
+            "./src/.env.d.ts"
         ]
     },
     "include": [
         "./src/**/*.ts",
-        "src/fonts/happy_28x36.png"
+        "src/fonts/happy_28x36.png",
     ]
 }
