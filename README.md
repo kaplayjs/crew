@@ -1,5 +1,7 @@
 # @kaplayjs/crew
 
+The home of KAPLAY assets.
+
 ## Installation
 
 ```bash
