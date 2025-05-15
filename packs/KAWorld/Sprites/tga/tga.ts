@@ -8,7 +8,7 @@ export const tgaData: SpriteCrewItem = {
     author: "tga",
     description: "A dino, he was the crew's babysitter when they were small.",
     secret: "https://space55.xyz",
-    tag: "crew",
+    tags: "crew",
     outlined: tgaSpriteO,
     sprite: tgaSprite,
     crewmeta: {

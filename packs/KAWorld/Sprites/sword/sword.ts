@@ -8,7 +8,7 @@ export const swordData: SpriteCrewItem = {
     description: "Is the hero's sword.",
     author: "tga",
     secret: "One day, the hero will come.",
-    tag: "objects",
+    tags: "objects",
     sprite: swordSprite,
     outlined: swordSpriteO,
 };

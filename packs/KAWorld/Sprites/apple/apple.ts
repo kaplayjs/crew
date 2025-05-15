@@ -8,7 +8,7 @@ export const appleData: SpriteCrewItem = {
     description: "A tasty apple.",
     author: "tga",
     secret: "There's green apples too.",
-    tag: "food",
+    tags: "food",
     sprite: appleSprite,
     outlined: appleSpriteO,
 };

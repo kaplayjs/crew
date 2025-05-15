@@ -8,7 +8,7 @@ export const watermelonData: SpriteCrewItem = {
     description: "Watermelon, is the most abundant fruit in KAWorld.",
     author: "tga",
     secret: "Their seeds are toxic.",
-    tag: "food",
+    tags: "food",
     sprite: watermelonSprite,
     outlined: watermelonSpriteO,
 };

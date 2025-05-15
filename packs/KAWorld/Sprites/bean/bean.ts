@@ -10,7 +10,7 @@ export const beanData: SpriteCrewItem = {
     description: "A bean, one of much beans.",
     secret: "Some people thinks she hates Mark",
     author: "tga",
-    tag: "crew",
+    tags: "crew",
     crewmeta: {
         age: 4,
         height: 0.005,

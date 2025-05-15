@@ -30,7 +30,7 @@ export type CrewItemBase = {
     /** Creator of the original source. */
     author: Author;
     /** Tags. */
-    tag: Tag | Tag[];
+    tags: Tag | Tag[];
     /** Secret of this item. */
     secret: string;
     /** Data for Crew Wiki. */
