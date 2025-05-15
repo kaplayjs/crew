@@ -2,7 +2,7 @@ import type { SpriteCrewItem } from "@/types/crew.js";
 import moneyBagSpriteO from "./money_bag-o.png";
 import moneyBagSprite from "./money_bag.png";
 
-export const moneyBagData: SpriteCrewItem = {
+export const money_bagData: SpriteCrewItem = {
     name: "Money Bag",
     sprite: moneyBagSprite,
     outlined: moneyBagSpriteO,
