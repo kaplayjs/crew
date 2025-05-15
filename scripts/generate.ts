@@ -54,28 +54,36 @@ for (const packPath of packPaths) {
         spritesImports: [],
     };
 
-    const spritesPath = path.join(packsPath, packPath, "Sprites");
+    const kindsPath = path.join(packsPath, packPath);
 
-    for (const spriteFolder of fs.readdirSync(spritesPath)) {
-        const spritePath = path.join(
-            spritesPath,
-            spriteFolder,
-            `${spriteFolder}.ts`,
-        );
+    for (const kindFolder of fs.readdirSync(kindsPath)) {
+        const kindPath = path.join(kindsPath, kindFolder);
 
-        if (fs.existsSync(spritePath)) {
-            const spriteImport =
-                `import { ${spriteFolder}Data as internal_${spriteFolder}Data } from "../packs/${packPath}/Sprites/${spriteFolder}/${spriteFolder}";`;
+        if (!fs.statSync(kindPath).isDirectory()) {
+            throw new Error(`Kind ${kindFolder} is not a directory`);
+        }
 
-            pack.spritesImports.push(spriteImport);
+        for (const asset of fs.readdirSync(kindPath)) {
+            const assetPath = path.join(kindPath, asset, `${asset}.ts`);
+
+            if (!fs.existsSync(assetPath)) {
+                throw new Error(
+                    `Asset path exists, but file ${assetPath} does not exist`,
+                );
+            }
+
+            pack.spritesImports.push(
+                `import { ${asset}Data as internal_${asset}Data } from "../packs/${packPath}/${kindFolder}/${asset}/${asset}";`,
+            );
+
             pack.datas.push({
-                name: spriteFolder,
-                import: `internal_${spriteFolder}Data`,
-                export: `${spriteFolder}Data`,
-                kind: "Sprite",
+                name: asset,
+                import: `internal_${asset}Data`,
+                export: `${asset}Data`,
+                kind: kindFolder.slice(0, -1),
                 imports: {
-                    crew: `loadCrew(\"${spriteFolder}\");`,
-                    pg: `loadSprite(\"${spriteFolder}\", \"/crew/${spriteFolder}\");`,
+                    crew: `loadCrew(\"${asset}\");`,
+                    pg: `loadSprite(\"${asset}\", \"/crew/${asset}\");`,
                 },
             });
         }
@@ -85,7 +93,8 @@ for (const packPath of packPaths) {
 }
 
 // Generate index.ts
-const defaultImports = `import type { CrewAsset } from "@/types/crew.js";\n`;
+const defaultImports = `import { crew } from "@/plugin";
+import type { CrewAsset } from "@/types/crew";\n`;
 
 const imports = packs
     .map((pack) => {
@@ -125,7 +134,7 @@ for (const pack of packs) {
     }
 }
 
-exportAssets += `} satisfies Record<string, CrewAsset>;\n`;
+exportAssets += `} satisfies Record<string, CrewAsset>;\nexport { crew };\n`;
 
 const indexPath = path.join(srcPath, "index.ts");
 const indexContent =

@@ -8,7 +8,7 @@ const k = kaplay({
 
 k.loadCrew("apple");
 k.loadCrew("grape", "purplefruit");
-k.loadCrewFont("happy");
+k.loadCrew("happy");
 
 k.add([
     k.sprite("purplefruit"),

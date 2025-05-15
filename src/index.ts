@@ -1,8 +1,10 @@
 // This file is generated automatically. Do not edit it manually.
 
-import type { CrewAsset } from "@/types/crew.js";
+import { crew } from "@/plugin";
+import type { CrewAsset } from "@/types/crew";
 
 // KAWorld
+import { happyData as internal_happyData } from "../packs/KAWorld/Fonts/happy/happy";
 import { appleData as internal_appleData } from "../packs/KAWorld/Sprites/apple/apple";
 import { bagData as internal_bagData } from "../packs/KAWorld/Sprites/bag/bag";
 import { beanData as internal_beanData } from "../packs/KAWorld/Sprites/bean/bean";
@@ -44,6 +46,15 @@ import { tgaData as internal_tgaData } from "../packs/KAWorld/Sprites/tga/tga";
 import { watermelonData as internal_watermelonData } from "../packs/KAWorld/Sprites/watermelon/watermelon";
 import { zombeanData as internal_zombeanData } from "../packs/KAWorld/Sprites/zombean/zombean";
 // KAWorld
+export const happyData: CrewAsset = {
+    ...internal_happyData,
+    kind: "Font",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"happy\");",
+        importInPG: "loadSprite(\"happy\", \"/crew/happy\");",
+    },
+};
 export const appleData: CrewAsset = {
     ...internal_appleData,
     kind: "Sprite",
@@ -407,6 +418,7 @@ export const zombeanData: CrewAsset = {
 
 export const assets = {
     // KAWorld
+    happy: happyData,
     apple: appleData,
     bag: bagData,
     bean: beanData,
@@ -448,3 +460,4 @@ export const assets = {
     watermelon: watermelonData,
     zombean: zombeanData,
 } satisfies Record<string, CrewAsset>;
+export { crew };
