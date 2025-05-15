@@ -3,6 +3,7 @@ import gladySpriteO from "./glady-o.png";
 import gladySprite from "./glady.png";
 
 export const gladyData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Glady",
     description: "A gladiator who loves to fight",
     author: "lajbel",

@@ -3,6 +3,7 @@ import onionSpriteO from "./onion-o.png";
 import onionSprite from "./onion.png";
 
 export const onionData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Onion",
     description: "The Onion, is here, say hi, because he won't leave.",
     author: "lajbel",

@@ -3,6 +3,7 @@ import boboSpriteO from "./bobo-o.png";
 import boboSprite from "./bobo.png";
 
 export const boboData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Bobo",
     sprite: boboSprite,
     outlined: boboSpriteO,

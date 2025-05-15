@@ -3,6 +3,7 @@ import marrocSpriteO from "./marroc-o.png";
 import marrocSprite from "./marroc.png";
 
 export const marrocData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Marroc",
     description: "Woof woof",
     author: "lajbel",

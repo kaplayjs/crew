@@ -3,6 +3,7 @@ import eggCrackSpriteO from "./egg_crack-o.png";
 import eggCrackSprite from "./egg_crack.png";
 
 export const egg_crackData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Egg (cracked)",
     description: "A cracked egg. A new life is coming.",
     author: "tga",

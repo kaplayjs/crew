@@ -3,6 +3,7 @@ import appleSpriteO from "./apple-o.png";
 import appleSprite from "./apple.png";
 
 export const appleData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Apple",
     description: "A tasty apple.",
     author: "tga",

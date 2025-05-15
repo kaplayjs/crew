@@ -3,6 +3,7 @@ import doorSpriteO from "./door-o.png";
 import doorSprite from "./door.png";
 
 export const doorData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Door",
     description: "Is a door to another world.",
     author: "tga",

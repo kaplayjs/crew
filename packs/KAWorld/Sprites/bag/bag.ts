@@ -3,6 +3,7 @@ import bagSpriteO from "./bag-o.png";
 import bagSprite from "./bag.png";
 
 export const bagData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Bag",
     sprite: bagSprite,
     outlined: bagSpriteO,

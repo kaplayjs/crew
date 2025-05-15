@@ -3,6 +3,7 @@ import beanSpriteO from "./bean-o.png";
 import beanSprite from "./bean.png";
 
 export const beanData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Bean",
     sprite: beanSprite,
     outlined: beanSpriteO,

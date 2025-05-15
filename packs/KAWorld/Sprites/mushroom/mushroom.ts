@@ -3,6 +3,7 @@ import mushroomSpriteO from "./mushroom-o.png";
 import mushroomSprite from "./mushroom.png";
 
 export const mushroomData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Mushroom",
     description: "A mushroom, with unknown effects. Maybe it makes you grow.",
     author: "tga",

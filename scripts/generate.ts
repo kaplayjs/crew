@@ -85,6 +85,8 @@ for (const packPath of packPaths) {
 }
 
 // Generate index.ts
+const defaultImports = `import type { CrewAsset } from "@/types/crew.js";\n`;
+
 const imports = packs
     .map((pack) => {
         return `// ${pack.name}\n` + pack.spritesImports.join("\n");
@@ -97,7 +99,7 @@ for (const pack of packs) {
     transformedAssets += `// ${pack.name}\n`;
 
     for (const data of pack.datas) {
-        transformedAssets += `export const ${data.export} = {\n`;
+        transformedAssets += `export const ${data.export}: CrewAsset = {\n`;
         transformedAssets += `    ...${data.import},\n`;
         transformedAssets += `    kind: "${data.kind}",\n`;
         transformedAssets += `    pack: "${pack.name}",\n`;
@@ -105,11 +107,11 @@ for (const pack of packs) {
         transformedAssets += `        importInCrew: \"${
             escape(data.imports.crew)
         }\",\n`;
-        transformedAssets += `        importInPlayground: \"${
+        transformedAssets += `        importInPG: \"${
             escape(data.imports.pg)
         }\",\n`;
         transformedAssets += `    },\n`;
-        transformedAssets += `};\n\n`;
+        transformedAssets += `};\n`;
     }
 }
 
@@ -123,16 +125,18 @@ for (const pack of packs) {
     }
 }
 
-exportAssets += `};\n\n`;
+exportAssets += `} satisfies Record<string, CrewAsset>;\n`;
 
 const indexPath = path.join(srcPath, "index.ts");
 const indexContent =
-    `// This file is generated automatically. Do not edit it manually.`
-    + "\n\n"
+    `// This file is generated automatically. Do not edit it manually.\n`
+    + "\n"
+    + defaultImports
+    + "\n"
     + imports
-    + "\n\n"
+    + "\n"
     + transformedAssets
-    + "\n\n"
+    + "\n"
     + exportAssets;
 
 fs.writeFileSync(indexPath, indexContent);

@@ -3,6 +3,7 @@ import goldflySpriteO from "./goldfly-o.png";
 import goldflySprite from "./goldfly.png";
 
 export const goldflyData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Goldfly",
     description: "A ghost that likes to fly around.",
     author: "lajbel",

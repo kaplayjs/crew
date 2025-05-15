@@ -3,6 +3,7 @@ import gigagantrumSpriteO from "./gigagantrum-o.png";
 import gigagantrumSprite from "./gigagantrum.png";
 
 export const gigagantrumData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Gigagantrum",
     author: "tga",
     description: "A guy who is very strong",

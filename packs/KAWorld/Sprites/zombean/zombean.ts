@@ -3,6 +3,7 @@ import zombeanSpriteO from "./zombean-o.png";
 import zombeanSprite from "./zombean.png";
 
 export const zombeanData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Zombean",
     description:
         "Bean zombified! He's not here to eat your brains, but your beans!",

@@ -3,6 +3,7 @@ import meatSpriteO from "./meat-o.png";
 import meatSprite from "./meat.png";
 
 export const meatData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Meat",
     description: "What are you looking for?",
     author: "tga",

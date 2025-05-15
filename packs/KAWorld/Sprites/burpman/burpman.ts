@@ -3,6 +3,7 @@ import burpmanSpriteO from "./burpman-o.png";
 import burpmanSprite from "./burpman.png";
 
 export const burpmanData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Burp Man",
     description: "The king of burps, burpman, here for your burping needs.",
     author: "lajbel",

@@ -3,6 +3,7 @@ import lampSpriteO from "./lamp-o.png";
 import lampSprite from "./lamp.png";
 
 export const lampData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Lamp",
     description: "A lamp that lights up the KAWorld.",
     author: "lajbel",

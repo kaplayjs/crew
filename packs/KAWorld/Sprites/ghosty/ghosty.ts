@@ -3,6 +3,7 @@ import ghostySpriteO from "./ghosty-o.png";
 import ghostySprite from "./ghosty.png";
 
 export const ghostyData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Ghosty",
     author: "tga",
     description: "A ghost who likes to help others.",

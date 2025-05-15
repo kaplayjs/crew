@@ -3,6 +3,7 @@ import skullerSpriteO from "./skuller-o.png";
 import skullerSprite from "./skuller.png";
 
 export const skullerData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Skuller",
     description: "Spooky bones is here to scare you!",
     author: "lajbel",

@@ -3,6 +3,7 @@ import keySpriteO from "./key-o.png";
 import keySprite from "./key.png";
 
 export const keyData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Key",
     description: "A key for the door.",
     author: "tga",

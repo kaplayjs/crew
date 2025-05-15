@@ -3,6 +3,7 @@ import markSpriteO from "./mark-o.png";
 import markSprite from "./mark.png";
 
 export const markData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Mark",
     author: "tga",
     description: "ohhi.",

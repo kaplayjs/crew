@@ -3,6 +3,7 @@ import tgaSpriteO from "./tga-o.png";
 import tgaSprite from "./tga.png";
 
 export const tgaData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "tga",
     author: "tga",
     description: "A dino, he was the crew's babysitter when they were small.",

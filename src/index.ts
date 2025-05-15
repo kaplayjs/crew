@@ -1,5 +1,7 @@
 // This file is generated automatically. Do not edit it manually.
 
+import type { CrewAsset } from "@/types/crew.js";
+
 // KAWorld
 import { appleData as internal_appleData } from "../packs/KAWorld/Sprites/apple/apple";
 import { bagData as internal_bagData } from "../packs/KAWorld/Sprites/bag/bag";
@@ -41,406 +43,365 @@ import { swordData as internal_swordData } from "../packs/KAWorld/Sprites/sword/
 import { tgaData as internal_tgaData } from "../packs/KAWorld/Sprites/tga/tga";
 import { watermelonData as internal_watermelonData } from "../packs/KAWorld/Sprites/watermelon/watermelon";
 import { zombeanData as internal_zombeanData } from "../packs/KAWorld/Sprites/zombean/zombean";
-
 // KAWorld
-export const appleData = {
+export const appleData: CrewAsset = {
     ...internal_appleData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"apple\");",
-        importInPlayground: "loadSprite(\"apple\", \"/crew/apple\");",
+        importInPG: "loadSprite(\"apple\", \"/crew/apple\");",
     },
 };
-
-export const bagData = {
+export const bagData: CrewAsset = {
     ...internal_bagData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bag\");",
-        importInPlayground: "loadSprite(\"bag\", \"/crew/bag\");",
+        importInPG: "loadSprite(\"bag\", \"/crew/bag\");",
     },
 };
-
-export const beanData = {
+export const beanData: CrewAsset = {
     ...internal_beanData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bean\");",
-        importInPlayground: "loadSprite(\"bean\", \"/crew/bean\");",
+        importInPG: "loadSprite(\"bean\", \"/crew/bean\");",
     },
 };
-
-export const boboData = {
+export const boboData: CrewAsset = {
     ...internal_boboData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bobo\");",
-        importInPlayground: "loadSprite(\"bobo\", \"/crew/bobo\");",
+        importInPG: "loadSprite(\"bobo\", \"/crew/bobo\");",
     },
 };
-
-export const btflyData = {
+export const btflyData: CrewAsset = {
     ...internal_btflyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"btfly\");",
-        importInPlayground: "loadSprite(\"btfly\", \"/crew/btfly\");",
+        importInPG: "loadSprite(\"btfly\", \"/crew/btfly\");",
     },
 };
-
-export const burpmanData = {
+export const burpmanData: CrewAsset = {
     ...internal_burpmanData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"burpman\");",
-        importInPlayground: "loadSprite(\"burpman\", \"/crew/burpman\");",
+        importInPG: "loadSprite(\"burpman\", \"/crew/burpman\");",
     },
 };
-
-export const cloudData = {
+export const cloudData: CrewAsset = {
     ...internal_cloudData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"cloud\");",
-        importInPlayground: "loadSprite(\"cloud\", \"/crew/cloud\");",
+        importInPG: "loadSprite(\"cloud\", \"/crew/cloud\");",
     },
 };
-
-export const coinData = {
+export const coinData: CrewAsset = {
     ...internal_coinData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"coin\");",
-        importInPlayground: "loadSprite(\"coin\", \"/crew/coin\");",
+        importInPG: "loadSprite(\"coin\", \"/crew/coin\");",
     },
 };
-
-export const doorData = {
+export const doorData: CrewAsset = {
     ...internal_doorData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"door\");",
-        importInPlayground: "loadSprite(\"door\", \"/crew/door\");",
+        importInPG: "loadSprite(\"door\", \"/crew/door\");",
     },
 };
-
-export const eggData = {
+export const eggData: CrewAsset = {
     ...internal_eggData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"egg\");",
-        importInPlayground: "loadSprite(\"egg\", \"/crew/egg\");",
+        importInPG: "loadSprite(\"egg\", \"/crew/egg\");",
     },
 };
-
-export const egg_crackData = {
+export const egg_crackData: CrewAsset = {
     ...internal_egg_crackData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"egg_crack\");",
-        importInPlayground: "loadSprite(\"egg_crack\", \"/crew/egg_crack\");",
+        importInPG: "loadSprite(\"egg_crack\", \"/crew/egg_crack\");",
     },
 };
-
-export const ghostinyData = {
+export const ghostinyData: CrewAsset = {
     ...internal_ghostinyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"ghostiny\");",
-        importInPlayground: "loadSprite(\"ghostiny\", \"/crew/ghostiny\");",
+        importInPG: "loadSprite(\"ghostiny\", \"/crew/ghostiny\");",
     },
 };
-
-export const ghostyData = {
+export const ghostyData: CrewAsset = {
     ...internal_ghostyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"ghosty\");",
-        importInPlayground: "loadSprite(\"ghosty\", \"/crew/ghosty\");",
+        importInPG: "loadSprite(\"ghosty\", \"/crew/ghosty\");",
     },
 };
-
-export const gigagantrumData = {
+export const gigagantrumData: CrewAsset = {
     ...internal_gigagantrumData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"gigagantrum\");",
-        importInPlayground:
-            "loadSprite(\"gigagantrum\", \"/crew/gigagantrum\");",
+        importInPG: "loadSprite(\"gigagantrum\", \"/crew/gigagantrum\");",
     },
 };
-
-export const gladyData = {
+export const gladyData: CrewAsset = {
     ...internal_gladyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"glady\");",
-        importInPlayground: "loadSprite(\"glady\", \"/crew/glady\");",
+        importInPG: "loadSprite(\"glady\", \"/crew/glady\");",
     },
 };
-
-export const goldflyData = {
+export const goldflyData: CrewAsset = {
     ...internal_goldflyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"goldfly\");",
-        importInPlayground: "loadSprite(\"goldfly\", \"/crew/goldfly\");",
+        importInPG: "loadSprite(\"goldfly\", \"/crew/goldfly\");",
     },
 };
-
-export const grapeData = {
+export const grapeData: CrewAsset = {
     ...internal_grapeData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"grape\");",
-        importInPlayground: "loadSprite(\"grape\", \"/crew/grape\");",
+        importInPG: "loadSprite(\"grape\", \"/crew/grape\");",
     },
 };
-
-export const gunData = {
+export const gunData: CrewAsset = {
     ...internal_gunData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"gun\");",
-        importInPlayground: "loadSprite(\"gun\", \"/crew/gun\");",
+        importInPG: "loadSprite(\"gun\", \"/crew/gun\");",
     },
 };
-
-export const heartData = {
+export const heartData: CrewAsset = {
     ...internal_heartData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"heart\");",
-        importInPlayground: "loadSprite(\"heart\", \"/crew/heart\");",
+        importInPG: "loadSprite(\"heart\", \"/crew/heart\");",
     },
 };
-
-export const karatData = {
+export const karatData: CrewAsset = {
     ...internal_karatData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"karat\");",
-        importInPlayground: "loadSprite(\"karat\", \"/crew/karat\");",
+        importInPG: "loadSprite(\"karat\", \"/crew/karat\");",
     },
 };
-
-export const katData = {
+export const katData: CrewAsset = {
     ...internal_katData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"kat\");",
-        importInPlayground: "loadSprite(\"kat\", \"/crew/kat\");",
+        importInPG: "loadSprite(\"kat\", \"/crew/kat\");",
     },
 };
-
-export const keyData = {
+export const keyData: CrewAsset = {
     ...internal_keyData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"key\");",
-        importInPlayground: "loadSprite(\"key\", \"/crew/key\");",
+        importInPG: "loadSprite(\"key\", \"/crew/key\");",
     },
 };
-
-export const lampData = {
+export const lampData: CrewAsset = {
     ...internal_lampData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"lamp\");",
-        importInPlayground: "loadSprite(\"lamp\", \"/crew/lamp\");",
+        importInPG: "loadSprite(\"lamp\", \"/crew/lamp\");",
     },
 };
-
-export const lighteningData = {
+export const lighteningData: CrewAsset = {
     ...internal_lighteningData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"lightening\");",
-        importInPlayground: "loadSprite(\"lightening\", \"/crew/lightening\");",
+        importInPG: "loadSprite(\"lightening\", \"/crew/lightening\");",
     },
 };
-
-export const markData = {
+export const markData: CrewAsset = {
     ...internal_markData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"mark\");",
-        importInPlayground: "loadSprite(\"mark\", \"/crew/mark\");",
+        importInPG: "loadSprite(\"mark\", \"/crew/mark\");",
     },
 };
-
-export const marrocData = {
+export const marrocData: CrewAsset = {
     ...internal_marrocData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"marroc\");",
-        importInPlayground: "loadSprite(\"marroc\", \"/crew/marroc\");",
+        importInPG: "loadSprite(\"marroc\", \"/crew/marroc\");",
     },
 };
-
-export const meatData = {
+export const meatData: CrewAsset = {
     ...internal_meatData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"meat\");",
-        importInPlayground: "loadSprite(\"meat\", \"/crew/meat\");",
+        importInPG: "loadSprite(\"meat\", \"/crew/meat\");",
     },
 };
-
-export const money_bagData = {
+export const money_bagData: CrewAsset = {
     ...internal_money_bagData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"money_bag\");",
-        importInPlayground: "loadSprite(\"money_bag\", \"/crew/money_bag\");",
+        importInPG: "loadSprite(\"money_bag\", \"/crew/money_bag\");",
     },
 };
-
-export const moonData = {
+export const moonData: CrewAsset = {
     ...internal_moonData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"moon\");",
-        importInPlayground: "loadSprite(\"moon\", \"/crew/moon\");",
+        importInPG: "loadSprite(\"moon\", \"/crew/moon\");",
     },
 };
-
-export const mushroomData = {
+export const mushroomData: CrewAsset = {
     ...internal_mushroomData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"mushroom\");",
-        importInPlayground: "loadSprite(\"mushroom\", \"/crew/mushroom\");",
+        importInPG: "loadSprite(\"mushroom\", \"/crew/mushroom\");",
     },
 };
-
-export const onionData = {
+export const onionData: CrewAsset = {
     ...internal_onionData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"onion\");",
-        importInPlayground: "loadSprite(\"onion\", \"/crew/onion\");",
+        importInPG: "loadSprite(\"onion\", \"/crew/onion\");",
     },
 };
-
-export const pineappleData = {
+export const pineappleData: CrewAsset = {
     ...internal_pineappleData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"pineapple\");",
-        importInPlayground: "loadSprite(\"pineapple\", \"/crew/pineapple\");",
+        importInPG: "loadSprite(\"pineapple\", \"/crew/pineapple\");",
     },
 };
-
-export const portalData = {
+export const portalData: CrewAsset = {
     ...internal_portalData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"portal\");",
-        importInPlayground: "loadSprite(\"portal\", \"/crew/portal\");",
+        importInPG: "loadSprite(\"portal\", \"/crew/portal\");",
     },
 };
-
-export const skullerData = {
+export const skullerData: CrewAsset = {
     ...internal_skullerData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"skuller\");",
-        importInPlayground: "loadSprite(\"skuller\", \"/crew/skuller\");",
+        importInPG: "loadSprite(\"skuller\", \"/crew/skuller\");",
     },
 };
-
-export const sukomiData = {
+export const sukomiData: CrewAsset = {
     ...internal_sukomiData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sukomi\");",
-        importInPlayground: "loadSprite(\"sukomi\", \"/crew/sukomi\");",
+        importInPG: "loadSprite(\"sukomi\", \"/crew/sukomi\");",
     },
 };
-
-export const sunData = {
+export const sunData: CrewAsset = {
     ...internal_sunData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sun\");",
-        importInPlayground: "loadSprite(\"sun\", \"/crew/sun\");",
+        importInPG: "loadSprite(\"sun\", \"/crew/sun\");",
     },
 };
-
-export const swordData = {
+export const swordData: CrewAsset = {
     ...internal_swordData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sword\");",
-        importInPlayground: "loadSprite(\"sword\", \"/crew/sword\");",
+        importInPG: "loadSprite(\"sword\", \"/crew/sword\");",
     },
 };
-
-export const tgaData = {
+export const tgaData: CrewAsset = {
     ...internal_tgaData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"tga\");",
-        importInPlayground: "loadSprite(\"tga\", \"/crew/tga\");",
+        importInPG: "loadSprite(\"tga\", \"/crew/tga\");",
     },
 };
-
-export const watermelonData = {
+export const watermelonData: CrewAsset = {
     ...internal_watermelonData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"watermelon\");",
-        importInPlayground: "loadSprite(\"watermelon\", \"/crew/watermelon\");",
+        importInPG: "loadSprite(\"watermelon\", \"/crew/watermelon\");",
     },
 };
-
-export const zombeanData = {
+export const zombeanData: CrewAsset = {
     ...internal_zombeanData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"zombean\");",
-        importInPlayground: "loadSprite(\"zombean\", \"/crew/zombean\");",
+        importInPG: "loadSprite(\"zombean\", \"/crew/zombean\");",
     },
 };
 
@@ -486,4 +447,4 @@ export const assets = {
     tga: tgaData,
     watermelon: watermelonData,
     zombean: zombeanData,
-};
+} satisfies Record<string, CrewAsset>;

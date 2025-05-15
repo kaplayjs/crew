@@ -1,4 +1,5 @@
 export type Author = "tga" | "lajbel" | "misanthrope";
+
 export type Tag =
     | "crew"
     | "food"
@@ -12,44 +13,32 @@ export type Tag =
     | "books"
     | "emojis";
 
-export type CrewItem = {
+/**
+ * A Crew Item represents an asset entry of Crew. It's meant to be transformed
+ * in a CrewAsset.
+ */
+export type CrewItem = SpriteCrewItem | FontCrewItem;
+
+/**
+ * The base of all Items.
+ */
+export type CrewItemBase = {
+    /** The name of an item */
     name: string;
+    /** A description of the item. */
     description: string;
+    /** Creator of the original source. */
     author: Author;
-    tag: Tag;
+    /** Tags. */
+    tag: Tag | Tag[];
+    /** Secret of this item. */
     secret: string;
+    /** Data for Crew Wiki. */
     crewmeta?: CrewMemberMeta;
-};
-
-export type SpriteCrewItem = CrewItem & {
-    sprite: string;
-    outlined: string;
-};
-
-export type BrandCrewItem = CrewItem & {
-    sprite: string;
-    outlined?: string;
-};
-
-export type FontItem = CrewItem & {
-    sprite: string;
-    outlined: string;
-    ttf?: boolean;
-    width: number;
-    height: number;
-    width_o: number;
-    height_o: number;
-};
-
-export type SoundItem = CrewItem & {
-    sound: string;
 };
 
 export type CrewMemberMeta = {
     age: number;
-    /**
-     * Height in meters
-     */
     height: number;
     weight: number;
     species: string;
@@ -58,4 +47,35 @@ export type CrewMemberMeta = {
     favoriteFood: string;
     favoriteColor: string;
     gender: 0 | 1 | 2;
+};
+
+export interface SpriteCrewItem extends CrewItemBase {
+    kind: "Sprite";
+    sprite: string;
+    outlined: string;
+}
+
+export interface FontCrewItem extends CrewItemBase {
+    kind: "Font";
+    sprite: string;
+    outlined: string;
+    ttf?: boolean;
+    width: number;
+    height: number;
+    width_o: number;
+    height_o: number;
+}
+
+type CrewAssetPack = "KAWorld" | "Icons";
+
+/**
+ * Represents a transformed Crew Item. It have all the metadata you would expect
+ * for it's usage.
+ */
+export type CrewAsset = CrewItem & {
+    pack: CrewAssetPack;
+    imports: {
+        importInCrew: string;
+        importInPG: string;
+    };
 };

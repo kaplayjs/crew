@@ -3,6 +3,7 @@ import katSpriteO from "./kat-o.png";
 import katSprite from "./kat.png";
 
 export const katData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Kat",
     description: "A cute alien cat.",
     author: "lajbel",

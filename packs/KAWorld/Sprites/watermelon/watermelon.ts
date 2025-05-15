@@ -3,6 +3,7 @@ import watermelonSpriteO from "./watermelon-o.png";
 import watermelonSprite from "./watermelon.png";
 
 export const watermelonData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Watermelon",
     description: "Watermelon, is the most abundant fruit in KAWorld.",
     author: "tga",

@@ -3,6 +3,7 @@ import cloudSpriteO from "./cloud-o.png";
 import cloudSprite from "./cloud.png";
 
 export const cloudData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Cloud",
     description: "A cloud in the sky!",
     author: "tga",

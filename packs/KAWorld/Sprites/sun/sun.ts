@@ -3,6 +3,7 @@ import sunSpriteO from "./sun-o.png";
 import sunSprite from "./sun.png";
 
 export const sunData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Sun",
     description: "The source of light.",
     author: "lajbel",

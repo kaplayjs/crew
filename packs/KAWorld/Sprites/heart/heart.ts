@@ -3,6 +3,7 @@ import heartSpriteO from "./heart-o.png";
 import heartSprite from "./heart.png";
 
 export const heartData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Heart",
     description: "A heart, love, love, love!",
     author: "tga",

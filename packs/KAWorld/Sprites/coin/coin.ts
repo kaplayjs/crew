@@ -3,6 +3,7 @@ import coinSpriteO from "./coin-o.png";
 import coinSprite from "./coin.png";
 
 export const coinData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Coin",
     description: "An ancient item, nobody knows what they do.",
     author: "tga",

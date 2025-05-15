@@ -3,6 +3,7 @@ import swordSpriteO from "./sword-o.png";
 import swordSprite from "./sword.png";
 
 export const swordData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Hero's Sword",
     description: "Is the hero's sword.",
     author: "tga",
