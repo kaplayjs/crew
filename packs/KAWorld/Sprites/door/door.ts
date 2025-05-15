@@ -7,7 +7,7 @@ export const doorData: SpriteCrewItem = {
     description: "Is a door to another world.",
     author: "tga",
     secret: "Is an old door.",
-    category: "objects",
+    tag: "objects",
     sprite: doorSprite,
     outlined: doorSpriteO,
 };

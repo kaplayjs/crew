@@ -7,7 +7,7 @@ export const btflyData: SpriteCrewItem = {
     description: "Beatiful butterfly.",
     author: "tga",
     secret: "Can't fly.",
-    category: "animals",
+    tag: "animals",
     sprite: btflySprite,
     outlined: btflySpriteO,
 };

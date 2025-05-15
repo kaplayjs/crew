@@ -10,7 +10,7 @@ export const boboData: SpriteCrewItem = {
         "A fish in the sea of KAWORLD, but a friend in the heart of everyone.",
     secret: "He's scared about water.",
     author: "tga",
-    category: "crew",
+    tag: "crew",
     crewmeta: {
         age: 3,
         height: 0.10,

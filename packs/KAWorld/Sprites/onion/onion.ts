@@ -7,7 +7,7 @@ export const onionData: SpriteCrewItem = {
     description: "The Onion, is here, say hi, because he won't leave.",
     author: "lajbel",
     secret: "The forgotten",
-    category: "crew",
+    tag: "crew",
     sprite: onionSprite,
     outlined: onionSpriteO,
     crewmeta: {

@@ -7,7 +7,7 @@ export const ghostinyData: SpriteCrewItem = {
     author: "lajbel",
     description: "Lil Ghosty's brother, very quiet.",
     secret: "He admires very much Ghosty.",
-    category: "crew",
+    tag: "crew",
     outlined: ghostinySpriteO,
     sprite: ghostinySprite,
     crewmeta: {

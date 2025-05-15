@@ -7,7 +7,7 @@ export const marrocData: SpriteCrewItem = {
     description: "Woof woof",
     author: "lajbel",
     secret: "lajbel's dog",
-    category: "crew",
+    tag: "crew",
     sprite: marrocSprite,
     outlined: marrocSpriteO,
     crewmeta: {

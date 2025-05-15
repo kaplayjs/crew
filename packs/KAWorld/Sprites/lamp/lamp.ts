@@ -7,7 +7,7 @@ export const lampData: SpriteCrewItem = {
     description: "A lamp that lights up the KAWorld.",
     author: "lajbel",
     secret: "Best Gigagantrum friend.",
-    category: "crew",
+    tag: "crew",
     sprite: lampSprite,
     outlined: lampSpriteO,
     crewmeta: {

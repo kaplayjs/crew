@@ -7,7 +7,7 @@ export const meatData: SpriteCrewItem = {
     description: "What are you looking for?",
     author: "tga",
     secret: "It's Bean meat, don't eat it, Bean is friend.",
-    category: "food",
+    tag: "food",
     sprite: meatSprite,
     outlined: meatSpriteO,
 };

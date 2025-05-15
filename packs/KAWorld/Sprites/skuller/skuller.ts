@@ -7,7 +7,7 @@ export const skullerData: SpriteCrewItem = {
     description: "Spooky bones is here to scare you!",
     author: "lajbel",
     secret: "Bean has dressed up nicely for Halloween",
-    category: "crew",
+    tag: "crew",
     sprite: skullerSprite,
     outlined: skullerSpriteO,
     crewmeta: {

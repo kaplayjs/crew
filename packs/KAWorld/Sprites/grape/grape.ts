@@ -7,7 +7,7 @@ export const grapeData: SpriteCrewItem = {
     description: "A tasty grape.",
     author: "tga",
     secret: "Hmm?",
-    category: "food",
+    tag: "food",
     sprite: grapeSprite,
     outlined: grapeSpriteO,
 };

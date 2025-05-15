@@ -7,7 +7,7 @@ export const moonData: SpriteCrewItem = {
     description: "The moon, behind it, there's a secret.",
     author: "tga",
     secret: "Gigagantrum is behind the moon.",
-    category: "objects",
+    tag: "objects",
     sprite: moonSprite,
     outlined: moonSpriteO,
 };

@@ -7,7 +7,7 @@ export const gunData: SpriteCrewItem = {
     description: "A gun, used to shoot enemies, not friends.",
     author: "tga",
     secret: "Is not the TGA's gun.",
-    category: "objects",
+    tag: "objects",
     sprite: gunSprite,
     outlined: gunSpriteO,
 };

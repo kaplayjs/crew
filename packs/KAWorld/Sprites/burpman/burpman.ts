@@ -7,7 +7,7 @@ export const burpmanData: SpriteCrewItem = {
     description: "The king of burps, burpman, here for your burping needs.",
     author: "lajbel",
     secret: "He had a party, but nobody came.",
-    category: "crew",
+    tag: "crew",
     sprite: burpmanSprite,
     outlined: burpmanSpriteO,
     crewmeta: {

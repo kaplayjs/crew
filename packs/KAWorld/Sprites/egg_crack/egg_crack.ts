@@ -7,7 +7,7 @@ export const egg_crackData: SpriteCrewItem = {
     description: "A cracked egg. A new life is coming.",
     author: "tga",
     secret: "Bean wasn't taking care of it.",
-    category: "animals",
+    tag: "animals",
     sprite: eggCrackSprite,
     outlined: eggCrackSpriteO,
 };

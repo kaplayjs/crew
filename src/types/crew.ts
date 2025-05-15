@@ -1,5 +1,5 @@
 export type Author = "tga" | "lajbel" | "misanthrope";
-export type Category =
+export type Tag =
     | "crew"
     | "food"
     | "objects"
@@ -16,7 +16,7 @@ export type CrewItem = {
     name: string;
     description: string;
     author: Author;
-    category: Category;
+    tag: Tag;
     secret: string;
     crewmeta?: CrewMemberMeta;
 };
