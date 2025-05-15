@@ -1,6 +1,6 @@
-import eggCrackSpriteO from "../../assets/animals/egg-crack-o.png";
-import eggCrackSprite from "../../assets/animals/egg-crack.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import eggCrackSpriteO from "./egg_crack-o.png";
+import eggCrackSprite from "./egg_crack.png";
 
 export const eggCrackData: SpriteCrewItem = {
     name: "Egg (cracked)",

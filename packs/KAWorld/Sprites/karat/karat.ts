@@ -1,6 +1,6 @@
-import karatSpriteO from "../../assets/animals/karat-o.png";
-import karatSprite from "../../assets/animals/karat.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import karatSpriteO from "./karat-o.png";
+import karatSprite from "./karat.png";
 
 export const karatData: SpriteCrewItem = {
     name: "KaRat",

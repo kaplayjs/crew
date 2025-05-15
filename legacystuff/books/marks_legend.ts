@@ -1,6 +1,6 @@
 import marks_legendSpriteO from "../../assets/books/marks_legend-o.png";
 import marks_legendSprite from "../../assets/books/marks_legend.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../../src/types/crew";
 
 export const marks_legendData: SpriteCrewItem = {
     name: "Mark's Legend",

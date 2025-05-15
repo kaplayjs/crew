@@ -24,6 +24,6 @@
         "./src/**/*.ts",
         "./packs/**/*.ts",
         "./.env.d.ts",
-        "src/fonts/happy_28x36.png",
+        "legacystuff/fonts/happy_28x36.png",
     ]
 }

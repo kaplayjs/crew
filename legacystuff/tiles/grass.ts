@@ -1,6 +1,6 @@
 import grassSpriteO from "../../assets/tiles/grass-o.png";
 import grassSprite from "../../assets/tiles/grass.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../../src/types/crew";
 
 export const grassData: SpriteCrewItem = {
     name: "Grass",

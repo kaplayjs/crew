@@ -1,6 +1,6 @@
 import saveSpriteO from "../../assets/icons/save-o.png";
 import saveSprite from "../../assets/icons/save.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../../src/types/crew";
 
 export const saveData: SpriteCrewItem = {
     name: "Save",

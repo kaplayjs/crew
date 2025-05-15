@@ -1,6 +1,6 @@
 import kaboomSpriteO from "../../assets/brand/kaboom-o.png";
 import kaboomSprite from "../../assets/brand/kaboom.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../../src/types/crew";
 
 export const kaboomData: SpriteCrewItem = {
     name: "Kaboom.js",

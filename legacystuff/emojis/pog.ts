@@ -1,6 +1,6 @@
 import pogSpriteO from "../../assets/emojis/pog-o.png";
 import pogSprite from "../../assets/emojis/pog.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "../../src/types/crew";
 
 export const pogData: SpriteCrewItem = {
     name: "Pog",

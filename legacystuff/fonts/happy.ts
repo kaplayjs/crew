@@ -1,6 +1,6 @@
 import happy_28x37Sprite from "../../assets/fonts/happy_28x37.png";
 import happy_36x45SpriteO from "../../assets/fonts/happy_36x45-o.png";
-import type { FontItem } from "../types/crew";
+import type { FontItem } from "../../src/types/crew";
 
 export const happyData: FontItem = {
     name: "Happy",

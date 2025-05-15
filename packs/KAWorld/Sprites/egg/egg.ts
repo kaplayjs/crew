@@ -1,6 +1,6 @@
-import eggSpriteO from "../../assets/animals/egg-o.png";
-import eggSprite from "../../assets/animals/egg.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import eggSpriteO from "./egg-o.png";
+import eggSprite from "./egg.png";
 
 export const eggData: SpriteCrewItem = {
     name: "Egg",
