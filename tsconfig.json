@@ -13,10 +13,17 @@
         ],
         "types": [
             "./src/.env.d.ts"
-        ]
+        ],
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+        }
     },
     "include": [
         "./src/**/*.ts",
+        "./packs/**/*.ts",
+        "./.env.d.ts",
         "src/fonts/happy_28x36.png",
     ]
 }

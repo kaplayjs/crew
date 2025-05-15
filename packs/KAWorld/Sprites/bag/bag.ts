@@ -1,6 +1,6 @@
-import bagSpriteO from "../../assets/crew/bag-o.png";
-import bagSprite from "../../assets/crew/bag.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew.js";
+import bagSpriteO from "./bag-o.png";
+import bagSprite from "./bag.png";
 
 export const bagData: SpriteCrewItem = {
     name: "Bag",

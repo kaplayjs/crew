@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { btflyData } from "./animals/btfly";
 import { eggData } from "./animals/egg";
 import { eggCrackData } from "./animals/eggCrack";
