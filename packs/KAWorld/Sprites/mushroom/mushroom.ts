@@ -8,7 +8,7 @@ export const mushroomData: SpriteCrewItem = {
     description: "A mushroom, with unknown effects. Maybe it makes you grow.",
     author: "tga",
     secret: "It's blue.",
-    tags: "food",
+    tags: ["food"],
     sprite: mushroomSprite,
     outlined: mushroomSpriteO,
 };

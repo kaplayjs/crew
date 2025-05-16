@@ -9,7 +9,7 @@ export const zombeanData: SpriteCrewItem = {
         "Bean zombified! He's not here to eat your brains, but your beans!",
     author: "lajbel",
     secret: "Do beans have an expiration date?",
-    tags: "crew",
+    tags: ["crew"],
     sprite: zombeanSprite,
     outlined: zombeanSpriteO,
     crewmeta: {

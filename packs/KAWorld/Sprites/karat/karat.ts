@@ -8,7 +8,7 @@ export const karatData: SpriteCrewItem = {
     description: "A little Rat who lives in the rocks of the KAWorld.",
     author: "lajbel",
     secret: "Ryan's rat, a life companion",
-    tags: "animals",
+    tags: ["animals"],
     sprite: karatSprite,
     outlined: karatSpriteO,
     crewmeta: {

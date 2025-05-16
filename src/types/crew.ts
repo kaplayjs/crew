@@ -74,6 +74,7 @@ type CrewAssetPack = "KAWorld" | "Icons";
  */
 export type CrewAsset = CrewItem & {
     pack: CrewAssetPack;
+    tags: Tag[];
     imports: {
         importInCrew: string;
         importInPG: string;

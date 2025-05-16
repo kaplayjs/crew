@@ -9,7 +9,7 @@ export const happyData: FontCrewItem = {
     author: "tga",
     secret:
         "It was the default font in Kaboom.js, but has been replaced by monospace.",
-    tags: "fonts",
+    tags: ["fonts"],
     sprite: happy_28x37Sprite,
     outlined: happy_36x45SpriteO,
     width: 28,

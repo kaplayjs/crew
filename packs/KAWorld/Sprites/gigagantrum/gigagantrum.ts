@@ -8,7 +8,7 @@ export const gigagantrumData: SpriteCrewItem = {
     author: "tga",
     description: "A guy who is very strong",
     secret: "Tga is Gigagantrum best friend.",
-    tags: "crew",
+    tags: ["crew"],
     outlined: gigagantrumSpriteO,
     sprite: gigagantrumSprite,
     crewmeta: {

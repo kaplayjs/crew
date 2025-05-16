@@ -8,7 +8,7 @@ export const portalData: SpriteCrewItem = {
     description: "A portal out the KAWorld.",
     author: "tga",
     secret: "Some people say the portal let you go to a spacial world.",
-    tags: "objects",
+    tags: ["objects"],
     sprite: portalSprite,
     outlined: portalSpriteO,
 };

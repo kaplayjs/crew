@@ -8,7 +8,7 @@ export const gladyData: SpriteCrewItem = {
     description: "A gladiator who loves to fight",
     author: "lajbel",
     secret: "He has come from a coliseum, to battle!",
-    tags: "crew",
+    tags: ["crew"],
     sprite: gladySprite,
     outlined: gladySpriteO,
     crewmeta: {
