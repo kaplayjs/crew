@@ -9,6 +9,8 @@ export const configData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Is the MarkBot's steel heart",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: configSprite,
     outlined: configSpriteO,
 };

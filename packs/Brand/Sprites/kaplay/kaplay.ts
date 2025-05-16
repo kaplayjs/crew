@@ -10,6 +10,8 @@ export const kaplayData: SpriteCrewItem = {
     author: "misanthrope",
     secret: "It's the power that gives life in the world.",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaplaySprite,
     outlined: kaplaySpriteO,
 };

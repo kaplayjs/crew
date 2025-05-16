@@ -9,6 +9,8 @@ export const doorData: SpriteCrewItem = {
     author: "tga",
     secret: "Is an old door.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: doorSprite,
     outlined: doorSpriteO,
 };

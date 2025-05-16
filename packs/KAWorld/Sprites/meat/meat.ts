@@ -9,6 +9,8 @@ export const meatData: SpriteCrewItem = {
     author: "tga",
     secret: "It's Bean meat, don't eat it, Bean is friend.",
     tags: ["food"],
+    type: "Sprite",
+    origin: "Official",
     sprite: meatSprite,
     outlined: meatSpriteO,
 };

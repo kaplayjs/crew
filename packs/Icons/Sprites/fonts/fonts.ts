@@ -1,6 +1,6 @@
+import type { SpriteCrewItem } from "@/types/crew";
 import fontsSpriteO from "./fonts-o.png";
 import fontsSprite from "./fonts.png";
-import type { SpriteCrewItem } from "@/types/crew";
 
 export const fontsData: SpriteCrewItem = {
     kind: "Sprite",
@@ -9,6 +9,8 @@ export const fontsData: SpriteCrewItem = {
     author: "lajbel",
     secret: "The languages of the world.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: fontsSprite,
     outlined: fontsSpriteO,
 };

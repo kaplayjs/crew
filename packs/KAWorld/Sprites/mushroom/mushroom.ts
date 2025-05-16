@@ -9,6 +9,8 @@ export const mushroomData: SpriteCrewItem = {
     author: "tga",
     secret: "It's blue.",
     tags: ["food"],
+    type: "Sprite",
+    origin: "Official",
     sprite: mushroomSprite,
     outlined: mushroomSpriteO,
 };

@@ -9,6 +9,8 @@ export const marrocData: SpriteCrewItem = {
     author: "lajbel",
     secret: "lajbel's dog",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: marrocSprite,
     outlined: marrocSpriteO,
     crewmeta: {

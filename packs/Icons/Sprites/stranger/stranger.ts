@@ -9,6 +9,8 @@ export const strangerData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Is a monkey.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: strangerSprite,
     outlined: strangerSpriteO,
 };

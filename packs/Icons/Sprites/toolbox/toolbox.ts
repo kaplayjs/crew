@@ -9,6 +9,8 @@ export const toolboxData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Gigagantrum's toolbox",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: toolboxSprite,
     outlined: toolboxSpriteO,
 };

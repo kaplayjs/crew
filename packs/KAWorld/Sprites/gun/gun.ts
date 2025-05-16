@@ -9,6 +9,8 @@ export const gunData: SpriteCrewItem = {
     author: "tga",
     secret: "Is not the TGA's gun.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: gunSprite,
     outlined: gunSpriteO,
 };

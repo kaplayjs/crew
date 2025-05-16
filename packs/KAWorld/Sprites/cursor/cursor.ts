@@ -9,6 +9,8 @@ export const cursorData: SpriteCrewItem = {
     author: "lajbel",
     secret: "The master hand.",
     tags: ["ui"],
+    type: "UI",
+    origin: "Official",
     sprite: cursorSprite,
     outlined: cursorSpriteO,
 };

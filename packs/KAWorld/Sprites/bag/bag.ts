@@ -12,6 +12,8 @@ export const bagData: SpriteCrewItem = {
         "He likes much eating grass, but more than that, he likes eating snow.",
     author: "tga",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     crewmeta: {
         age: 7,
         height: 7,

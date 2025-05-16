@@ -9,6 +9,8 @@ export const katData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Is the Luluxia's pet.",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: katSprite,
     outlined: katSpriteO,
     crewmeta: {

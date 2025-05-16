@@ -9,6 +9,8 @@ export const watermelonData: SpriteCrewItem = {
     author: "tga",
     secret: "Their seeds are toxic.",
     tags: ["food"],
+    type: "Sprite",
+    origin: "Official",
     sprite: watermelonSprite,
     outlined: watermelonSpriteO,
 };

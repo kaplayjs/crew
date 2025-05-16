@@ -9,6 +9,8 @@ export const discordData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Where all KAPLAYERS go.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: discordSprite,
     outlined: discordSpriteO,
 };

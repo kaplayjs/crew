@@ -9,6 +9,8 @@ export const portalData: SpriteCrewItem = {
     author: "tga",
     secret: "Some people say the portal let you go to a spacial world.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: portalSprite,
     outlined: portalSpriteO,
 };

@@ -9,6 +9,8 @@ export const playData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Start everything.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: playSprite,
     outlined: playSpriteO,
 };

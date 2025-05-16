@@ -9,6 +9,8 @@ export const lighteningData: SpriteCrewItem = {
     author: "tga",
     secret: "One time, Mark eated one.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: lighteningSprite,
     outlined: lighteningSpriteO,
 };

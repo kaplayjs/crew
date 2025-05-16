@@ -9,6 +9,8 @@ export const trashData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Who's inside? Oscar?",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: trashSprite,
     outlined: trashSpriteO,
 };

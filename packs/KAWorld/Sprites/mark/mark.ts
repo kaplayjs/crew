@@ -9,6 +9,8 @@ export const markData: SpriteCrewItem = {
     description: "ohhi.",
     secret: "He has been forgotten.",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     outlined: markSpriteO,
     sprite: markSprite,
     crewmeta: {

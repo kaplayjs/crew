@@ -9,6 +9,8 @@ export const pogData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Awesome!",
     tags: ["emojis"],
+    type: "Sprite",
+    origin: "Official",
     sprite: pogSprite,
     outlined: pogSpriteO,
 };

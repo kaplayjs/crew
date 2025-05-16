@@ -9,6 +9,8 @@ export const knockData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Knock knock!",
     tags: ["ui"],
+    type: "Sprite",
+    origin: "Official",
     sprite: knockSprite,
     outlined: knockSpriteO,
 };

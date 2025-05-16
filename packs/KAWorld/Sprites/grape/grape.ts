@@ -9,6 +9,8 @@ export const grapeData: SpriteCrewItem = {
     author: "tga",
     secret: "Hmm?",
     tags: ["food"],
+    type: "Sprite",
+    origin: "Official",
     sprite: grapeSprite,
     outlined: grapeSpriteO,
 };

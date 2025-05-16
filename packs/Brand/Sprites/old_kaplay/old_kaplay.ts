@@ -10,6 +10,8 @@ export const old_kaplayData: SpriteCrewItem = {
     secret:
         "It was made for another product with the same name, but it finished being the Kaboom's succesor name and logo",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: old_kaplaySprite,
     outlined: old_kaplaySpriteO,
 };

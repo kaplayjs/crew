@@ -9,6 +9,8 @@ export const kaplayground_dinoData: SpriteCrewItem = {
     author: "misanthrope",
     secret: "Ultimatum power. Roar!",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaplayground_dinoSprite,
     outlined: kaplayground_dinoSpriteO,
 };

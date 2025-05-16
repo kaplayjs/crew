@@ -9,6 +9,8 @@ export const ruleData: SpriteCrewItem = {
     author: "lajbel",
     secret: "It's a 5cm rule.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: ruleSprite,
     outlined: ruleSpriteO,
 };

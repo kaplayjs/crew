@@ -9,6 +9,8 @@ export const sukomiData: SpriteCrewItem = {
     author: "lajbel",
     secret: "MF's fish",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: sukomiSprite,
     outlined: sukomiSpriteO,
 };

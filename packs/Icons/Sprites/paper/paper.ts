@@ -10,6 +10,8 @@ export const paperData: SpriteCrewItem = {
     secret:
         "You can read: Mark has arrested by the Bean Police after a serie of...",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: paperSprite,
     outlined: paperSpriteO,
 };

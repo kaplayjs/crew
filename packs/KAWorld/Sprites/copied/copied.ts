@@ -8,6 +8,8 @@ export const copiedData: SpriteCrewItem = {
     author: "lajbel",
     secret: "",
     tags: ["ui"],
+    type: "UI",
+    origin: "Official",
     sprite: copiedSprite,
     outlined: undefined,
 };

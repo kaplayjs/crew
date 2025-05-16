@@ -9,6 +9,8 @@ export const assetbrewData: SpriteCrewItem = {
     author: "lajbel",
     secret: "PentaMark",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: assetbrewSprite,
     outlined: assetbrewSpriteO,
 };

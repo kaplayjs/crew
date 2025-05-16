@@ -9,6 +9,8 @@ export const burpmanData: SpriteCrewItem = {
     author: "lajbel",
     secret: "He had a party, but nobody came.",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: burpmanSprite,
     outlined: burpmanSpriteO,
     crewmeta: {

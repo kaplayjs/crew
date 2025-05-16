@@ -9,6 +9,8 @@ export const homeData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Yes is the egg of the dinosaur.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: homeSprite,
     outlined: homeSpriteO,
 };

@@ -9,6 +9,8 @@ export const weightData: SpriteCrewItem = {
     author: "lajbel",
     secret: "The weight of the weight is 1kg.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: weightSprite,
     outlined: weightSpriteO,
 };

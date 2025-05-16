@@ -8,6 +8,8 @@ export const copyData: SpriteCrewItem = {
     author: "lajbel",
     secret: "You can't copy this text.",
     tags: ["ui"],
+    type: "UI",
+    origin: "Official",
     sprite: copySprite,
     outlined: undefined,
 };

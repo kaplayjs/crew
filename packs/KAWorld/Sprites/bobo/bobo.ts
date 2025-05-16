@@ -12,6 +12,8 @@ export const boboData: SpriteCrewItem = {
     secret: "He's scared about water.",
     author: "tga",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     crewmeta: {
         age: 3,
         height: 0.10,

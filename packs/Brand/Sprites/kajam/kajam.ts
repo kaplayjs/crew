@@ -9,6 +9,8 @@ export const kajamData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Yes...",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kajamSprite,
     outlined: kajamSpriteO,
 };

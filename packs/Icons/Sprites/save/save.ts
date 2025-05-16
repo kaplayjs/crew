@@ -9,6 +9,8 @@ export const saveData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Saving Kaboom memories",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: saveSprite,
     outlined: saveSpriteO,
 };

@@ -9,6 +9,8 @@ export const keyData: SpriteCrewItem = {
     author: "tga",
     secret: "It's the key of Bag's house.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: keySprite,
     outlined: keySpriteO,
 };

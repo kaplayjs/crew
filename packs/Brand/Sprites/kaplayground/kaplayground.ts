@@ -9,6 +9,8 @@ export const kaplaygroundData: SpriteCrewItem = {
     author: "misanthrope",
     secret: "Ultimatum power.",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaplaygroundSprite,
     outlined: kaplaygroundSpriteO,
 };

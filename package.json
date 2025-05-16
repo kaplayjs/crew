@@ -29,7 +29,6 @@
   "scripts": {
     "build": "pnpm run build:dts && node --experimental-strip-types scripts/build.ts",
     "build:dts": "dts-bundle-generator -o dist/types.d.ts src/index.ts",
-    "tsc": "tsc",
     "prepare": "pnpm run build",
     "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www",
     "generate": "node --experimental-strip-types scripts/generate.ts"

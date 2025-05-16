@@ -10,6 +10,8 @@ export const noteData: SpriteCrewItem = {
     secret:
         "It doesn't play different sounds if you put it above different blocks.",
     tags: ["tiles"],
+    type: "Sprite",
+    origin: "Official",
     sprite: noteSprite,
     outlined: noteSpriteO,
 };

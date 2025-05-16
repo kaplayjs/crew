@@ -9,6 +9,8 @@ export const kaplay_dinoData: SpriteCrewItem = {
     author: "misanthrope",
     secret: "KaPlay!",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaplayjsSprite,
     outlined: kaplayjsSpriteO,
 };

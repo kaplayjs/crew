@@ -11,6 +11,8 @@ export const beanData: SpriteCrewItem = {
     secret: "Some people thinks she hates Mark",
     author: "tga",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     crewmeta: {
         age: 4,
         height: 0.005,

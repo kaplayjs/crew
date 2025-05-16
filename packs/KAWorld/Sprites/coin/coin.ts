@@ -9,6 +9,8 @@ export const coinData: SpriteCrewItem = {
     author: "tga",
     secret: "There's a lot of them around the KAWorld",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: coinSprite,
     outlined: coinSpriteO,
 };

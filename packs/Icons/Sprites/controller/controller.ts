@@ -9,6 +9,8 @@ export const controllerData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Use it for ArKade 3000",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: controllerSprite,
     outlined: controllerSpriteO,
 };

@@ -9,6 +9,8 @@ export const grassData: SpriteCrewItem = {
     author: "tga",
     secret: "Hopefully is real grass.",
     tags: ["tiles"],
+    type: "Sprite",
+    origin: "Official",
     sprite: grassSprite,
     outlined: grassSpriteO,
 };

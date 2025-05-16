@@ -9,6 +9,8 @@ export const pointerData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Is pointing a secret?",
     tags: ["ui"],
+    type: "UI",
+    origin: "Official",
     sprite: pointerSprite,
     outlined: pointerSpriteO,
 };

@@ -9,6 +9,8 @@ export const kaData: SpriteCrewItem = {
     author: "misanthrope",
     secret: "KAPLAY it's a play between KA and PLAY",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaSprite,
     outlined: kaSpriteO,
 };

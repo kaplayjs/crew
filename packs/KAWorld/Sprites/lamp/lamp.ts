@@ -9,6 +9,8 @@ export const lampData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Best Gigagantrum friend.",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: lampSprite,
     outlined: lampSpriteO,
     crewmeta: {

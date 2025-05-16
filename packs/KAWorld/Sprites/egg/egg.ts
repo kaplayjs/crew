@@ -9,6 +9,8 @@ export const eggData: SpriteCrewItem = {
     author: "lajbel",
     secret: "In fact, it's a Bean egg.",
     tags: ["animals"],
+    type: "Sprite",
+    origin: "Official",
     sprite: eggSprite,
     outlined: eggSpriteO,
 };

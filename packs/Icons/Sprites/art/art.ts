@@ -9,6 +9,8 @@ export const artData: SpriteCrewItem = {
     author: "lajbel",
     secret: "It was drawn by Mark, Mark is a great artist.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: artSprite,
     outlined: artSpriteO,
 };

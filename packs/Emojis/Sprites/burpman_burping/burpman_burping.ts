@@ -9,6 +9,8 @@ export const burpman_burpingData: SpriteCrewItem = {
     author: "lajbel",
     secret: "What have eaten Burman?",
     tags: ["emojis"],
+    type: "Sprite",
+    origin: "Official",
     sprite: burpman_burpingSprite,
     outlined: burpman_burpingSpriteO,
 };

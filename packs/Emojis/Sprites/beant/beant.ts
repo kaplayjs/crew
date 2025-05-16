@@ -9,6 +9,8 @@ export const beantData: SpriteCrewItem = {
     author: "lajbel",
     secret: "MF's favorite emoji",
     tags: ["emojis"],
+    type: "Sprite",
+    origin: "Official",
     sprite: beantSprite,
     outlined: beantSpriteO,
 };

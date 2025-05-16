@@ -10,6 +10,8 @@ export const kData: SpriteCrewItem = {
     secret:
         "Before this design, there was some others, like a balloom or a bomb",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kSprite,
     outlined: kSpriteO,
 };

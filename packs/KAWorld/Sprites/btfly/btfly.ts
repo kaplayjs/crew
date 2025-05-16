@@ -9,6 +9,8 @@ export const btflyData: SpriteCrewItem = {
     author: "tga",
     secret: "Can't fly.",
     tags: ["animals"],
+    type: "Sprite",
+    origin: "Official",
     sprite: btflySprite,
     outlined: btflySpriteO,
 };

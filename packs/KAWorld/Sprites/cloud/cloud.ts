@@ -9,6 +9,8 @@ export const cloudData: SpriteCrewItem = {
     author: "tga",
     secret: "They are also bushes.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: cloudSprite,
     outlined: cloudSpriteO,
 };

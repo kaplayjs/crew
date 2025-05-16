@@ -9,6 +9,8 @@ export const shareData: SpriteCrewItem = {
     author: "lajbel",
     secret: "What does this mean?",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: shareSprite,
     outlined: shareSpriteO,
 };

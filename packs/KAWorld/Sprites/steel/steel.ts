@@ -9,6 +9,8 @@ export const steelData: SpriteCrewItem = {
     author: "tga",
     secret: "Maybe it's not steel.",
     tags: ["tiles"],
+    type: "Sprite",
+    origin: "Official",
     sprite: steelSprite,
     outlined: steelSpriteO,
 };

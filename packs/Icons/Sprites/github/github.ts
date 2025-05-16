@@ -9,6 +9,8 @@ export const githubData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Optocat should be a crew member too.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: githubSprite,
     outlined: githubSpriteO,
 };

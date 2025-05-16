@@ -9,6 +9,8 @@ export const question_markData: SpriteCrewItem = {
     author: "lajbel",
     secret: "The secret Marktool",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: question_markSprite,
     outlined: question_markSpriteO,
 };

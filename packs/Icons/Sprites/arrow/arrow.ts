@@ -9,6 +9,8 @@ export const arrowData: SpriteCrewItem = {
     author: "lajbel",
     secret: "rotate()",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: arrowSprite,
     outlined: arrowSpriteO,
 };

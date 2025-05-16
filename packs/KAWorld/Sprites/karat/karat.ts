@@ -9,6 +9,8 @@ export const karatData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Ryan's rat, a life companion",
     tags: ["animals"],
+    type: "Sprite",
+    origin: "Official",
     sprite: karatSprite,
     outlined: karatSpriteO,
     crewmeta: {

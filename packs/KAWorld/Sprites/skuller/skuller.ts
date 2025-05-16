@@ -9,6 +9,8 @@ export const skullerData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Bean has dressed up nicely for Halloween",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: skullerSprite,
     outlined: skullerSpriteO,
     crewmeta: {

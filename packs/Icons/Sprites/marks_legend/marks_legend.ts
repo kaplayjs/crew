@@ -18,6 +18,8 @@ export const marks_legendData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Written by lajbel",
     tags: ["books"],
+    type: "Sprite",
+    origin: "Official",
     sprite: marks_legendSprite,
     outlined: marks_legendSpriteO,
 };

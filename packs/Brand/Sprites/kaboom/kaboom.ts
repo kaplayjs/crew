@@ -9,6 +9,8 @@ export const kaboomData: SpriteCrewItem = {
     author: "lajbel",
     secret: "It's the destruction of the world.",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: kaboomSprite,
     outlined: kaboomSpriteO,
 };

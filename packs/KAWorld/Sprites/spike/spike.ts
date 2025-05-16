@@ -9,6 +9,8 @@ export const spikeData: SpriteCrewItem = {
     author: "tga",
     secret: "Gigagantrum eat them as breakfast.",
     tags: ["tiles"],
+    type: "Sprite",
+    origin: "Official",
     sprite: spikeSprite,
     outlined: spikeSpriteO,
 };

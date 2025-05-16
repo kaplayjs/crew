@@ -9,6 +9,8 @@ export const ghostyData: SpriteCrewItem = {
     description: "A ghost who likes to help others.",
     secret: "Their family is very bad people.",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     outlined: ghostySpriteO,
     sprite: ghostySprite,
     crewmeta: {

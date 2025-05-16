@@ -9,6 +9,8 @@ export const soundsData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Sounds of the world.",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: soundsSprite,
     outlined: soundsSpriteO,
 };

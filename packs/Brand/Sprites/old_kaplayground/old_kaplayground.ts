@@ -9,6 +9,8 @@ export const old_kaplaygroundData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Ultimatum power.",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: old_kaplaygroundSprite,
     outlined: old_kaplaygroundSpriteO,
 };

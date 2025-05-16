@@ -9,6 +9,8 @@ export const draculaData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Special for Kalloween 2024",
     tags: ["brand"],
+    type: "Sprite",
+    origin: "Official",
     sprite: draculaSprite,
     outlined: draculaSpriteO,
 };

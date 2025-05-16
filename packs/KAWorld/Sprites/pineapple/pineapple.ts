@@ -9,6 +9,8 @@ export const pineappleData: SpriteCrewItem = {
     author: "tga",
     secret: "Hates apples.",
     tags: ["food"],
+    type: "Sprite",
+    origin: "Official",
     sprite: pineappleSprite,
     outlined: pineappleSpriteO,
 };

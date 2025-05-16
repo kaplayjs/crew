@@ -9,6 +9,8 @@ export const heartData: SpriteCrewItem = {
     author: "tga",
     secret: "Is the heart of the KAWorld.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: heartSprite,
     outlined: heartSpriteO,
 };

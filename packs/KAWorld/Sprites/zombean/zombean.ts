@@ -10,6 +10,8 @@ export const zombeanData: SpriteCrewItem = {
     author: "lajbel",
     secret: "Do beans have an expiration date?",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     sprite: zombeanSprite,
     outlined: zombeanSpriteO,
     crewmeta: {

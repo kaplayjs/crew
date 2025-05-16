@@ -9,6 +9,8 @@ export const gladyData: SpriteCrewItem = {
     author: "lajbel",
     secret: "He has come from a coliseum, to battle!",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Commision",
     sprite: gladySprite,
     outlined: gladySpriteO,
     crewmeta: {

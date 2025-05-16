@@ -9,6 +9,8 @@ export const sunData: SpriteCrewItem = {
     author: "lajbel",
     secret: "It gives important vitamins for beans.",
     tags: ["objects"],
+    type: "Sprite",
+    origin: "Official",
     sprite: sunSprite,
     outlined: sunSpriteO,
 };

@@ -12,6 +12,8 @@ export const money_bagData: SpriteCrewItem = {
     secret: "She usually gives her coins to KAPLAY Collective.",
     author: "lajbel",
     tags: ["crew"],
+    type: "Sprite",
+    origin: "Official",
     crewmeta: {
         age: 4,
         height: 6,

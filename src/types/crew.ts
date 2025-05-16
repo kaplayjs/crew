@@ -35,6 +35,10 @@ export type CrewItemBase = {
     secret: string;
     /** Data for Crew Wiki. */
     crewmeta?: CrewMemberMeta;
+    /** The category where it should be. */
+    type: "Sprite" | "Sound" | "UI";
+    /** The type of ownership of the sprite */
+    origin: "Official" | "Commision" | "Community";
 };
 
 export type CrewMemberMeta = {

@@ -10,6 +10,8 @@ export const api_bookData: SpriteCrewItem = {
     author: "lajbel",
     secret: "It's the MF's book",
     tags: ["icons"],
+    type: "Sprite",
+    origin: "Official",
     sprite: api_bookSprite,
     outlined: api_bookSpriteO,
 };
