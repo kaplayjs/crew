@@ -29,7 +29,7 @@
   "scripts": {
     "build": "pnpm run build:dts && node --experimental-strip-types scripts/build.ts",
     "build:dts": "dts-bundle-generator -o dist/types.d.ts src/index.ts",
-    "prepare": "pnpm run build",
+    "prepare": "husky",
     "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www",
     "generate": "node --experimental-strip-types scripts/generate.ts"
   },
@@ -43,6 +43,7 @@
     "dprint": "^0.47.2",
     "dts-bundle-generator": "^9.5.1",
     "esbuild": "^0.23.0",
+    "husky": "^9.1.7",
     "kaplay": "^3001.0.9"
   }
 }
