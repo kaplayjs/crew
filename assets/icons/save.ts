@@ -1,0 +1,13 @@
+import saveSpriteO from "../../assets/icons/save-o.png";
+import saveSprite from "../../assets/icons/save.png";
+import type { SpriteCrewItem } from "../../src/types/crew";
+
+export const saveData: SpriteCrewItem = {
+    name: "Save",
+    description: "A chill diskette",
+    author: "lajbel",
+    secret: "Saving Kaboom memories",
+    category: "icons",
+    sprite: saveSprite,
+    outlined: saveSpriteO,
+};

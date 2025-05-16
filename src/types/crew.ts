@@ -30,7 +30,7 @@ export type CrewItemBase = {
     /** Creator of the original source. */
     author: Author;
     /** Tags. */
-    tags: Tag | Tag[];
+    tags: Tag[];
     /** Secret of this item. */
     secret: string;
     /** Data for Crew Wiki. */
@@ -74,7 +74,6 @@ type CrewAssetPack = "KAWorld" | "Icons";
  */
 export type CrewAsset = CrewItem & {
     pack: CrewAssetPack;
-    tags: Tag[];
     imports: {
         importInCrew: string;
         importInPG: string;
