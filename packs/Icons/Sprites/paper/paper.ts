@@ -1,0 +1,15 @@
+import type { SpriteCrewItem } from "@/types/crew";
+import paperSpriteO from "./paper-o.png";
+import paperSprite from "./paper.png";
+
+export const paperData: SpriteCrewItem = {
+    kind: "Sprite",
+    name: "Paper",
+    description: "What's new?",
+    author: "lajbel",
+    secret:
+        "You can read: Mark has arrested by the Bean Police after a serie of...",
+    tags: ["icons"],
+    sprite: paperSprite,
+    outlined: paperSpriteO,
+};
