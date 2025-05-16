@@ -1,13 +1,14 @@
-import steelSpriteO from "../../assets/tiles/steel-o.png";
-import steelSprite from "../../assets/tiles/steel.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import steelSpriteO from "./steel-o.png";
+import steelSprite from "./steel.png";
 
 export const steelData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Steel",
     description: "Hard steel.",
     author: "tga",
     secret: "Maybe it's not steel.",
-    category: "tiles",
+    tags: ["tiles"],
     sprite: steelSprite,
     outlined: steelSpriteO,
 };

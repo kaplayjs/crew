@@ -1,13 +1,14 @@
-import spikeSpriteO from "../../assets/tiles/spike-o.png";
-import spikeSprite from "../../assets/tiles/spike.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import spikeSpriteO from "./spike-o.png";
+import spikeSprite from "./spike.png";
 
 export const spikeData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Spike",
     description: "A spike, be careful!",
     author: "tga",
     secret: "Gigagantrum eat them as breakfast.",
-    category: "tiles",
+    tags: ["tiles"],
     sprite: spikeSprite,
     outlined: spikeSpriteO,
 };
