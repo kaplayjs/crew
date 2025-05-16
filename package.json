@@ -31,7 +31,8 @@
     "build:dts": "dts-bundle-generator -o dist/types.d.ts src/index.ts",
     "tsc": "tsc",
     "prepare": "pnpm run build",
-    "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www"
+    "test": "esbuild test.ts --bundle --outdir=www --watch --servedir=www",
+    "generate": "node --experimental-strip-types scripts/generate.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

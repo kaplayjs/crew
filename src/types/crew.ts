@@ -66,7 +66,7 @@ export interface FontCrewItem extends CrewItemBase {
     height_o: number;
 }
 
-type CrewAssetPack = "KAWorld" | "Icons";
+type CrewAssetPack = "KAWorld" | "Icons" | "Brand" | "Emojis";
 
 /**
  * Represents a transformed Crew Item. It have all the metadata you would expect
