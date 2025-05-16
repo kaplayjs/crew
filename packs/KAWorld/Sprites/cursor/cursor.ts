@@ -1,13 +1,14 @@
-import cursorSpriteO from "../../assets/ui/cursor-o.png";
-import cursorSprite from "../../assets/ui/cursor.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import cursorSpriteO from "./cursor-o.png";
+import cursorSprite from "./cursor.png";
 
 export const cursorData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "cursor",
     description: "The cursor.",
     author: "lajbel",
     secret: "The master hand.",
-    category: "ui",
+    tags: ["ui"],
     sprite: cursorSprite,
     outlined: cursorSpriteO,
 };

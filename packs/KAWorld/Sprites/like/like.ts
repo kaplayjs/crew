@@ -1,13 +1,14 @@
-import likeSpriteO from "../../assets/ui/like-o.png";
-import likeSprite from "../../assets/ui/like.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import likeSpriteO from "./like-o.png";
+import likeSprite from "./like.png";
 
 export const likeData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "like",
     description: "Do you like it?",
     author: "lajbel",
     secret: "Like button",
-    category: "ui",
+    tags: ["ui"],
     sprite: likeSprite,
     outlined: likeSpriteO,
 };

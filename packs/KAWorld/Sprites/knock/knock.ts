@@ -1,13 +1,14 @@
-import knockSpriteO from "../../assets/ui/knock-o.png";
-import knockSprite from "../../assets/ui/knock.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import knockSpriteO from "./knock-o.png";
+import knockSprite from "./knock.png";
 
 export const knockData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "knock",
     description: "A grabbing hand.",
     author: "lajbel",
     secret: "Knock knock!",
-    category: "ui",
+    tags: ["ui"],
     sprite: knockSprite,
     outlined: knockSpriteO,
 };

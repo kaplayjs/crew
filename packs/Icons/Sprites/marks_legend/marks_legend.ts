@@ -1,8 +1,9 @@
-import marks_legendSpriteO from "../../assets/books/marks_legend-o.png";
-import marks_legendSprite from "../../assets/books/marks_legend.png";
-import type { SpriteCrewItem } from "../../src/types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import marks_legendSpriteO from "./marks_legend-o.png";
+import marks_legendSprite from "./marks_legend.png";
 
 export const marks_legendData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "Mark's Legend",
     description: `
     One day, in an unknown place and time, the world has been corrupted by the evil forces of the dark lord named Deprecation,
@@ -16,7 +17,7 @@ export const marks_legendData: SpriteCrewItem = {
     `,
     author: "lajbel",
     secret: "Written by lajbel",
-    category: "books",
+    tags: ["books"],
     sprite: marks_legendSprite,
     outlined: marks_legendSpriteO,
 };

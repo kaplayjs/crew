@@ -1,13 +1,14 @@
-import pointerSpriteO from "../../assets/ui/pointer-o.png";
-import pointerSprite from "../../assets/ui/pointer.png";
-import type { SpriteCrewItem } from "../types/crew";
+import type { SpriteCrewItem } from "@/types/crew";
+import pointerSpriteO from "./pointer-o.png";
+import pointerSprite from "./pointer.png";
 
 export const pointerData: SpriteCrewItem = {
+    kind: "Sprite",
     name: "pointer",
     description: "Is pointing.",
     author: "lajbel",
     secret: "Is pointing a secret?",
-    category: "ui",
+    tags: ["ui"],
     sprite: pointerSprite,
     outlined: pointerSpriteO,
 };
