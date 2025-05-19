@@ -19,11 +19,15 @@ and this project adheres to
 
   kaplay({
       plugins: [crew],
+      fonts: "happy",
   });
 
-  loadCrew("apple"); // load sprites
-  loadCrewFont("happy"); // load fonts
+  // Load crew
+  loadCrew("apple");
+  loadCrew("apple");
   ```
+
+- Added .ttf version of Happy Font
 
 - New Assets:
   - `kaplayjs`: The new KAPLAY logo
