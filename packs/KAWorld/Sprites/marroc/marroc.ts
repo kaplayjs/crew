@@ -14,6 +14,7 @@ export const marrocData: SpriteCrewItem = {
     sprite: marrocSprite,
     outlined: marrocSpriteO,
     crewmeta: {
+        birthday: "12/07", // lajbel's birthday
         age: 4,
         favoriteColor: "brown",
         favoriteFood: "bones",

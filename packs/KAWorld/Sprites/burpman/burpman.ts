@@ -14,6 +14,7 @@ export const burpmanData: SpriteCrewItem = {
     sprite: burpmanSprite,
     outlined: burpmanSpriteO,
     crewmeta: {
+        birthday: "07/02",
         age: 50,
         height: 1.6,
         weight: 80,

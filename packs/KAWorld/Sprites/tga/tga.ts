@@ -14,6 +14,7 @@ export const tgaData: SpriteCrewItem = {
     outlined: tgaSpriteO,
     sprite: tgaSprite,
     crewmeta: {
+        birthday: "02/08", // Literally it is the tga's birthday.
         age: 26,
         favoriteColor: "green",
         favoriteFood: "anything with potato",

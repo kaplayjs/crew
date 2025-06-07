@@ -14,6 +14,7 @@ export const gladyData: SpriteCrewItem = {
     sprite: gladySprite,
     outlined: gladySpriteO,
     crewmeta: {
+        birthday: "31/03", // Looks like they shutdown something, idk, fun
         age: 19,
         favoriteColor: "purple",
         favoriteFood: "pasta",

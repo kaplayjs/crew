@@ -13,7 +13,18 @@ export const beanData: SpriteCrewItem = {
     tags: ["crew"],
     type: "Sprite",
     origin: "Official",
+    appearences: [
+        {
+            name: "Knock",
+            description:
+                "Poor Bean. Always the target of 'chap-the-door' pranks",
+            link: "https://play.kaplayjs.com/?example=knock",
+            type: "kaplayground",
+            canon: true,
+        },
+    ],
     crewmeta: {
+        birthday: "01/01",
         age: 4,
         height: 0.005,
         weight: 0.001,

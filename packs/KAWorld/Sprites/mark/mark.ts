@@ -14,6 +14,7 @@ export const markData: SpriteCrewItem = {
     outlined: markSpriteO,
     sprite: markSprite,
     crewmeta: {
+        birthday: "04/06", // Cheese day lol.
         age: 5,
         favoriteColor: "yellow",
         favoriteFood: "bomb",

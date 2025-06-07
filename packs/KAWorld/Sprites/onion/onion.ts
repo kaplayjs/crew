@@ -14,6 +14,7 @@ export const onionData: SpriteCrewItem = {
     sprite: onionSprite,
     outlined: onionSpriteO,
     crewmeta: {
+        birthday: "29/02", // Forgotten day
         age: 4,
         favoriteColor: "red",
         favoriteFood: "beans",

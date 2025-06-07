@@ -11,5 +11,5 @@ export const copiedData: SpriteCrewItem = {
     type: "UI",
     origin: "Official",
     sprite: copiedSprite,
-    outlined: undefined,
+    outlined: copiedSprite,
 };

@@ -14,6 +14,7 @@ export const karatData: SpriteCrewItem = {
     sprite: karatSprite,
     outlined: karatSpriteO,
     crewmeta: {
+        birthday: "28/07", // Ratatouille's birthday
         age: 0.5,
         favoriteColor: "yellow",
         favoriteFood: "cheese",

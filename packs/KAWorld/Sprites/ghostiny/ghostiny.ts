@@ -14,6 +14,7 @@ export const ghostinyData: SpriteCrewItem = {
     outlined: ghostinySpriteO,
     sprite: ghostinySprite,
     crewmeta: {
+        birthday: "31/10",
         age: 332,
         favoriteColor: "NaN",
         favoriteFood: "undefined",

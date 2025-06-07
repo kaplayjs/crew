@@ -20,6 +20,17 @@ export type Tag =
 export type CrewItem = SpriteCrewItem | FontCrewItem;
 
 /**
+ * Represents a place where an item can be found.
+ */
+type Appearence = {
+    name: string;
+    description: string;
+    link: string;
+    type: "kaplayground" | "other";
+    canon: boolean;
+};
+
+/**
  * The base of all Items.
  */
 export type CrewItemBase = {
@@ -31,10 +42,12 @@ export type CrewItemBase = {
     author: Author;
     /** Tags. */
     tags: Tag[];
-    /** Secret of this item. */
+    /** A curiousity about the item. */
     secret: string;
     /** Data for Crew Wiki. */
     crewmeta?: CrewMemberMeta;
+    /** Places where it can be found. */
+    appearences?: Appearence[];
     /** The category where it should be. */
     type: "Sprite" | "Sound" | "UI";
     /** The type of ownership of the sprite */
@@ -42,6 +55,8 @@ export type CrewItemBase = {
 };
 
 export type CrewMemberMeta = {
+    /** The day of the month that the member was born. Format: DD/MM */
+    birthday: string;
     age: number;
     height: number;
     weight: number;

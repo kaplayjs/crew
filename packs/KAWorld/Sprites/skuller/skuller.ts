@@ -14,6 +14,7 @@ export const skullerData: SpriteCrewItem = {
     sprite: skullerSprite,
     outlined: skullerSpriteO,
     crewmeta: {
+        birthday: "01/01", // Makes sense
         age: 1,
         species: "bean",
         origin: "Beanland",

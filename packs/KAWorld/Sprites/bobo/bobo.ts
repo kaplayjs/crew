@@ -15,6 +15,7 @@ export const boboData: SpriteCrewItem = {
     type: "Sprite",
     origin: "Official",
     crewmeta: {
+        birthday: "03/12", // The day a random user sent a bobo sprite.
         age: 3,
         height: 0.10,
         weight: 3,

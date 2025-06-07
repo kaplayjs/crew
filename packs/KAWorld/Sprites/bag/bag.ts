@@ -15,6 +15,7 @@ export const bagData: SpriteCrewItem = {
     type: "Sprite",
     origin: "Official",
     crewmeta: {
+        birthday: "03/06",
         age: 7,
         height: 7,
         weight: 6300,

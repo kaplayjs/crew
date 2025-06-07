@@ -15,6 +15,7 @@ export const zombeanData: SpriteCrewItem = {
     sprite: zombeanSprite,
     outlined: zombeanSpriteO,
     crewmeta: {
+        birthday: "The day Bean was zombified",
         age: 100,
         favoriteColor: "green",
         favoriteFood: "beans",

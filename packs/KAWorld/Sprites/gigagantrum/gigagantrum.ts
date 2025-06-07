@@ -14,6 +14,7 @@ export const gigagantrumData: SpriteCrewItem = {
     outlined: gigagantrumSpriteO,
     sprite: gigagantrumSprite,
     crewmeta: {
+        birthday: "05/06", // Earthbound release date.
         age: 20,
         favoriteColor: "red",
         favoriteFood: "bombs",

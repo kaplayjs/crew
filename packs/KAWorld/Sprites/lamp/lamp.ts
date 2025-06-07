@@ -14,6 +14,7 @@ export const lampData: SpriteCrewItem = {
     sprite: lampSprite,
     outlined: lampSpriteO,
     crewmeta: {
+        birthday: "04/01", // Spaghetti day
         age: 1,
         favoriteColor: "yellow",
         favoriteFood: "electricity",

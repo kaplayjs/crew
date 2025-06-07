@@ -14,6 +14,7 @@ export const goldflyData: SpriteCrewItem = {
     sprite: goldflySprite,
     outlined: goldflySpriteO,
     crewmeta: {
+        birthday: "llun",
         age: -50,
         favoriteColor: "yellow",
         favoriteFood: "...",

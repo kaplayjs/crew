@@ -14,6 +14,7 @@ export const katData: SpriteCrewItem = {
     sprite: katSprite,
     outlined: katSpriteO,
     crewmeta: {
+        birthday: "09/04", // The day we opened daily-kat
         age: 1,
         favoriteColor: "red",
         favoriteFood: "fish",
