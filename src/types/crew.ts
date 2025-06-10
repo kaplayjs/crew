@@ -22,7 +22,7 @@ export type CrewItem = SpriteCrewItem | FontCrewItem;
 /**
  * Represents a place where an item can be found.
  */
-type Appearence = {
+type Appearance = {
     name: string;
     description: string;
     link: string;
@@ -47,11 +47,11 @@ export type CrewItemBase = {
     /** Data for Crew Wiki. */
     crewmeta?: CrewMemberMeta;
     /** Places where it can be found. */
-    appearences?: Appearence[];
+    appearances?: Appearance[];
     /** The category where it should be. */
     type: "Sprite" | "Sound" | "UI";
     /** The type of ownership of the sprite */
-    origin: "Official" | "Commision" | "Community";
+    origin: "Official" | "Commission" | "Community";
 };
 
 export type CrewMemberMeta = {

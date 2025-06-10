@@ -8,17 +8,17 @@ export const beanData: SpriteCrewItem = {
     sprite: beanSprite,
     outlined: beanSpriteO,
     description: "A bean, one of much beans.",
-    secret: "Some people thinks she hates Mark",
+    secret: "Some people think she hates Mark",
     author: "tga",
     tags: ["crew"],
     type: "Sprite",
     origin: "Official",
-    appearences: [
+    appearances: [
         {
             name: "Knock",
             description:
                 "Poor Bean. Always the target of 'chap-the-door' pranks",
-            link: "https://play.kaplayjs.com/?example=knock",
+            link: "https://play.kaplayjs.com/?example=fakeMouse",
             type: "kaplayground",
             canon: true,
         },
