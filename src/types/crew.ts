@@ -65,6 +65,11 @@ export type CrewMemberMeta = {
     hobbies: string[];
     favoriteFood: string;
     favoriteColor: string;
+    /**
+     * 0 for male
+     * 1 for female
+     * 2 for non-binary
+     */
     gender: 0 | 1 | 2;
 };
 

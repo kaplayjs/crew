@@ -6,7 +6,7 @@ export const zombeanData: SpriteCrewItem = {
     kind: "Sprite",
     name: "Zombean",
     description:
-        "Bean zombified! He's not here to eat your brains, but your beans!",
+        "A Zombified Bean! He's not here to eat your brains, but your beans!",
     author: "lajbel",
     secret: "Do beans have an expiration date?",
     tags: ["crew"],
@@ -14,6 +14,15 @@ export const zombeanData: SpriteCrewItem = {
     origin: "Official",
     sprite: zombeanSprite,
     outlined: zombeanSpriteO,
+    appearances: [
+        {
+            name: "Binding",
+            description: "The day Bean was zombified",
+            link: "https://play.kaplayjs.com/?example=binding",
+            type: "kaplayground",
+            canon: true,
+        },
+    ],
     crewmeta: {
         birthday: "The day Bean was zombified",
         age: 100,
@@ -22,7 +31,7 @@ export const zombeanData: SpriteCrewItem = {
         gender: 0,
         height: 0.005,
         hobbies: ["eating beans", "chasing beans", "collecting beans"],
-        origin: "A tombstone",
+        origin: "A weird drink...",
         species: "bean",
         weight: 0.001,
     },
