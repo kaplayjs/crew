@@ -1,4 +1,5 @@
 import type { SpriteCrewItem } from "@/types/crew";
+import copySpriteO from "./copy-o.png";
 import copySprite from "./copy.png";
 
 export const copyData: SpriteCrewItem = {
@@ -7,9 +8,9 @@ export const copyData: SpriteCrewItem = {
     description: "A copy icon.",
     author: "lajbel",
     secret: "You can't copy this text.",
-    tags: ["ui"],
+    tags: ["ui", "icons"],
     type: "UI",
     origin: "Official",
     sprite: copySprite,
-    outlined: copySprite,
+    outlined: copySpriteO,
 };
