@@ -20,7 +20,7 @@ export const markData: SpriteCrewItem = {
         favoriteFood: "bomb",
         height: 1,
         hobbies: ["exploring", "jumping"],
-        origin: "Bing Kabang",
+        origin: "Big Kabang",
         species: "mark",
         weight: 20,
         gender: 0,

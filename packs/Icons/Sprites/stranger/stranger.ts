@@ -5,7 +5,7 @@ import strangerSprite from "./stranger.png";
 export const strangerData: SpriteCrewItem = {
     kind: "Sprite",
     name: "Stranger",
-    description: "A Bean, a elephant, a stranger?.",
+    description: "A Bean, an elephant, a stranger?.",
     author: "lajbel",
     secret: "Is a monkey.",
     tags: ["icons"],

@@ -7,7 +7,7 @@ export const beanData: SpriteCrewItem = {
     name: "Bean",
     sprite: beanSprite,
     outlined: beanSpriteO,
-    description: "A bean, one of much beans.",
+    description: "A bean, one of many beans.",
     secret: "Some people think she hates Mark",
     author: "tga",
     tags: ["crew"],

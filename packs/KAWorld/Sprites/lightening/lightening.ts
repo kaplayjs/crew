@@ -7,7 +7,7 @@ export const lighteningData: SpriteCrewItem = {
     name: "Lightening",
     description: "Scrash!",
     author: "tga",
-    secret: "One time, Mark eated one.",
+    secret: "One time, Mark ate one.",
     tags: ["objects"],
     type: "Sprite",
     origin: "Official",

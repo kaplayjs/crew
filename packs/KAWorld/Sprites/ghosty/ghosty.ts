@@ -6,7 +6,7 @@ export const ghostyData: SpriteCrewItem = {
     kind: "Sprite",
     name: "Ghosty",
     author: "tga",
-    description: "A shy ghost, love helping others tho.",
+    description: "A shy ghost, loves helping others tho.",
     secret: "Their family keeps dark secrets",
     tags: ["crew"],
     type: "Sprite",

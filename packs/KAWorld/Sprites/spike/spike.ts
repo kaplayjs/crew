@@ -7,7 +7,7 @@ export const spikeData: SpriteCrewItem = {
     name: "Spike",
     description: "A spike, be careful!",
     author: "tga",
-    secret: "Gigagantrum eat them as breakfast.",
+    secret: "Gigagantrum eats them for breakfast.",
     tags: ["tiles"],
     type: "Sprite",
     origin: "Official",

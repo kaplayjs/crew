@@ -7,7 +7,7 @@ export const githubData: SpriteCrewItem = {
     name: "GitHub",
     description: "Logo of GitHub, a code hosting platform.",
     author: "lajbel",
-    secret: "Optocat should be a crew member too.",
+    secret: "Octocat should be a crew member too.",
     tags: ["icons"],
     type: "Sprite",
     origin: "Official",

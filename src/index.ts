@@ -11,9 +11,9 @@ import { kaData as internal_kaData } from "../packs/Brand/Sprites/ka/ka";
 import { kaboomData as internal_kaboomData } from "../packs/Brand/Sprites/kaboom/kaboom";
 import { kajamData as internal_kajamData } from "../packs/Brand/Sprites/kajam/kajam";
 import { kaplayData as internal_kaplayData } from "../packs/Brand/Sprites/kaplay/kaplay";
-import { kaplay_dinoData as internal_kaplay_dinoData } from "../packs/Brand/Sprites/kaplay_dino/kaplay_dino";
 import { kaplaygroundData as internal_kaplaygroundData } from "../packs/Brand/Sprites/kaplayground/kaplayground";
 import { kaplayground_dinoData as internal_kaplayground_dinoData } from "../packs/Brand/Sprites/kaplayground_dino/kaplayground_dino";
+import { kaplay_dinoData as internal_kaplay_dinoData } from "../packs/Brand/Sprites/kaplay_dino/kaplay_dino";
 import { old_kaplayData as internal_old_kaplayData } from "../packs/Brand/Sprites/old_kaplay/old_kaplay";
 import { old_kaplaygroundData as internal_old_kaplaygroundData } from "../packs/Brand/Sprites/old_kaplayground/old_kaplayground";
 
@@ -28,13 +28,18 @@ import { arrowData as internal_arrowData } from "../packs/Icons/Sprites/arrow/ar
 import { artData as internal_artData } from "../packs/Icons/Sprites/art/art";
 import { assetbrewData as internal_assetbrewData } from "../packs/Icons/Sprites/assetbrew/assetbrew";
 import { cakeData as internal_cakeData } from "../packs/Icons/Sprites/cake/cake";
+import { check_markData as internal_check_markData } from "../packs/Icons/Sprites/check_mark/check_mark";
 import { configData as internal_configData } from "../packs/Icons/Sprites/config/config";
 import { controllerData as internal_controllerData } from "../packs/Icons/Sprites/controller/controller";
+import { copyData as internal_copyData } from "../packs/Icons/Sprites/copy/copy";
+import { cross_markData as internal_cross_markData } from "../packs/Icons/Sprites/cross_mark/cross_mark";
 import { discordData as internal_discordData } from "../packs/Icons/Sprites/discord/discord";
 import { fontsData as internal_fontsData } from "../packs/Icons/Sprites/fonts/fonts";
 import { githubData as internal_githubData } from "../packs/Icons/Sprites/github/github";
 import { homeData as internal_homeData } from "../packs/Icons/Sprites/home/home";
 import { marks_legendData as internal_marks_legendData } from "../packs/Icons/Sprites/marks_legend/marks_legend";
+import { menuData as internal_menuData } from "../packs/Icons/Sprites/menu/menu";
+import { minusData as internal_minusData } from "../packs/Icons/Sprites/minus/minus";
 import { paletteData as internal_paletteData } from "../packs/Icons/Sprites/palette/palette";
 import { paperData as internal_paperData } from "../packs/Icons/Sprites/paper/paper";
 import { playData as internal_playData } from "../packs/Icons/Sprites/play/play";
@@ -42,6 +47,7 @@ import { plusData as internal_plusData } from "../packs/Icons/Sprites/plus/plus"
 import { question_markData as internal_question_markData } from "../packs/Icons/Sprites/question_mark/question_mark";
 import { ruleData as internal_ruleData } from "../packs/Icons/Sprites/rule/rule";
 import { saveData as internal_saveData } from "../packs/Icons/Sprites/save/save";
+import { searchData as internal_searchData } from "../packs/Icons/Sprites/search/search";
 import { shareData as internal_shareData } from "../packs/Icons/Sprites/share/share";
 import { soundsData as internal_soundsData } from "../packs/Icons/Sprites/sounds/sounds";
 import { strangerData as internal_strangerData } from "../packs/Icons/Sprites/stranger/stranger";
@@ -59,8 +65,6 @@ import { btflyData as internal_btflyData } from "../packs/KAWorld/Sprites/btfly/
 import { burpmanData as internal_burpmanData } from "../packs/KAWorld/Sprites/burpman/burpman";
 import { cloudData as internal_cloudData } from "../packs/KAWorld/Sprites/cloud/cloud";
 import { coinData as internal_coinData } from "../packs/KAWorld/Sprites/coin/coin";
-import { copiedData as internal_copiedData } from "../packs/KAWorld/Sprites/copied/copied";
-import { copyData as internal_copyData } from "../packs/KAWorld/Sprites/copy/copy";
 import { cursorData as internal_cursorData } from "../packs/KAWorld/Sprites/cursor/cursor";
 import { doorData as internal_doorData } from "../packs/KAWorld/Sprites/door/door";
 import { eggData as internal_eggData } from "../packs/KAWorld/Sprites/egg/egg";
@@ -166,15 +170,6 @@ export const kaplayData: CrewAsset = {
         importInPG: "loadSprite(\"kaplay\", \"/crew/kaplay\");",
     },
 };
-export const kaplay_dinoData: CrewAsset = {
-    ...internal_kaplay_dinoData,
-    kind: "Sprite",
-    pack: "Brand",
-    imports: {
-        importInCrew: "loadCrew(\"kaplay_dino\");",
-        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino\");",
-    },
-};
 export const kaplaygroundData: CrewAsset = {
     ...internal_kaplaygroundData,
     kind: "Sprite",
@@ -191,6 +186,15 @@ export const kaplayground_dinoData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"kaplayground_dino\");",
         importInPG: "loadSprite(\"kaplayground_dino\", \"/crew/kaplayground_dino\");",
+    },
+};
+export const kaplay_dinoData: CrewAsset = {
+    ...internal_kaplay_dinoData,
+    kind: "Sprite",
+    pack: "Brand",
+    imports: {
+        importInCrew: "loadCrew(\"kaplay_dino\");",
+        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino\");",
     },
 };
 export const old_kaplayData: CrewAsset = {
@@ -285,6 +289,15 @@ export const cakeData: CrewAsset = {
         importInPG: "loadSprite(\"cake\", \"/crew/cake\");",
     },
 };
+export const check_markData: CrewAsset = {
+    ...internal_check_markData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"check_mark\");",
+        importInPG: "loadSprite(\"check_mark\", \"/crew/check_mark\");",
+    },
+};
 export const configData: CrewAsset = {
     ...internal_configData,
     kind: "Sprite",
@@ -301,6 +314,24 @@ export const controllerData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"controller\");",
         importInPG: "loadSprite(\"controller\", \"/crew/controller\");",
+    },
+};
+export const copyData: CrewAsset = {
+    ...internal_copyData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"copy\");",
+        importInPG: "loadSprite(\"copy\", \"/crew/copy\");",
+    },
+};
+export const cross_markData: CrewAsset = {
+    ...internal_cross_markData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"cross_mark\");",
+        importInPG: "loadSprite(\"cross_mark\", \"/crew/cross_mark\");",
     },
 };
 export const discordData: CrewAsset = {
@@ -346,6 +377,24 @@ export const marks_legendData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"marks_legend\");",
         importInPG: "loadSprite(\"marks_legend\", \"/crew/marks_legend\");",
+    },
+};
+export const menuData: CrewAsset = {
+    ...internal_menuData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"menu\");",
+        importInPG: "loadSprite(\"menu\", \"/crew/menu\");",
+    },
+};
+export const minusData: CrewAsset = {
+    ...internal_minusData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"minus\");",
+        importInPG: "loadSprite(\"minus\", \"/crew/minus\");",
     },
 };
 export const paletteData: CrewAsset = {
@@ -409,6 +458,15 @@ export const saveData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"save\");",
         importInPG: "loadSprite(\"save\", \"/crew/save\");",
+    },
+};
+export const searchData: CrewAsset = {
+    ...internal_searchData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"search\");",
+        importInPG: "loadSprite(\"search\", \"/crew/search\");",
     },
 };
 export const shareData: CrewAsset = {
@@ -545,24 +603,6 @@ export const coinData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"coin\");",
         importInPG: "loadSprite(\"coin\", \"/crew/coin\");",
-    },
-};
-export const copiedData: CrewAsset = {
-    ...internal_copiedData,
-    kind: "Sprite",
-    pack: "KAWorld",
-    imports: {
-        importInCrew: "loadCrew(\"copied\");",
-        importInPG: "loadSprite(\"copied\", \"/crew/copied\");",
-    },
-};
-export const copyData: CrewAsset = {
-    ...internal_copyData,
-    kind: "Sprite",
-    pack: "KAWorld",
-    imports: {
-        importInCrew: "loadCrew(\"copy\");",
-        importInPG: "loadSprite(\"copy\", \"/crew/copy\");",
     },
 };
 export const cursorData: CrewAsset = {
@@ -944,9 +984,9 @@ export const assets = {
     kaboom: kaboomData,
     kajam: kajamData,
     kaplay: kaplayData,
-    kaplay_dino: kaplay_dinoData,
     kaplayground: kaplaygroundData,
     kaplayground_dino: kaplayground_dinoData,
+    kaplay_dino: kaplay_dinoData,
     old_kaplay: old_kaplayData,
     old_kaplayground: old_kaplaygroundData,
 
@@ -961,13 +1001,18 @@ export const assets = {
     art: artData,
     assetbrew: assetbrewData,
     cake: cakeData,
+    check_mark: check_markData,
     config: configData,
     controller: controllerData,
+    copy: copyData,
+    cross_mark: cross_markData,
     discord: discordData,
     fonts: fontsData,
     github: githubData,
     home: homeData,
     marks_legend: marks_legendData,
+    menu: menuData,
+    minus: minusData,
     palette: paletteData,
     paper: paperData,
     play: playData,
@@ -975,6 +1020,7 @@ export const assets = {
     question_mark: question_markData,
     rule: ruleData,
     save: saveData,
+    search: searchData,
     share: shareData,
     sounds: soundsData,
     stranger: strangerData,
@@ -992,8 +1038,6 @@ export const assets = {
     burpman: burpmanData,
     cloud: cloudData,
     coin: coinData,
-    copied: copiedData,
-    copy: copyData,
     cursor: cursorData,
     door: doorData,
     egg: eggData,

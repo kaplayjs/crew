@@ -8,7 +8,7 @@ export const kData: SpriteCrewItem = {
     description: "The first letter of Kaboom",
     author: "lajbel",
     secret:
-        "Before this design, there was some others, like a balloom or a bomb",
+        "Before this design, there were some others, like a balloon or a bomb",
     tags: ["brand"],
     type: "Sprite",
     origin: "Official",

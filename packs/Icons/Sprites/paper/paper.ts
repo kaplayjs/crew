@@ -8,7 +8,7 @@ export const paperData: SpriteCrewItem = {
     description: "What's new?",
     author: "lajbel",
     secret:
-        "You can read: Mark has arrested by the Bean Police after a serie of...",
+        "You can read: Mark was arrested by the Bean Police after a series of...",
     tags: ["icons"],
     type: "Sprite",
     origin: "Official",
