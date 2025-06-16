@@ -9,7 +9,7 @@ export const plusData: SpriteCrewItem = {
     author: "lajbel",
     secret: "1+1=3",
     tags: ["icons"],
-    type: "Sprite",
+    type: "UI",
     origin: "Official",
     sprite: plusSprite,
     outlined: plusSpriteO,

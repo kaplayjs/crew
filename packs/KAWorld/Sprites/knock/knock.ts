@@ -4,12 +4,12 @@ import knockSprite from "./knock.png";
 
 export const knockData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "knock",
+    name: "Knock",
     description: "A grabbing hand.",
     author: "lajbel",
     secret: "Knock knock!",
     tags: ["ui"],
-    type: "Sprite",
+    type: "UI",
     origin: "Official",
     sprite: knockSprite,
     outlined: knockSpriteO,

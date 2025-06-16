@@ -4,7 +4,7 @@ import pointerSprite from "./pointer.png";
 
 export const pointerData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "pointer",
+    name: "Pointer",
     description: "Is pointing.",
     author: "lajbel",
     secret: "Is pointing a secret?",

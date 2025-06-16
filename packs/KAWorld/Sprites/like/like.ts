@@ -4,7 +4,7 @@ import likeSprite from "./like.png";
 
 export const likeData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "like",
+    name: "Like",
     description: "Do you like it?",
     author: "lajbel",
     secret: "Like button",

@@ -4,7 +4,7 @@ import cursorSprite from "./cursor.png";
 
 export const cursorData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "cursor",
+    name: "Cursor",
     description: "The cursor.",
     author: "lajbel",
     secret: "The master hand.",
