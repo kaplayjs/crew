@@ -19,6 +19,8 @@ import { old_kaplaygroundData as internal_old_kaplaygroundData } from "../packs/
 
 // Emojis
 import { beantData as internal_beantData } from "../packs/Emojis/Sprites/beant/beant";
+import { beenData as internal_beenData } from "../packs/Emojis/Sprites/been/been";
+import { beenkingData as internal_beenkingData } from "../packs/Emojis/Sprites/beenking/beenking";
 import { burpman_burpingData as internal_burpman_burpingData } from "../packs/Emojis/Sprites/burpman_burping/burpman_burping";
 import { pogData as internal_pogData } from "../packs/Emojis/Sprites/pog/pog";
 
@@ -98,6 +100,7 @@ import { pineappleData as internal_pineappleData } from "../packs/KAWorld/Sprite
 import { pointerData as internal_pointerData } from "../packs/KAWorld/Sprites/pointer/pointer";
 import { portalData as internal_portalData } from "../packs/KAWorld/Sprites/portal/portal";
 import { skullerData as internal_skullerData } from "../packs/KAWorld/Sprites/skuller/skuller";
+import { sokData as internal_sokData } from "../packs/KAWorld/Sprites/sok/sok";
 import { spikeData as internal_spikeData } from "../packs/KAWorld/Sprites/spike/spike";
 import { steelData as internal_steelData } from "../packs/KAWorld/Sprites/steel/steel";
 import { sukomiData as internal_sukomiData } from "../packs/KAWorld/Sprites/sukomi/sukomi";
@@ -223,6 +226,24 @@ export const beantData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"beant\");",
         importInPG: "loadSprite(\"beant\", \"/crew/beant\");",
+    },
+};
+export const beenData: CrewAsset = {
+    ...internal_beenData,
+    kind: "Sprite",
+    pack: "Emojis",
+    imports: {
+        importInCrew: "loadCrew(\"been\");",
+        importInPG: "loadSprite(\"been\", \"/crew/been\");",
+    },
+};
+export const beenkingData: CrewAsset = {
+    ...internal_beenkingData,
+    kind: "Sprite",
+    pack: "Emojis",
+    imports: {
+        importInCrew: "loadCrew(\"beenking\");",
+        importInPG: "loadSprite(\"beenking\", \"/crew/beenking\");",
     },
 };
 export const burpman_burpingData: CrewAsset = {
@@ -902,6 +923,15 @@ export const skullerData: CrewAsset = {
         importInPG: "loadSprite(\"skuller\", \"/crew/skuller\");",
     },
 };
+export const sokData: CrewAsset = {
+    ...internal_sokData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"sok\");",
+        importInPG: "loadSprite(\"sok\", \"/crew/sok\");",
+    },
+};
 export const spikeData: CrewAsset = {
     ...internal_spikeData,
     kind: "Sprite",
@@ -992,6 +1022,8 @@ export const assets = {
 
     // Emojis
     beant: beantData,
+    been: beenData,
+    beenking: beenkingData,
     burpman_burping: burpman_burpingData,
     pog: pogData,
 
@@ -1071,6 +1103,7 @@ export const assets = {
     pointer: pointerData,
     portal: portalData,
     skuller: skullerData,
+    sok: sokData,
     spike: spikeData,
     steel: steelData,
     sukomi: sukomiData,
