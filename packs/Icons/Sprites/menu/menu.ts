@@ -13,4 +13,5 @@ export const menuData: SpriteCrewItem = {
     origin: "Official",
     sprite: menuSprite,
     outlined: menuSpriteO,
+    searchTerms: ["hamburger"],
 };

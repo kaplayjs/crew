@@ -13,4 +13,5 @@ export const assetbrewData: SpriteCrewItem = {
     origin: "Official",
     sprite: assetbrewSprite,
     outlined: assetbrewSpriteO,
+    searchTerms: ["sprites"],
 };

@@ -13,4 +13,5 @@ export const controllerData: SpriteCrewItem = {
     origin: "Official",
     sprite: controllerSprite,
     outlined: controllerSpriteO,
+    searchTerms: ["gamepad"],
 };

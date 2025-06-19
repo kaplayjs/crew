@@ -13,4 +13,5 @@ export const strangerData: SpriteCrewItem = {
     origin: "Official",
     sprite: strangerSprite,
     outlined: strangerSpriteO,
+    searchTerms: ["question"],
 };

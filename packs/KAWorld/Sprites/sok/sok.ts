@@ -22,5 +22,6 @@ export const sokData: SpriteCrewItem = {
             type: "other",
             canon: true
         }
-    ]
+    ],
+    searchTerms: ["sock"],
 };

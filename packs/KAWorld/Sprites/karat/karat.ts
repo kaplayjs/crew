@@ -25,4 +25,5 @@ export const karatData: SpriteCrewItem = {
         species: "rat",
         weight: 0.5,
     },
+    searchTerms: ["mouse"],
 };

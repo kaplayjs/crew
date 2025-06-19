@@ -13,4 +13,5 @@ export const pogData: SpriteCrewItem = {
     origin: "Official",
     sprite: pogSprite,
     outlined: pogSpriteO,
+    searchTerms: ["dino"],
 };

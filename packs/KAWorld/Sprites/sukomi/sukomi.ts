@@ -13,4 +13,5 @@ export const sukomiData: SpriteCrewItem = {
     origin: "Official",
     sprite: sukomiSprite,
     outlined: sukomiSpriteO,
+    searchTerms: ["fish"],
 };

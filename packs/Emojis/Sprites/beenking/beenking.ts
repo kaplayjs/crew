@@ -13,4 +13,5 @@ export const beenkingData: SpriteCrewItem = {
     origin: "Official",
     sprite: beenkingSprite,
     outlined: beenkingSpriteO,
+    searchTerms: ["bean", "thinking"],
 };

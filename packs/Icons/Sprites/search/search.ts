@@ -13,4 +13,5 @@ export const searchData: SpriteCrewItem = {
     origin: "Official",
     sprite: searchSprite,
     outlined: searchSpriteO,
+    searchTerms: ["magnifying", "glass", "zoom"],
 };

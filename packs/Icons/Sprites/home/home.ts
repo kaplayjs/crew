@@ -13,4 +13,5 @@ export const homeData: SpriteCrewItem = {
     origin: "Official",
     sprite: homeSprite,
     outlined: homeSpriteO,
+    searchTerms: ["egg"],
 };

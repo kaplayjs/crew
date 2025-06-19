@@ -26,4 +26,5 @@ export const boboData: SpriteCrewItem = {
         favoriteColor: "blue",
         gender: 0,
     },
+    searchTerms: ["fish"],
 };

@@ -14,4 +14,5 @@ export const paperData: SpriteCrewItem = {
     origin: "Official",
     sprite: paperSprite,
     outlined: paperSpriteO,
+    searchTerms: ["news"],
 };

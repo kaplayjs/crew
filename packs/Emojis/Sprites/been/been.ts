@@ -13,4 +13,5 @@ export const beenData: SpriteCrewItem = {
     origin: "Official",
     sprite: beenSprite,
     outlined: beenSpriteO,
+    searchTerms: ["bean"],
 };

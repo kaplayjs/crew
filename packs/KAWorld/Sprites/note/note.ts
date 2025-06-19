@@ -14,4 +14,5 @@ export const noteData: SpriteCrewItem = {
     origin: "Official",
     sprite: noteSprite,
     outlined: noteSpriteO,
+    searchTerms: ["sound", "music"],
 };

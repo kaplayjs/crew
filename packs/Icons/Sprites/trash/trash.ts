@@ -13,4 +13,5 @@ export const trashData: SpriteCrewItem = {
     origin: "Official",
     sprite: trashSprite,
     outlined: trashSpriteO,
+    searchTerms: ["bin", "delete", "remove"],
 };

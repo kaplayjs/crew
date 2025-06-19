@@ -13,4 +13,5 @@ export const heartData: SpriteCrewItem = {
     origin: "Official",
     sprite: heartSprite,
     outlined: heartSpriteO,
+    searchTerms: ["love"],
 };

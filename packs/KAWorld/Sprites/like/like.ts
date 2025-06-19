@@ -13,4 +13,5 @@ export const likeData: SpriteCrewItem = {
     origin: "Official",
     sprite: likeSprite,
     outlined: likeSpriteO,
+    searchTerms: ["thumbs up", "hand"],
 };

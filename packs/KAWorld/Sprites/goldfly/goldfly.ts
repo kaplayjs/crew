@@ -25,4 +25,5 @@ export const goldflyData: SpriteCrewItem = {
         species: "ghost",
         weight: 0,
     },
+    searchTerms: ["ghost"],
 };

@@ -13,4 +13,5 @@ export const check_markData: SpriteCrewItem = {
     origin: "Official",
     sprite: check_markSprite,
     outlined: check_markSpriteO,
+    searchTerms: ["copied"],
 };

@@ -13,4 +13,5 @@ export const cursorData: SpriteCrewItem = {
     origin: "Official",
     sprite: cursorSprite,
     outlined: cursorSpriteO,
+    searchTerms: ["mouse"],
 };

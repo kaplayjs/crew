@@ -13,6 +13,12 @@ export const beanData: SpriteCrewItem = {
     tags: ["crew"],
     type: "Sprite",
     origin: "Official",
+    aliases: [
+        {
+            name: "Green Mark",
+            description: "Bean doesn't like this name much...",
+        },
+    ],
     appearances: [
         {
             name: "Knock",

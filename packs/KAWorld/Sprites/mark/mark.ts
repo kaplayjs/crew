@@ -13,6 +13,12 @@ export const markData: SpriteCrewItem = {
     origin: "Official",
     outlined: markSpriteO,
     sprite: markSprite,
+    aliases: [
+        {
+            name: "Yellow Bean",
+            description: "Mark loves this name very much!",
+        },
+    ],
     crewmeta: {
         birthday: "04/06", // Cheese day lol.
         age: 5,

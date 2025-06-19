@@ -13,4 +13,5 @@ export const cakeData: SpriteCrewItem = {
     origin: "Official",
     sprite: cakeSprite,
     outlined: cakeSpriteO,
+    searchTerms: ["birthday"],
 };

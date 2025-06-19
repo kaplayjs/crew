@@ -13,4 +13,5 @@ export const lighteningData: SpriteCrewItem = {
     origin: "Official",
     sprite: lighteningSprite,
     outlined: lighteningSpriteO,
+    searchTerms: ["electricity"],
 };

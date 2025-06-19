@@ -20,6 +20,14 @@ export type Tag =
 export type CrewItem = SpriteCrewItem | FontCrewItem;
 
 /**
+ * Represents alternative name for a Crew Item.
+ */
+type Alias = {
+    name: string;
+    description?: string;
+};
+
+/**
  * Represents a place where an item can be found.
  */
 type Appearance = {
@@ -46,12 +54,16 @@ export type CrewItemBase = {
     secret: string;
     /** Data for Crew Wiki. */
     crewmeta?: CrewMemberMeta;
+    /** Alternative names */
+    aliases?: Alias[];
     /** Places where it can be found. */
     appearances?: Appearance[];
     /** The category where it should be. */
     type: "Sprite" | "Sound" | "UI";
     /** The type of ownership of the sprite */
     origin: "Official" | "Commission" | "Community";
+    /** Alternative terms, synonyms or keywords for searching */
+    searchTerms?: string[];
 };
 
 export type CrewMemberMeta = {

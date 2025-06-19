@@ -25,4 +25,5 @@ export const marrocData: SpriteCrewItem = {
         species: "dog",
         weight: 20,
     },
+    searchTerms: ["dog"],
 };

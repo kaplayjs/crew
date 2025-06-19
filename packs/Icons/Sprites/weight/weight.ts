@@ -13,4 +13,5 @@ export const weightData: SpriteCrewItem = {
     origin: "Official",
     sprite: weightSprite,
     outlined: weightSpriteO,
+    searchTerms: ["kg"],
 };

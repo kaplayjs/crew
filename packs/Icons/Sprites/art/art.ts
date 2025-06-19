@@ -13,4 +13,5 @@ export const artData: SpriteCrewItem = {
     origin: "Official",
     sprite: artSprite,
     outlined: artSpriteO,
+    searchTerms: ["picture", "asset", "sprite"],
 };

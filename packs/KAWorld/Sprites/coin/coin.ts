@@ -13,4 +13,5 @@ export const coinData: SpriteCrewItem = {
     origin: "Official",
     sprite: coinSprite,
     outlined: coinSpriteO,
+    searchTerms: ["money"],
 };

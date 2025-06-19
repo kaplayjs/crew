@@ -26,4 +26,5 @@ export const bagData: SpriteCrewItem = {
         favoriteColor: "purple",
         gender: 0,
     },
+    searchTerms: ["elephant"],
 };

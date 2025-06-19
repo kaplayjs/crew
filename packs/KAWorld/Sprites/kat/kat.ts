@@ -25,4 +25,5 @@ export const katData: SpriteCrewItem = {
         species: "alien",
         gender: 1,
     },
+    searchTerms: ["cat"],
 };

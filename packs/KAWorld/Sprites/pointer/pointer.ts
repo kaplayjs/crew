@@ -13,4 +13,5 @@ export const pointerData: SpriteCrewItem = {
     origin: "Official",
     sprite: pointerSprite,
     outlined: pointerSpriteO,
+    searchTerms: ["up", "hand", "cursor"],
 };

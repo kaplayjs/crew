@@ -13,4 +13,5 @@ export const configData: SpriteCrewItem = {
     origin: "Official",
     sprite: configSprite,
     outlined: configSpriteO,
+    searchTerms: ["gear"],
 };

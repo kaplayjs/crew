@@ -13,4 +13,5 @@ export const saveData: SpriteCrewItem = {
     origin: "Official",
     sprite: saveSprite,
     outlined: saveSpriteO,
+    searchTerms: ["floppy"],
 };

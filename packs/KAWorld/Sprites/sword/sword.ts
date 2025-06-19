@@ -13,4 +13,5 @@ export const swordData: SpriteCrewItem = {
     origin: "Official",
     sprite: swordSprite,
     outlined: swordSpriteO,
+    searchTerms: ["weapon"],
 };

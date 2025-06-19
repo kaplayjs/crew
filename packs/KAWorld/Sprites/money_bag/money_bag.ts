@@ -26,4 +26,5 @@ export const money_bagData: SpriteCrewItem = {
         favoriteColor: "yellow",
         gender: 1,
     },
+    searchTerms: ["elephant", "bank", "coin"],
 };

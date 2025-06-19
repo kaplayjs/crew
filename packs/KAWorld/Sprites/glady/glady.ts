@@ -25,4 +25,5 @@ export const gladyData: SpriteCrewItem = {
         species: "gladiator",
         weight: 80,
     },
+    searchTerms: ["colyseus"],
 };

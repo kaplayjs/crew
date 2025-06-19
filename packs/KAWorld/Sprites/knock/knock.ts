@@ -13,4 +13,5 @@ export const knockData: SpriteCrewItem = {
     origin: "Official",
     sprite: knockSprite,
     outlined: knockSpriteO,
+    searchTerms: ["hand", "grab", "drag", "cursor"],
 };

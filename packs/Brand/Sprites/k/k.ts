@@ -4,7 +4,7 @@ import kSprite from "./k.png";
 
 export const kData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "k",
+    name: "K",
     description: "The first letter of Kaboom",
     author: "lajbel",
     secret:

@@ -25,4 +25,5 @@ export const cross_markData: SpriteCrewItem = {
         weight: 100,
         gender: 2,
     },
+    searchTerms: ["x", "close", "remove", "delete"],
 };
