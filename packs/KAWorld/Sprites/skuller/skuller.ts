@@ -25,4 +25,5 @@ export const skullerData: SpriteCrewItem = {
         height: 0.008,
         weight: 0.003,
     },
+    searchTerms: ["sans"],
 };

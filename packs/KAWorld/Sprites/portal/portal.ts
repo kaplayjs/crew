@@ -13,4 +13,5 @@ export const portalData: SpriteCrewItem = {
     origin: "Official",
     sprite: portalSprite,
     outlined: portalSpriteO,
+    searchTerms: ["exit"],
 };
