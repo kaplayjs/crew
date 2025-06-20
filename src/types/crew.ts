@@ -1,4 +1,4 @@
-export type Author = "tga" | "lajbel" | "misanthrope";
+export type Author = "tga" | "lajbel" | "misanthrope" | "erik";
 
 export type Tag =
     | "crew"

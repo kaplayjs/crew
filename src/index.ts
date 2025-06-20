@@ -22,6 +22,7 @@ import { beantData as internal_beantData } from "../packs/Emojis/Sprites/beant/b
 import { beenData as internal_beenData } from "../packs/Emojis/Sprites/been/been";
 import { beenkingData as internal_beenkingData } from "../packs/Emojis/Sprites/beenking/beenking";
 import { burpman_burpingData as internal_burpman_burpingData } from "../packs/Emojis/Sprites/burpman_burping/burpman_burping";
+import { firingData as internal_firingData } from "../packs/Emojis/Sprites/firing/firing";
 import { pogData as internal_pogData } from "../packs/Emojis/Sprites/pog/pog";
 
 // Icons
@@ -71,6 +72,7 @@ import { cursorData as internal_cursorData } from "../packs/KAWorld/Sprites/curs
 import { doorData as internal_doorData } from "../packs/KAWorld/Sprites/door/door";
 import { eggData as internal_eggData } from "../packs/KAWorld/Sprites/egg/egg";
 import { egg_crackData as internal_egg_crackData } from "../packs/KAWorld/Sprites/egg_crack/egg_crack";
+import { fireData as internal_fireData } from "../packs/KAWorld/Sprites/fire/fire";
 import { ghostinyData as internal_ghostinyData } from "../packs/KAWorld/Sprites/ghostiny/ghostiny";
 import { ghostyData as internal_ghostyData } from "../packs/KAWorld/Sprites/ghosty/ghosty";
 import { gigagantrumData as internal_gigagantrumData } from "../packs/KAWorld/Sprites/gigagantrum/gigagantrum";
@@ -253,6 +255,15 @@ export const burpman_burpingData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"burpman_burping\");",
         importInPG: "loadSprite(\"burpman_burping\", \"/crew/burpman_burping\");",
+    },
+};
+export const firingData: CrewAsset = {
+    ...internal_firingData,
+    kind: "Sprite",
+    pack: "Emojis",
+    imports: {
+        importInCrew: "loadCrew(\"firing\");",
+        importInPG: "loadSprite(\"firing\", \"/crew/firing\");",
     },
 };
 export const pogData: CrewAsset = {
@@ -662,6 +673,15 @@ export const egg_crackData: CrewAsset = {
         importInPG: "loadSprite(\"egg_crack\", \"/crew/egg_crack\");",
     },
 };
+export const fireData: CrewAsset = {
+    ...internal_fireData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"fire\");",
+        importInPG: "loadSprite(\"fire\", \"/crew/fire\");",
+    },
+};
 export const ghostinyData: CrewAsset = {
     ...internal_ghostinyData,
     kind: "Sprite",
@@ -1025,6 +1045,7 @@ export const assets = {
     been: beenData,
     beenking: beenkingData,
     burpman_burping: burpman_burpingData,
+    firing: firingData,
     pog: pogData,
 
     // Icons
@@ -1074,6 +1095,7 @@ export const assets = {
     door: doorData,
     egg: eggData,
     egg_crack: egg_crackData,
+    fire: fireData,
     ghostiny: ghostinyData,
     ghosty: ghostyData,
     gigagantrum: gigagantrumData,
