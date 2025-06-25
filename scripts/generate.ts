@@ -16,6 +16,18 @@ function escape(str: string) {
         .replace(/\n/g, "\\n")
         .replace(/\r/g, "\\r");
 }
+
+function parseProp(str: string, prop: string): string | undefined {
+    const match = str.match(
+        new RegExp(`${prop}\\s*:\\s*([^,\\n]+)`, "m")
+    )?.[1]?.trim()
+
+    if (!match) return undefined;
+
+    if (match.startsWith('"') && match.endsWith('"')) return match.slice(1, -1);
+
+    return match;
+}
 // #endregion
 
 type Pack = {
@@ -76,14 +88,31 @@ for (const packPath of packPaths) {
                 `import { ${asset}Data as internal_${asset}Data } from "../packs/${packPath}/${kindFolder}/${asset}/${asset}";`,
             );
 
+            const kind = kindFolder.slice(0, -1);
+
+            const assetSrc = fs.readFileSync(assetPath, "utf-8");
+            const prop = (prop: string) => parseProp(assetSrc, prop);
+            const assetData = kind == "Font"
+                ? {
+                    width: prop("width"),
+                    height: prop("height"),
+                    width_o: prop("width_o"),
+                    height_o: prop("height_o"),
+                }
+                : kind == "Sound"
+                ? {
+                    fileFormat: prop("fileFormat") || "mp3",
+                }
+                : undefined;
+
             pack.datas.push({
                 name: asset,
                 import: `internal_${asset}Data`,
                 export: `${asset}Data`,
-                kind: kindFolder.slice(0, -1),
+                kind,
                 imports: {
                     crew: `loadCrew(\"${asset}\");`,
-                    pg: `loadSprite(\"${asset}\", \"/crew/${asset}\");`,
+                    pg: `load${kind == "Font" ? "Bitmap" : ""}${kind}(\"${asset}\", \"/crew/${asset}.${assetData?.fileFormat ?? "png"}\"${kind == "Font" ? `, ${assetData?.width}, ${assetData?.height}` : ``});`,
                 },
             });
         }

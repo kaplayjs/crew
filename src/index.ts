@@ -118,7 +118,7 @@ export const dinoData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"dino\");",
-        importInPG: "loadSprite(\"dino\", \"/crew/dino\");",
+        importInPG: "loadSprite(\"dino\", \"/crew/dino.png\");",
     },
 };
 export const draculaData: CrewAsset = {
@@ -127,7 +127,7 @@ export const draculaData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"dracula\");",
-        importInPG: "loadSprite(\"dracula\", \"/crew/dracula\");",
+        importInPG: "loadSprite(\"dracula\", \"/crew/dracula.png\");",
     },
 };
 export const kData: CrewAsset = {
@@ -136,7 +136,7 @@ export const kData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"k\");",
-        importInPG: "loadSprite(\"k\", \"/crew/k\");",
+        importInPG: "loadSprite(\"k\", \"/crew/k.png\");",
     },
 };
 export const kaData: CrewAsset = {
@@ -145,7 +145,7 @@ export const kaData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"ka\");",
-        importInPG: "loadSprite(\"ka\", \"/crew/ka\");",
+        importInPG: "loadSprite(\"ka\", \"/crew/ka.png\");",
     },
 };
 export const kaboomData: CrewAsset = {
@@ -154,7 +154,7 @@ export const kaboomData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kaboom\");",
-        importInPG: "loadSprite(\"kaboom\", \"/crew/kaboom\");",
+        importInPG: "loadSprite(\"kaboom\", \"/crew/kaboom.png\");",
     },
 };
 export const kajamData: CrewAsset = {
@@ -163,7 +163,7 @@ export const kajamData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kajam\");",
-        importInPG: "loadSprite(\"kajam\", \"/crew/kajam\");",
+        importInPG: "loadSprite(\"kajam\", \"/crew/kajam.png\");",
     },
 };
 export const kaplayData: CrewAsset = {
@@ -172,7 +172,7 @@ export const kaplayData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kaplay\");",
-        importInPG: "loadSprite(\"kaplay\", \"/crew/kaplay\");",
+        importInPG: "loadSprite(\"kaplay\", \"/crew/kaplay.png\");",
     },
 };
 export const kaplaygroundData: CrewAsset = {
@@ -181,7 +181,7 @@ export const kaplaygroundData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kaplayground\");",
-        importInPG: "loadSprite(\"kaplayground\", \"/crew/kaplayground\");",
+        importInPG: "loadSprite(\"kaplayground\", \"/crew/kaplayground.png\");",
     },
 };
 export const kaplayground_dinoData: CrewAsset = {
@@ -190,7 +190,7 @@ export const kaplayground_dinoData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kaplayground_dino\");",
-        importInPG: "loadSprite(\"kaplayground_dino\", \"/crew/kaplayground_dino\");",
+        importInPG: "loadSprite(\"kaplayground_dino\", \"/crew/kaplayground_dino.png\");",
     },
 };
 export const kaplay_dinoData: CrewAsset = {
@@ -199,7 +199,7 @@ export const kaplay_dinoData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"kaplay_dino\");",
-        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino\");",
+        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino.png\");",
     },
 };
 export const old_kaplayData: CrewAsset = {
@@ -208,7 +208,7 @@ export const old_kaplayData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"old_kaplay\");",
-        importInPG: "loadSprite(\"old_kaplay\", \"/crew/old_kaplay\");",
+        importInPG: "loadSprite(\"old_kaplay\", \"/crew/old_kaplay.png\");",
     },
 };
 export const old_kaplaygroundData: CrewAsset = {
@@ -217,7 +217,7 @@ export const old_kaplaygroundData: CrewAsset = {
     pack: "Brand",
     imports: {
         importInCrew: "loadCrew(\"old_kaplayground\");",
-        importInPG: "loadSprite(\"old_kaplayground\", \"/crew/old_kaplayground\");",
+        importInPG: "loadSprite(\"old_kaplayground\", \"/crew/old_kaplayground.png\");",
     },
 };
 // Emojis
@@ -227,7 +227,7 @@ export const beantData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"beant\");",
-        importInPG: "loadSprite(\"beant\", \"/crew/beant\");",
+        importInPG: "loadSprite(\"beant\", \"/crew/beant.png\");",
     },
 };
 export const beenData: CrewAsset = {
@@ -236,7 +236,7 @@ export const beenData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"been\");",
-        importInPG: "loadSprite(\"been\", \"/crew/been\");",
+        importInPG: "loadSprite(\"been\", \"/crew/been.png\");",
     },
 };
 export const beenkingData: CrewAsset = {
@@ -245,7 +245,7 @@ export const beenkingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"beenking\");",
-        importInPG: "loadSprite(\"beenking\", \"/crew/beenking\");",
+        importInPG: "loadSprite(\"beenking\", \"/crew/beenking.png\");",
     },
 };
 export const burpman_burpingData: CrewAsset = {
@@ -254,7 +254,7 @@ export const burpman_burpingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"burpman_burping\");",
-        importInPG: "loadSprite(\"burpman_burping\", \"/crew/burpman_burping\");",
+        importInPG: "loadSprite(\"burpman_burping\", \"/crew/burpman_burping.png\");",
     },
 };
 export const firingData: CrewAsset = {
@@ -263,7 +263,7 @@ export const firingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"firing\");",
-        importInPG: "loadSprite(\"firing\", \"/crew/firing\");",
+        importInPG: "loadSprite(\"firing\", \"/crew/firing.png\");",
     },
 };
 export const pogData: CrewAsset = {
@@ -272,7 +272,7 @@ export const pogData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"pog\");",
-        importInPG: "loadSprite(\"pog\", \"/crew/pog\");",
+        importInPG: "loadSprite(\"pog\", \"/crew/pog.png\");",
     },
 };
 // Icons
@@ -282,7 +282,7 @@ export const api_bookData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"api_book\");",
-        importInPG: "loadSprite(\"api_book\", \"/crew/api_book\");",
+        importInPG: "loadSprite(\"api_book\", \"/crew/api_book.png\");",
     },
 };
 export const arrowData: CrewAsset = {
@@ -291,7 +291,7 @@ export const arrowData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"arrow\");",
-        importInPG: "loadSprite(\"arrow\", \"/crew/arrow\");",
+        importInPG: "loadSprite(\"arrow\", \"/crew/arrow.png\");",
     },
 };
 export const artData: CrewAsset = {
@@ -300,7 +300,7 @@ export const artData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"art\");",
-        importInPG: "loadSprite(\"art\", \"/crew/art\");",
+        importInPG: "loadSprite(\"art\", \"/crew/art.png\");",
     },
 };
 export const assetbrewData: CrewAsset = {
@@ -309,7 +309,7 @@ export const assetbrewData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"assetbrew\");",
-        importInPG: "loadSprite(\"assetbrew\", \"/crew/assetbrew\");",
+        importInPG: "loadSprite(\"assetbrew\", \"/crew/assetbrew.png\");",
     },
 };
 export const cakeData: CrewAsset = {
@@ -318,7 +318,7 @@ export const cakeData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"cake\");",
-        importInPG: "loadSprite(\"cake\", \"/crew/cake\");",
+        importInPG: "loadSprite(\"cake\", \"/crew/cake.png\");",
     },
 };
 export const check_markData: CrewAsset = {
@@ -327,7 +327,7 @@ export const check_markData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"check_mark\");",
-        importInPG: "loadSprite(\"check_mark\", \"/crew/check_mark\");",
+        importInPG: "loadSprite(\"check_mark\", \"/crew/check_mark.png\");",
     },
 };
 export const configData: CrewAsset = {
@@ -336,7 +336,7 @@ export const configData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"config\");",
-        importInPG: "loadSprite(\"config\", \"/crew/config\");",
+        importInPG: "loadSprite(\"config\", \"/crew/config.png\");",
     },
 };
 export const controllerData: CrewAsset = {
@@ -345,7 +345,7 @@ export const controllerData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"controller\");",
-        importInPG: "loadSprite(\"controller\", \"/crew/controller\");",
+        importInPG: "loadSprite(\"controller\", \"/crew/controller.png\");",
     },
 };
 export const copyData: CrewAsset = {
@@ -354,7 +354,7 @@ export const copyData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"copy\");",
-        importInPG: "loadSprite(\"copy\", \"/crew/copy\");",
+        importInPG: "loadSprite(\"copy\", \"/crew/copy.png\");",
     },
 };
 export const cross_markData: CrewAsset = {
@@ -363,7 +363,7 @@ export const cross_markData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"cross_mark\");",
-        importInPG: "loadSprite(\"cross_mark\", \"/crew/cross_mark\");",
+        importInPG: "loadSprite(\"cross_mark\", \"/crew/cross_mark.png\");",
     },
 };
 export const discordData: CrewAsset = {
@@ -372,7 +372,7 @@ export const discordData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"discord\");",
-        importInPG: "loadSprite(\"discord\", \"/crew/discord\");",
+        importInPG: "loadSprite(\"discord\", \"/crew/discord.png\");",
     },
 };
 export const fontsData: CrewAsset = {
@@ -381,7 +381,7 @@ export const fontsData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"fonts\");",
-        importInPG: "loadSprite(\"fonts\", \"/crew/fonts\");",
+        importInPG: "loadSprite(\"fonts\", \"/crew/fonts.png\");",
     },
 };
 export const githubData: CrewAsset = {
@@ -390,7 +390,7 @@ export const githubData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"github\");",
-        importInPG: "loadSprite(\"github\", \"/crew/github\");",
+        importInPG: "loadSprite(\"github\", \"/crew/github.png\");",
     },
 };
 export const homeData: CrewAsset = {
@@ -399,7 +399,7 @@ export const homeData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"home\");",
-        importInPG: "loadSprite(\"home\", \"/crew/home\");",
+        importInPG: "loadSprite(\"home\", \"/crew/home.png\");",
     },
 };
 export const marks_legendData: CrewAsset = {
@@ -408,7 +408,7 @@ export const marks_legendData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"marks_legend\");",
-        importInPG: "loadSprite(\"marks_legend\", \"/crew/marks_legend\");",
+        importInPG: "loadSprite(\"marks_legend\", \"/crew/marks_legend.png\");",
     },
 };
 export const menuData: CrewAsset = {
@@ -417,7 +417,7 @@ export const menuData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"menu\");",
-        importInPG: "loadSprite(\"menu\", \"/crew/menu\");",
+        importInPG: "loadSprite(\"menu\", \"/crew/menu.png\");",
     },
 };
 export const minusData: CrewAsset = {
@@ -426,7 +426,7 @@ export const minusData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"minus\");",
-        importInPG: "loadSprite(\"minus\", \"/crew/minus\");",
+        importInPG: "loadSprite(\"minus\", \"/crew/minus.png\");",
     },
 };
 export const paletteData: CrewAsset = {
@@ -435,7 +435,7 @@ export const paletteData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"palette\");",
-        importInPG: "loadSprite(\"palette\", \"/crew/palette\");",
+        importInPG: "loadSprite(\"palette\", \"/crew/palette.png\");",
     },
 };
 export const paperData: CrewAsset = {
@@ -444,7 +444,7 @@ export const paperData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"paper\");",
-        importInPG: "loadSprite(\"paper\", \"/crew/paper\");",
+        importInPG: "loadSprite(\"paper\", \"/crew/paper.png\");",
     },
 };
 export const playData: CrewAsset = {
@@ -453,7 +453,7 @@ export const playData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"play\");",
-        importInPG: "loadSprite(\"play\", \"/crew/play\");",
+        importInPG: "loadSprite(\"play\", \"/crew/play.png\");",
     },
 };
 export const plusData: CrewAsset = {
@@ -462,7 +462,7 @@ export const plusData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"plus\");",
-        importInPG: "loadSprite(\"plus\", \"/crew/plus\");",
+        importInPG: "loadSprite(\"plus\", \"/crew/plus.png\");",
     },
 };
 export const question_markData: CrewAsset = {
@@ -471,7 +471,7 @@ export const question_markData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"question_mark\");",
-        importInPG: "loadSprite(\"question_mark\", \"/crew/question_mark\");",
+        importInPG: "loadSprite(\"question_mark\", \"/crew/question_mark.png\");",
     },
 };
 export const ruleData: CrewAsset = {
@@ -480,7 +480,7 @@ export const ruleData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"rule\");",
-        importInPG: "loadSprite(\"rule\", \"/crew/rule\");",
+        importInPG: "loadSprite(\"rule\", \"/crew/rule.png\");",
     },
 };
 export const saveData: CrewAsset = {
@@ -489,7 +489,7 @@ export const saveData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"save\");",
-        importInPG: "loadSprite(\"save\", \"/crew/save\");",
+        importInPG: "loadSprite(\"save\", \"/crew/save.png\");",
     },
 };
 export const searchData: CrewAsset = {
@@ -498,7 +498,7 @@ export const searchData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"search\");",
-        importInPG: "loadSprite(\"search\", \"/crew/search\");",
+        importInPG: "loadSprite(\"search\", \"/crew/search.png\");",
     },
 };
 export const shareData: CrewAsset = {
@@ -507,7 +507,7 @@ export const shareData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"share\");",
-        importInPG: "loadSprite(\"share\", \"/crew/share\");",
+        importInPG: "loadSprite(\"share\", \"/crew/share.png\");",
     },
 };
 export const soundsData: CrewAsset = {
@@ -516,7 +516,7 @@ export const soundsData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"sounds\");",
-        importInPG: "loadSprite(\"sounds\", \"/crew/sounds\");",
+        importInPG: "loadSprite(\"sounds\", \"/crew/sounds.png\");",
     },
 };
 export const strangerData: CrewAsset = {
@@ -525,7 +525,7 @@ export const strangerData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"stranger\");",
-        importInPG: "loadSprite(\"stranger\", \"/crew/stranger\");",
+        importInPG: "loadSprite(\"stranger\", \"/crew/stranger.png\");",
     },
 };
 export const toolboxData: CrewAsset = {
@@ -534,7 +534,7 @@ export const toolboxData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"toolbox\");",
-        importInPG: "loadSprite(\"toolbox\", \"/crew/toolbox\");",
+        importInPG: "loadSprite(\"toolbox\", \"/crew/toolbox.png\");",
     },
 };
 export const trashData: CrewAsset = {
@@ -543,7 +543,7 @@ export const trashData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"trash\");",
-        importInPG: "loadSprite(\"trash\", \"/crew/trash\");",
+        importInPG: "loadSprite(\"trash\", \"/crew/trash.png\");",
     },
 };
 export const weightData: CrewAsset = {
@@ -552,7 +552,7 @@ export const weightData: CrewAsset = {
     pack: "Icons",
     imports: {
         importInCrew: "loadCrew(\"weight\");",
-        importInPG: "loadSprite(\"weight\", \"/crew/weight\");",
+        importInPG: "loadSprite(\"weight\", \"/crew/weight.png\");",
     },
 };
 // KAWorld
@@ -562,7 +562,7 @@ export const happyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"happy\");",
-        importInPG: "loadSprite(\"happy\", \"/crew/happy\");",
+        importInPG: "loadBitmapFont(\"happy\", \"/crew/happy.png\", 28, 37);",
     },
 };
 export const appleData: CrewAsset = {
@@ -571,7 +571,7 @@ export const appleData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"apple\");",
-        importInPG: "loadSprite(\"apple\", \"/crew/apple\");",
+        importInPG: "loadSprite(\"apple\", \"/crew/apple.png\");",
     },
 };
 export const bagData: CrewAsset = {
@@ -580,7 +580,7 @@ export const bagData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bag\");",
-        importInPG: "loadSprite(\"bag\", \"/crew/bag\");",
+        importInPG: "loadSprite(\"bag\", \"/crew/bag.png\");",
     },
 };
 export const beanData: CrewAsset = {
@@ -589,7 +589,7 @@ export const beanData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bean\");",
-        importInPG: "loadSprite(\"bean\", \"/crew/bean\");",
+        importInPG: "loadSprite(\"bean\", \"/crew/bean.png\");",
     },
 };
 export const boboData: CrewAsset = {
@@ -598,7 +598,7 @@ export const boboData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"bobo\");",
-        importInPG: "loadSprite(\"bobo\", \"/crew/bobo\");",
+        importInPG: "loadSprite(\"bobo\", \"/crew/bobo.png\");",
     },
 };
 export const btflyData: CrewAsset = {
@@ -607,7 +607,7 @@ export const btflyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"btfly\");",
-        importInPG: "loadSprite(\"btfly\", \"/crew/btfly\");",
+        importInPG: "loadSprite(\"btfly\", \"/crew/btfly.png\");",
     },
 };
 export const burpmanData: CrewAsset = {
@@ -616,7 +616,7 @@ export const burpmanData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"burpman\");",
-        importInPG: "loadSprite(\"burpman\", \"/crew/burpman\");",
+        importInPG: "loadSprite(\"burpman\", \"/crew/burpman.png\");",
     },
 };
 export const cloudData: CrewAsset = {
@@ -625,7 +625,7 @@ export const cloudData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"cloud\");",
-        importInPG: "loadSprite(\"cloud\", \"/crew/cloud\");",
+        importInPG: "loadSprite(\"cloud\", \"/crew/cloud.png\");",
     },
 };
 export const coinData: CrewAsset = {
@@ -634,7 +634,7 @@ export const coinData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"coin\");",
-        importInPG: "loadSprite(\"coin\", \"/crew/coin\");",
+        importInPG: "loadSprite(\"coin\", \"/crew/coin.png\");",
     },
 };
 export const cursorData: CrewAsset = {
@@ -643,7 +643,7 @@ export const cursorData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"cursor\");",
-        importInPG: "loadSprite(\"cursor\", \"/crew/cursor\");",
+        importInPG: "loadSprite(\"cursor\", \"/crew/cursor.png\");",
     },
 };
 export const doorData: CrewAsset = {
@@ -652,7 +652,7 @@ export const doorData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"door\");",
-        importInPG: "loadSprite(\"door\", \"/crew/door\");",
+        importInPG: "loadSprite(\"door\", \"/crew/door.png\");",
     },
 };
 export const eggData: CrewAsset = {
@@ -661,7 +661,7 @@ export const eggData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"egg\");",
-        importInPG: "loadSprite(\"egg\", \"/crew/egg\");",
+        importInPG: "loadSprite(\"egg\", \"/crew/egg.png\");",
     },
 };
 export const egg_crackData: CrewAsset = {
@@ -670,7 +670,7 @@ export const egg_crackData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"egg_crack\");",
-        importInPG: "loadSprite(\"egg_crack\", \"/crew/egg_crack\");",
+        importInPG: "loadSprite(\"egg_crack\", \"/crew/egg_crack.png\");",
     },
 };
 export const fireData: CrewAsset = {
@@ -679,7 +679,7 @@ export const fireData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"fire\");",
-        importInPG: "loadSprite(\"fire\", \"/crew/fire\");",
+        importInPG: "loadSprite(\"fire\", \"/crew/fire.png\");",
     },
 };
 export const ghostinyData: CrewAsset = {
@@ -688,7 +688,7 @@ export const ghostinyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"ghostiny\");",
-        importInPG: "loadSprite(\"ghostiny\", \"/crew/ghostiny\");",
+        importInPG: "loadSprite(\"ghostiny\", \"/crew/ghostiny.png\");",
     },
 };
 export const ghostyData: CrewAsset = {
@@ -697,7 +697,7 @@ export const ghostyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"ghosty\");",
-        importInPG: "loadSprite(\"ghosty\", \"/crew/ghosty\");",
+        importInPG: "loadSprite(\"ghosty\", \"/crew/ghosty.png\");",
     },
 };
 export const gigagantrumData: CrewAsset = {
@@ -706,7 +706,7 @@ export const gigagantrumData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"gigagantrum\");",
-        importInPG: "loadSprite(\"gigagantrum\", \"/crew/gigagantrum\");",
+        importInPG: "loadSprite(\"gigagantrum\", \"/crew/gigagantrum.png\");",
     },
 };
 export const gladyData: CrewAsset = {
@@ -715,7 +715,7 @@ export const gladyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"glady\");",
-        importInPG: "loadSprite(\"glady\", \"/crew/glady\");",
+        importInPG: "loadSprite(\"glady\", \"/crew/glady.png\");",
     },
 };
 export const goldflyData: CrewAsset = {
@@ -724,7 +724,7 @@ export const goldflyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"goldfly\");",
-        importInPG: "loadSprite(\"goldfly\", \"/crew/goldfly\");",
+        importInPG: "loadSprite(\"goldfly\", \"/crew/goldfly.png\");",
     },
 };
 export const grapeData: CrewAsset = {
@@ -733,7 +733,7 @@ export const grapeData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"grape\");",
-        importInPG: "loadSprite(\"grape\", \"/crew/grape\");",
+        importInPG: "loadSprite(\"grape\", \"/crew/grape.png\");",
     },
 };
 export const grassData: CrewAsset = {
@@ -742,7 +742,7 @@ export const grassData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"grass\");",
-        importInPG: "loadSprite(\"grass\", \"/crew/grass\");",
+        importInPG: "loadSprite(\"grass\", \"/crew/grass.png\");",
     },
 };
 export const gunData: CrewAsset = {
@@ -751,7 +751,7 @@ export const gunData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"gun\");",
-        importInPG: "loadSprite(\"gun\", \"/crew/gun\");",
+        importInPG: "loadSprite(\"gun\", \"/crew/gun.png\");",
     },
 };
 export const heartData: CrewAsset = {
@@ -760,7 +760,7 @@ export const heartData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"heart\");",
-        importInPG: "loadSprite(\"heart\", \"/crew/heart\");",
+        importInPG: "loadSprite(\"heart\", \"/crew/heart.png\");",
     },
 };
 export const how_to_be_a_bean_wizardData: CrewAsset = {
@@ -769,7 +769,7 @@ export const how_to_be_a_bean_wizardData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"how_to_be_a_bean_wizard\");",
-        importInPG: "loadSprite(\"how_to_be_a_bean_wizard\", \"/crew/how_to_be_a_bean_wizard\");",
+        importInPG: "loadSprite(\"how_to_be_a_bean_wizard\", \"/crew/how_to_be_a_bean_wizard.png\");",
     },
 };
 export const karatData: CrewAsset = {
@@ -778,7 +778,7 @@ export const karatData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"karat\");",
-        importInPG: "loadSprite(\"karat\", \"/crew/karat\");",
+        importInPG: "loadSprite(\"karat\", \"/crew/karat.png\");",
     },
 };
 export const katData: CrewAsset = {
@@ -787,7 +787,7 @@ export const katData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"kat\");",
-        importInPG: "loadSprite(\"kat\", \"/crew/kat\");",
+        importInPG: "loadSprite(\"kat\", \"/crew/kat.png\");",
     },
 };
 export const keyData: CrewAsset = {
@@ -796,7 +796,7 @@ export const keyData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"key\");",
-        importInPG: "loadSprite(\"key\", \"/crew/key\");",
+        importInPG: "loadSprite(\"key\", \"/crew/key.png\");",
     },
 };
 export const knockData: CrewAsset = {
@@ -805,7 +805,7 @@ export const knockData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"knock\");",
-        importInPG: "loadSprite(\"knock\", \"/crew/knock\");",
+        importInPG: "loadSprite(\"knock\", \"/crew/knock.png\");",
     },
 };
 export const lampData: CrewAsset = {
@@ -814,7 +814,7 @@ export const lampData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"lamp\");",
-        importInPG: "loadSprite(\"lamp\", \"/crew/lamp\");",
+        importInPG: "loadSprite(\"lamp\", \"/crew/lamp.png\");",
     },
 };
 export const lighteningData: CrewAsset = {
@@ -823,7 +823,7 @@ export const lighteningData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"lightening\");",
-        importInPG: "loadSprite(\"lightening\", \"/crew/lightening\");",
+        importInPG: "loadSprite(\"lightening\", \"/crew/lightening.png\");",
     },
 };
 export const likeData: CrewAsset = {
@@ -832,7 +832,7 @@ export const likeData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"like\");",
-        importInPG: "loadSprite(\"like\", \"/crew/like\");",
+        importInPG: "loadSprite(\"like\", \"/crew/like.png\");",
     },
 };
 export const markData: CrewAsset = {
@@ -841,7 +841,7 @@ export const markData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"mark\");",
-        importInPG: "loadSprite(\"mark\", \"/crew/mark\");",
+        importInPG: "loadSprite(\"mark\", \"/crew/mark.png\");",
     },
 };
 export const marrocData: CrewAsset = {
@@ -850,7 +850,7 @@ export const marrocData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"marroc\");",
-        importInPG: "loadSprite(\"marroc\", \"/crew/marroc\");",
+        importInPG: "loadSprite(\"marroc\", \"/crew/marroc.png\");",
     },
 };
 export const meatData: CrewAsset = {
@@ -859,7 +859,7 @@ export const meatData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"meat\");",
-        importInPG: "loadSprite(\"meat\", \"/crew/meat\");",
+        importInPG: "loadSprite(\"meat\", \"/crew/meat.png\");",
     },
 };
 export const money_bagData: CrewAsset = {
@@ -868,7 +868,7 @@ export const money_bagData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"money_bag\");",
-        importInPG: "loadSprite(\"money_bag\", \"/crew/money_bag\");",
+        importInPG: "loadSprite(\"money_bag\", \"/crew/money_bag.png\");",
     },
 };
 export const moonData: CrewAsset = {
@@ -877,7 +877,7 @@ export const moonData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"moon\");",
-        importInPG: "loadSprite(\"moon\", \"/crew/moon\");",
+        importInPG: "loadSprite(\"moon\", \"/crew/moon.png\");",
     },
 };
 export const mushroomData: CrewAsset = {
@@ -886,7 +886,7 @@ export const mushroomData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"mushroom\");",
-        importInPG: "loadSprite(\"mushroom\", \"/crew/mushroom\");",
+        importInPG: "loadSprite(\"mushroom\", \"/crew/mushroom.png\");",
     },
 };
 export const noteData: CrewAsset = {
@@ -895,7 +895,7 @@ export const noteData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"note\");",
-        importInPG: "loadSprite(\"note\", \"/crew/note\");",
+        importInPG: "loadSprite(\"note\", \"/crew/note.png\");",
     },
 };
 export const onionData: CrewAsset = {
@@ -904,7 +904,7 @@ export const onionData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"onion\");",
-        importInPG: "loadSprite(\"onion\", \"/crew/onion\");",
+        importInPG: "loadSprite(\"onion\", \"/crew/onion.png\");",
     },
 };
 export const pineappleData: CrewAsset = {
@@ -913,7 +913,7 @@ export const pineappleData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"pineapple\");",
-        importInPG: "loadSprite(\"pineapple\", \"/crew/pineapple\");",
+        importInPG: "loadSprite(\"pineapple\", \"/crew/pineapple.png\");",
     },
 };
 export const pointerData: CrewAsset = {
@@ -922,7 +922,7 @@ export const pointerData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"pointer\");",
-        importInPG: "loadSprite(\"pointer\", \"/crew/pointer\");",
+        importInPG: "loadSprite(\"pointer\", \"/crew/pointer.png\");",
     },
 };
 export const portalData: CrewAsset = {
@@ -931,7 +931,7 @@ export const portalData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"portal\");",
-        importInPG: "loadSprite(\"portal\", \"/crew/portal\");",
+        importInPG: "loadSprite(\"portal\", \"/crew/portal.png\");",
     },
 };
 export const skullerData: CrewAsset = {
@@ -940,7 +940,7 @@ export const skullerData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"skuller\");",
-        importInPG: "loadSprite(\"skuller\", \"/crew/skuller\");",
+        importInPG: "loadSprite(\"skuller\", \"/crew/skuller.png\");",
     },
 };
 export const sokData: CrewAsset = {
@@ -949,7 +949,7 @@ export const sokData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sok\");",
-        importInPG: "loadSprite(\"sok\", \"/crew/sok\");",
+        importInPG: "loadSprite(\"sok\", \"/crew/sok.png\");",
     },
 };
 export const spikeData: CrewAsset = {
@@ -958,7 +958,7 @@ export const spikeData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"spike\");",
-        importInPG: "loadSprite(\"spike\", \"/crew/spike\");",
+        importInPG: "loadSprite(\"spike\", \"/crew/spike.png\");",
     },
 };
 export const steelData: CrewAsset = {
@@ -967,7 +967,7 @@ export const steelData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"steel\");",
-        importInPG: "loadSprite(\"steel\", \"/crew/steel\");",
+        importInPG: "loadSprite(\"steel\", \"/crew/steel.png\");",
     },
 };
 export const sukomiData: CrewAsset = {
@@ -976,7 +976,7 @@ export const sukomiData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sukomi\");",
-        importInPG: "loadSprite(\"sukomi\", \"/crew/sukomi\");",
+        importInPG: "loadSprite(\"sukomi\", \"/crew/sukomi.png\");",
     },
 };
 export const sunData: CrewAsset = {
@@ -985,7 +985,7 @@ export const sunData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sun\");",
-        importInPG: "loadSprite(\"sun\", \"/crew/sun\");",
+        importInPG: "loadSprite(\"sun\", \"/crew/sun.png\");",
     },
 };
 export const swordData: CrewAsset = {
@@ -994,7 +994,7 @@ export const swordData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"sword\");",
-        importInPG: "loadSprite(\"sword\", \"/crew/sword\");",
+        importInPG: "loadSprite(\"sword\", \"/crew/sword.png\");",
     },
 };
 export const tgaData: CrewAsset = {
@@ -1003,7 +1003,7 @@ export const tgaData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"tga\");",
-        importInPG: "loadSprite(\"tga\", \"/crew/tga\");",
+        importInPG: "loadSprite(\"tga\", \"/crew/tga.png\");",
     },
 };
 export const watermelonData: CrewAsset = {
@@ -1012,7 +1012,7 @@ export const watermelonData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"watermelon\");",
-        importInPG: "loadSprite(\"watermelon\", \"/crew/watermelon\");",
+        importInPG: "loadSprite(\"watermelon\", \"/crew/watermelon.png\");",
     },
 };
 export const zombeanData: CrewAsset = {
@@ -1021,7 +1021,7 @@ export const zombeanData: CrewAsset = {
     pack: "KAWorld",
     imports: {
         importInCrew: "loadCrew(\"zombean\");",
-        importInPG: "loadSprite(\"zombean\", \"/crew/zombean\");",
+        importInPG: "loadSprite(\"zombean\", \"/crew/zombean.png\");",
     },
 };
 
