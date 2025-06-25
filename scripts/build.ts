@@ -1,15 +1,20 @@
-import { buildSync } from "esbuild";
+import { buildSync, type Loader } from "esbuild";
+
+const loader: Record<string, Loader> = {
+    ".png": "dataurl",
+    ".webp": "dataurl",
+    ".gif": "dataurl",
+    ".mp3": "dataurl",
+    ".wav": "dataurl",
+    ".ogg": "dataurl",
+}
 
 buildSync({
     format: "esm",
     entryPoints: ["src/index.ts"],
     bundle: true,
     outfile: "dist/index.mjs",
-    loader: {
-        ".png": "dataurl",
-        ".webp": "dataurl",
-        ".gif": "dataurl",
-    },
+    loader,
 });
 
 buildSync({
@@ -17,9 +22,5 @@ buildSync({
     entryPoints: ["src/index.ts"],
     bundle: true,
     outfile: "dist/index.cjs",
-    loader: {
-        ".png": "dataurl",
-        ".webp": "dataurl",
-        ".gif": "dataurl",
-    },
+    loader,
 });

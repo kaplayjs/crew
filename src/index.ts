@@ -60,6 +60,7 @@ import { weightData as internal_weightData } from "../packs/Icons/Sprites/weight
 
 // KAWorld
 import { happyData as internal_happyData } from "../packs/KAWorld/Fonts/happy/happy";
+import { burpData as internal_burpData } from "../packs/KAWorld/Sounds/burp/burp";
 import { appleData as internal_appleData } from "../packs/KAWorld/Sprites/apple/apple";
 import { bagData as internal_bagData } from "../packs/KAWorld/Sprites/bag/bag";
 import { beanData as internal_beanData } from "../packs/KAWorld/Sprites/bean/bean";
@@ -563,6 +564,15 @@ export const happyData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"happy\");",
         importInPG: "loadBitmapFont(\"happy\", \"/crew/happy.png\", 28, 37);",
+    },
+};
+export const burpData: CrewAsset = {
+    ...internal_burpData,
+    kind: "Sound",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"burp\");",
+        importInPG: "loadSound(\"burp\", \"/crew/burp.mp3\");",
     },
 };
 export const appleData: CrewAsset = {
@@ -1083,6 +1093,7 @@ export const assets = {
 
     // KAWorld
     happy: happyData,
+    burp: burpData,
     apple: appleData,
     bag: bagData,
     bean: beanData,

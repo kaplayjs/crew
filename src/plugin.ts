@@ -3,6 +3,7 @@ import {
     type BitmapFontData,
     type KAPLAYPlugin,
     type SpriteData,
+    type SoundData,
 } from "kaplay";
 import { assets } from "./index.js";
 
@@ -19,7 +20,7 @@ export type KAPLAYCrewPlugin = {
     loadCrew(
         crew: CrewName | `${CrewName}-o`,
         name?: string,
-    ): Asset<SpriteData> | Asset<BitmapFontData>;
+    ): Asset<SpriteData> | Asset<BitmapFontData> | Asset<SoundData>;
 };
 
 export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
@@ -45,6 +46,12 @@ export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
                     crewData[image],
                     crewData.width,
                     crewData.height,
+                );
+            }
+            else if (crewData.kind === "Sound") {
+                return k.loadSound(
+                    name,
+                    crewData.sound,
                 );
             }
         },

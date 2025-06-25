@@ -11,13 +11,14 @@ export type Tag =
     | "tiles"
     | "icons"
     | "books"
-    | "emojis";
+    | "emojis"
+    | "sounds";
 
 /**
  * A Crew Item represents an asset entry of Crew. It's meant to be transformed
  * in a CrewAsset.
  */
-export type CrewItem = SpriteCrewItem | FontCrewItem;
+export type CrewItem = SpriteCrewItem | FontCrewItem | SoundCrewItem;
 
 /**
  * Represents alternative name for a Crew Item.
@@ -100,6 +101,12 @@ export interface FontCrewItem extends CrewItemBase {
     height: number;
     width_o: number;
     height_o: number;
+}
+
+export interface SoundCrewItem extends CrewItemBase {
+    kind: "Sound";
+    sound: string;
+    fileFormat?: "mp3" | "wav" | "ogg";
 }
 
 type CrewAssetPack = "KAWorld" | "Icons" | "Brand" | "Emojis";
