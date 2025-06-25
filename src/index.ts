@@ -45,6 +45,7 @@ import { menuData as internal_menuData } from "../packs/Icons/Sprites/menu/menu"
 import { minusData as internal_minusData } from "../packs/Icons/Sprites/minus/minus";
 import { paletteData as internal_paletteData } from "../packs/Icons/Sprites/palette/palette";
 import { paperData as internal_paperData } from "../packs/Icons/Sprites/paper/paper";
+import { pauseData as internal_pauseData } from "../packs/Icons/Sprites/pause/pause";
 import { playData as internal_playData } from "../packs/Icons/Sprites/play/play";
 import { plusData as internal_plusData } from "../packs/Icons/Sprites/plus/plus";
 import { question_markData as internal_question_markData } from "../packs/Icons/Sprites/question_mark/question_mark";
@@ -446,6 +447,15 @@ export const paperData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"paper\");",
         importInPG: "loadSprite(\"paper\", \"/crew/paper.png\");",
+    },
+};
+export const pauseData: CrewAsset = {
+    ...internal_pauseData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"pause\");",
+        importInPG: "loadSprite(\"pause\", \"/crew/pause.png\");",
     },
 };
 export const playData: CrewAsset = {
@@ -1078,6 +1088,7 @@ export const assets = {
     minus: minusData,
     palette: paletteData,
     paper: paperData,
+    pause: pauseData,
     play: playData,
     plus: plusData,
     question_mark: question_markData,
