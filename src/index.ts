@@ -4,6 +4,7 @@ import { crew } from "@/plugin";
 import type { CrewAsset } from "@/types/crew";
 
 // Brand
+import { kaboom2000Data as internal_kaboom2000Data } from "../packs/Brand/Sounds/kaboom2000/kaboom2000";
 import { dinoData as internal_dinoData } from "../packs/Brand/Sprites/dino/dino";
 import { draculaData as internal_draculaData } from "../packs/Brand/Sprites/dracula/dracula";
 import { kData as internal_kData } from "../packs/Brand/Sprites/k/k";
@@ -116,6 +117,15 @@ import { tgaData as internal_tgaData } from "../packs/KAWorld/Sprites/tga/tga";
 import { watermelonData as internal_watermelonData } from "../packs/KAWorld/Sprites/watermelon/watermelon";
 import { zombeanData as internal_zombeanData } from "../packs/KAWorld/Sprites/zombean/zombean";
 // Brand
+export const kaboom2000Data: CrewAsset = {
+    ...internal_kaboom2000Data,
+    kind: "Sound",
+    pack: "Brand",
+    imports: {
+        importInCrew: "loadCrew(\"kaboom2000\");",
+        importInPG: "loadSound(\"kaboom2000\", \"/crew/kaboom2000.mp3\");",
+    },
+};
 export const dinoData: CrewAsset = {
     ...internal_dinoData,
     kind: "Sprite",
@@ -1067,6 +1077,7 @@ export const zombeanData: CrewAsset = {
 
 export const assets = {
     // Brand
+    kaboom2000: kaboom2000Data,
     dino: dinoData,
     dracula: draculaData,
     k: kData,
