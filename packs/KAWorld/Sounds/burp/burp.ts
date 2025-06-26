@@ -7,7 +7,7 @@ export const burpData: SoundCrewItem = {
     description: "The burp sound.",
     author: "misanthrope",
     secret: "Burpman's language.",
-    tags: ["sounds"],
+    tags: ["sounds", "crew"],
     type: "Sound",
     origin: "Official",
     sound: burp,

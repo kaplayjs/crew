@@ -61,7 +61,9 @@ import { weightData as internal_weightData } from "../packs/Icons/Sprites/weight
 
 // KAWorld
 import { happyData as internal_happyData } from "../packs/KAWorld/Fonts/happy/happy";
+import { bean_voiceData as internal_bean_voiceData } from "../packs/KAWorld/Sounds/bean_voice/bean_voice";
 import { burpData as internal_burpData } from "../packs/KAWorld/Sounds/burp/burp";
+import { mark_voiceData as internal_mark_voiceData } from "../packs/KAWorld/Sounds/mark_voice/mark_voice";
 import { appleData as internal_appleData } from "../packs/KAWorld/Sprites/apple/apple";
 import { bagData as internal_bagData } from "../packs/KAWorld/Sprites/bag/bag";
 import { beanData as internal_beanData } from "../packs/KAWorld/Sprites/bean/bean";
@@ -576,6 +578,15 @@ export const happyData: CrewAsset = {
         importInPG: "loadBitmapFont(\"happy\", \"/crew/happy.png\", 28, 37);",
     },
 };
+export const bean_voiceData: CrewAsset = {
+    ...internal_bean_voiceData,
+    kind: "Sound",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"bean_voice\");",
+        importInPG: "loadSound(\"bean_voice\", \"/crew/bean_voice.wav\");",
+    },
+};
 export const burpData: CrewAsset = {
     ...internal_burpData,
     kind: "Sound",
@@ -583,6 +594,15 @@ export const burpData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"burp\");",
         importInPG: "loadSound(\"burp\", \"/crew/burp.mp3\");",
+    },
+};
+export const mark_voiceData: CrewAsset = {
+    ...internal_mark_voiceData,
+    kind: "Sound",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"mark_voice\");",
+        importInPG: "loadSound(\"mark_voice\", \"/crew/mark_voice.wav\");",
     },
 };
 export const appleData: CrewAsset = {
@@ -1104,7 +1124,9 @@ export const assets = {
 
     // KAWorld
     happy: happyData,
+    bean_voice: bean_voiceData,
     burp: burpData,
+    mark_voice: mark_voiceData,
     apple: appleData,
     bag: bagData,
     bean: beanData,
