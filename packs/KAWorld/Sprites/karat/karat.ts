@@ -10,7 +10,7 @@ export const karatData: SpriteCrewItem = {
     secret: "Ryan's rat, a life companion",
     tags: ["animals"],
     type: "Sprite",
-    origin: "Official",
+    origin: "Commission",
     sprite: karatSprite,
     outlined: karatSpriteO,
     crewmeta: {
