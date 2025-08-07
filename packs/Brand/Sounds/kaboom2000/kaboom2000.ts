@@ -11,6 +11,7 @@ export const kaboom2000Data: SoundCrewItem = {
     type: "Sound",
     origin: "Official",
     sound: kaboom2000,
+    relatedSprite: "kaboom",
     appearances: [
         {
             name: "Concert",
@@ -20,5 +21,5 @@ export const kaboom2000Data: SoundCrewItem = {
             canon: true,
         }
     ],
-    searchTerms: ["song"]
+    searchTerms: ["song"],
 };

@@ -31,4 +31,5 @@ export const markData: SpriteCrewItem = {
         weight: 20,
         gender: 0,
     },
+    relatedSound: "mark_voice",
 };

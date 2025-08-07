@@ -90,6 +90,7 @@ export interface SpriteCrewItem extends CrewItemBase {
     kind: "Sprite";
     sprite: string;
     outlined: string;
+    relatedSound?: Extract<CrewItem, { kind: "Sound" }>["name"];
 }
 
 export interface FontCrewItem extends CrewItemBase {
@@ -107,6 +108,7 @@ export interface SoundCrewItem extends CrewItemBase {
     kind: "Sound";
     sound: string;
     fileFormat?: "mp3" | "wav" | "ogg";
+    relatedSprite?: Extract<CrewItem, { kind: "Sprite" }>["name"];
 }
 
 type CrewAssetPack = "KAWorld" | "Icons" | "Brand" | "Emojis";

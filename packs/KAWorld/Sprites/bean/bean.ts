@@ -41,4 +41,5 @@ export const beanData: SpriteCrewItem = {
         favoriteColor: "green",
         gender: 1,
     },
+    relatedSound: "bean_voice",
 };

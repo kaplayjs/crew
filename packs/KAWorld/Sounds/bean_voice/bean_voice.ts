@@ -12,6 +12,7 @@ export const bean_voiceData: SoundCrewItem = {
     origin: "Official",
     sound: beanVoice,
     fileFormat: "wav",
+    relatedSprite: "bean",
     appearances: [
         {
             name: "Visual Novel",
@@ -20,5 +21,5 @@ export const bean_voiceData: SoundCrewItem = {
             type: "kaplayground",
             canon: true,
         }
-    ]
+    ],
 };

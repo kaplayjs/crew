@@ -13,4 +13,5 @@ export const kaboomData: SpriteCrewItem = {
     origin: "Official",
     sprite: kaboomSprite,
     outlined: kaboomSpriteO,
+    relatedSound: "kaboom2000",
 };

@@ -12,6 +12,7 @@ export const mark_voiceData: SoundCrewItem = {
     origin: "Official",
     sound: markVoice,
     fileFormat: "wav",
+    relatedSprite: "mark",
     appearances: [
         {
             name: "Visual Novel",
@@ -20,5 +21,5 @@ export const mark_voiceData: SoundCrewItem = {
             type: "kaplayground",
             canon: true,
         }
-    ]
+    ],
 };

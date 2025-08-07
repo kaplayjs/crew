@@ -11,6 +11,7 @@ export const burpData: SoundCrewItem = {
     type: "Sound",
     origin: "Official",
     sound: burp,
+    relatedSprite: "burpman",
     appearances: [
         {
             name: "Press B",
