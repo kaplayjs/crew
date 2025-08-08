@@ -277,7 +277,7 @@ export const firingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"firing\");",
-        importInPG: "loadSprite(\"firing\", \"/crew/firing.png\");",
+        importInPG: "loadSprite(\"firing\", \"/crew/firing.png\", {\n    sliceX: 2,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 1,\n            speed: 6.67,\n        },\n    },\n});",
     },
 };
 export const pogData: CrewAsset = {
