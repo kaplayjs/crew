@@ -93,7 +93,7 @@ import { katData as internal_katData } from "../packs/KAWorld/Sprites/kat/kat";
 import { keyData as internal_keyData } from "../packs/KAWorld/Sprites/key/key";
 import { knockData as internal_knockData } from "../packs/KAWorld/Sprites/knock/knock";
 import { lampData as internal_lampData } from "../packs/KAWorld/Sprites/lamp/lamp";
-import { lighteningData as internal_lighteningData } from "../packs/KAWorld/Sprites/lightening/lightening";
+import { lightningData as internal_lightningData } from "../packs/KAWorld/Sprites/lightning/lightning";
 import { likeData as internal_likeData } from "../packs/KAWorld/Sprites/like/like";
 import { markData as internal_markData } from "../packs/KAWorld/Sprites/mark/mark";
 import { marrocData as internal_marrocData } from "../packs/KAWorld/Sprites/marroc/marroc";
@@ -867,13 +867,13 @@ export const lampData: CrewAsset = {
         importInPG: "loadSprite(\"lamp\", \"/crew/lamp.png\");",
     },
 };
-export const lighteningData: CrewAsset = {
-    ...internal_lighteningData,
+export const lightningData: CrewAsset = {
+    ...internal_lightningData,
     kind: "Sprite",
     pack: "KAWorld",
     imports: {
-        importInCrew: "loadCrew(\"lightening\");",
-        importInPG: "loadSprite(\"lightening\", \"/crew/lightening.png\");",
+        importInCrew: "loadCrew(\"lightning\");",
+        importInPG: "loadSprite(\"lightning\", \"/crew/lightning.png\");",
     },
 };
 export const likeData: CrewAsset = {
@@ -1166,7 +1166,7 @@ export const assets = {
     key: keyData,
     knock: knockData,
     lamp: lampData,
-    lightening: lighteningData,
+    lightning: lightningData,
     like: likeData,
     mark: markData,
     marroc: marrocData,

@@ -1,17 +1,17 @@
 import type { SpriteCrewItem } from "@/types/crew";
-import lighteningSpriteO from "./lightening-o.png";
-import lighteningSprite from "./lightening.png";
+import lightningSpriteO from "./lightning-o.png";
+import lightningSprite from "./lightning.png";
 
-export const lighteningData: SpriteCrewItem = {
+export const lightningData: SpriteCrewItem = {
     kind: "Sprite",
-    name: "Lightening",
+    name: "Lightning",
     description: "Scrash!",
     author: "tga",
     secret: "One time, Mark ate one.",
     tags: ["objects"],
     type: "Sprite",
     origin: "Official",
-    sprite: lighteningSprite,
-    outlined: lighteningSpriteO,
+    sprite: lightningSprite,
+    outlined: lightningSpriteO,
     searchTerms: ["electricity"],
 };
