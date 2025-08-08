@@ -1,3 +1,5 @@
+import { type LoadSpriteOpt } from "kaplay";
+
 export type Author = "tga" | "lajbel" | "misanthrope" | "erik";
 
 export type Tag =
@@ -90,6 +92,11 @@ export interface SpriteCrewItem extends CrewItemBase {
     kind: "Sprite";
     sprite: string;
     outlined: string;
+    spritesheet?: {
+        sprite: string;
+        outlined: string;
+    };
+    loadSpriteOpt?: LoadSpriteOpt;
     relatedSound?: Extract<CrewItem, { kind: "Sound" }>["name"];
 }
 

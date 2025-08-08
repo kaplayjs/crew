@@ -18,11 +18,33 @@ function escape(str: string) {
 }
 
 function parseProp(str: string, prop: string): string | undefined {
-    const match = str.match(
-        new RegExp(`${prop}\\s*:\\s*([^,\\n]+)`, "m")
-    )?.[1]?.trim()
+    const regex = new RegExp(`${prop}\\s*:\\s*([^,\\n]+)`, "m");
+    const fullMatch = str.match(regex);
+    const match = fullMatch?.[1]?.trim();
 
     if (!match) return undefined;
+
+    if (fullMatch && match.startsWith("{")) {
+        let startIndex = fullMatch.index! + fullMatch[0].indexOf("{");
+        let braceCount = 0;
+        let i = startIndex;
+
+        while (i < str.length) {
+            if (str[i] === "{") braceCount++;
+            else if (str[i] === "}") {
+                braceCount--;
+                if (braceCount === 0) {
+                    return str
+                        .slice(startIndex, i + 1)
+                        .trim()
+                        .split("\n").map(l => l.replace(/^\s{4}/, ""))
+                        .join("\n");
+                }
+            }
+            i++;
+        }
+        return undefined;
+    }
 
     if (match.startsWith('"') && match.endsWith('"')) return match.slice(1, -1);
 
@@ -103,6 +125,10 @@ for (const packPath of packPaths) {
                 ? {
                     fileFormat: prop("fileFormat") || "mp3",
                 }
+                : kind == "Sprite"
+                ? {
+                    loadSpriteOpt: prop("loadSpriteOpt"),
+                }
                 : undefined;
 
             pack.datas.push({
@@ -112,7 +138,7 @@ for (const packPath of packPaths) {
                 kind,
                 imports: {
                     crew: `loadCrew(\"${asset}\");`,
-                    pg: `load${kind == "Font" ? "Bitmap" : ""}${kind}(\"${asset}\", \"/crew/${asset}.${assetData?.fileFormat ?? "png"}\"${kind == "Font" ? `, ${assetData?.width}, ${assetData?.height}` : ``});`,
+                    pg: `load${kind == "Font" ? "Bitmap" : ""}${kind}(\"${asset}\", \"/crew/${asset}.${assetData?.fileFormat ?? "png"}\"${kind == "Font" ? `, ${assetData?.width}, ${assetData?.height}` : ``}${assetData?.loadSpriteOpt ? `, ${assetData.loadSpriteOpt}` : ""});`,
                 },
             });
         }

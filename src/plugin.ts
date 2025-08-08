@@ -37,7 +37,8 @@ export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
             if (crewData.kind === "Sprite") {
                 return k.loadSprite(
                     name,
-                    crewData[image],
+                    crewData?.spritesheet ? crewData.spritesheet[image] : crewData[image],
+                    crewData?.loadSpriteOpt,
                 );
             }
             else if (crewData.kind === "Font") {
