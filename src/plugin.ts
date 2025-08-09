@@ -28,8 +28,9 @@ export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
         loadCrew(crew, name) {
             name = name ?? crew;
             const image = crew.endsWith("-o") ? "outlined" : "sprite";
+            const crewKey = crew.replace(/-o$/, "");
 
-            const crewData = assets[crew as keyof typeof assets];
+            const crewData = assets[crewKey as keyof typeof assets];
             if (!crewData) {
                 throw new Error(`Crew ${crew} not found`);
             }
