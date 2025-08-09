@@ -26,6 +26,7 @@ export const firingData: SpriteCrewItem = {
             "anim": {
                 from: 0,
                 to: 1,
+                loop: true,
                 speed: 6.67,
             },
         },
