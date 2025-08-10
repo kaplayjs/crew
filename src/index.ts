@@ -91,6 +91,7 @@ import { grassData as internal_grassData } from "../packs/KAWorld/Sprites/grass/
 import { gunData as internal_gunData } from "../packs/KAWorld/Sprites/gun/gun";
 import { heartData as internal_heartData } from "../packs/KAWorld/Sprites/heart/heart";
 import { how_to_be_a_bean_wizardData as internal_how_to_be_a_bean_wizardData } from "../packs/KAWorld/Sprites/how_to_be_a_bean_wizard/how_to_be_a_bean_wizard";
+import { jamData as internal_jamData } from "../packs/KAWorld/Sprites/jam/jam";
 import { karatData as internal_karatData } from "../packs/KAWorld/Sprites/karat/karat";
 import { katData as internal_katData } from "../packs/KAWorld/Sprites/kat/kat";
 import { keyData as internal_keyData } from "../packs/KAWorld/Sprites/key/key";
@@ -852,6 +853,15 @@ export const how_to_be_a_bean_wizardData: CrewAsset = {
         importInPG: "loadSprite(\"how_to_be_a_bean_wizard\", \"/crew/how_to_be_a_bean_wizard.png\");",
     },
 };
+export const jamData: CrewAsset = {
+    ...internal_jamData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"jam\");",
+        importInPG: "loadSprite(\"jam\", \"/crew/jam.png\");",
+    },
+};
 export const karatData: CrewAsset = {
     ...internal_karatData,
     kind: "Sprite",
@@ -1194,6 +1204,7 @@ export const assets = {
     gun: gunData,
     heart: heartData,
     how_to_be_a_bean_wizard: how_to_be_a_bean_wizardData,
+    jam: jamData,
     karat: karatData,
     kat: katData,
     key: keyData,
