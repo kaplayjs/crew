@@ -25,6 +25,7 @@ import { beenkingData as internal_beenkingData } from "../packs/Emojis/Sprites/b
 import { burpman_burpingData as internal_burpman_burpingData } from "../packs/Emojis/Sprites/burpman_burping/burpman_burping";
 import { firingData as internal_firingData } from "../packs/Emojis/Sprites/firing/firing";
 import { pogData as internal_pogData } from "../packs/Emojis/Sprites/pog/pog";
+import { wizardingData as internal_wizardingData } from "../packs/Emojis/Sprites/wizarding/wizarding";
 
 // Icons
 import { api_bookData as internal_api_bookData } from "../packs/Icons/Sprites/api_book/api_book";
@@ -287,6 +288,15 @@ export const pogData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"pog\");",
         importInPG: "loadSprite(\"pog\", \"/crew/pog.png\");",
+    },
+};
+export const wizardingData: CrewAsset = {
+    ...internal_wizardingData,
+    kind: "Sprite",
+    pack: "Emojis",
+    imports: {
+        importInCrew: "loadCrew(\"wizarding\");",
+        importInPG: "loadSprite(\"wizarding\", \"/crew/wizarding.png\", {\r\n    sliceX: 11,\r\n    sliceY: 11,\r\n    anims: {\r\n        \"anim\": {\r\n            from: 0,\r\n            to: 118,\r\n            loop: true,\r\n            speed: 50,\r\n        },\r\n    },\r\n});",
     },
 };
 // Icons
@@ -1098,6 +1108,7 @@ export const assets = {
     burpman_burping: burpman_burpingData,
     firing: firingData,
     pog: pogData,
+    wizarding: wizardingData,
 
     // Icons
     api_book: api_bookData,
