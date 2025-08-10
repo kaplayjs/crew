@@ -69,6 +69,7 @@ import { mark_voiceData as internal_mark_voiceData } from "../packs/KAWorld/Soun
 import { appleData as internal_appleData } from "../packs/KAWorld/Sprites/apple/apple";
 import { bagData as internal_bagData } from "../packs/KAWorld/Sprites/bag/bag";
 import { beanData as internal_beanData } from "../packs/KAWorld/Sprites/bean/bean";
+import { beantleData as internal_beantleData } from "../packs/KAWorld/Sprites/beantle/beantle";
 import { boboData as internal_boboData } from "../packs/KAWorld/Sprites/bobo/bobo";
 import { btflyData as internal_btflyData } from "../packs/KAWorld/Sprites/btfly/btfly";
 import { burpmanData as internal_burpmanData } from "../packs/KAWorld/Sprites/burpman/burpman";
@@ -296,7 +297,7 @@ export const wizardingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"wizarding\");",
-        importInPG: "loadSprite(\"wizarding\", \"/crew/wizarding.png\", {\r\n    sliceX: 11,\r\n    sliceY: 11,\r\n    anims: {\r\n        \"anim\": {\r\n            from: 0,\r\n            to: 118,\r\n            loop: true,\r\n            speed: 50,\r\n        },\r\n    },\r\n});",
+        importInPG: "loadSprite(\"wizarding\", \"/crew/wizarding.png\", {\n    sliceX: 11,\n    sliceY: 11,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 118,\n            loop: true,\n            speed: 50,\n        },\n    },\n});",
     },
 };
 // Icons
@@ -650,6 +651,15 @@ export const beanData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"bean\");",
         importInPG: "loadSprite(\"bean\", \"/crew/bean.png\");",
+    },
+};
+export const beantleData: CrewAsset = {
+    ...internal_beantleData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"beantle\");",
+        importInPG: "loadSprite(\"beantle\", \"/crew/beantle.png\");",
     },
 };
 export const boboData: CrewAsset = {
@@ -1152,6 +1162,7 @@ export const assets = {
     apple: appleData,
     bag: bagData,
     bean: beanData,
+    beantle: beantleData,
     bobo: boboData,
     btfly: btflyData,
     burpman: burpmanData,
