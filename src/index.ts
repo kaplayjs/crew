@@ -41,6 +41,7 @@ import { cross_markData as internal_cross_markData } from "../packs/Icons/Sprite
 import { discordData as internal_discordData } from "../packs/Icons/Sprites/discord/discord";
 import { fontsData as internal_fontsData } from "../packs/Icons/Sprites/fonts/fonts";
 import { githubData as internal_githubData } from "../packs/Icons/Sprites/github/github";
+import { historyData as internal_historyData } from "../packs/Icons/Sprites/history/history";
 import { homeData as internal_homeData } from "../packs/Icons/Sprites/home/home";
 import { marks_legendData as internal_marks_legendData } from "../packs/Icons/Sprites/marks_legend/marks_legend";
 import { menuData as internal_menuData } from "../packs/Icons/Sprites/menu/menu";
@@ -416,6 +417,15 @@ export const githubData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"github\");",
         importInPG: "loadSprite(\"github\", \"/crew/github.png\");",
+    },
+};
+export const historyData: CrewAsset = {
+    ...internal_historyData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"history\");",
+        importInPG: "loadSprite(\"history\", \"/crew/history.png\");",
     },
 };
 export const homeData: CrewAsset = {
@@ -1134,6 +1144,7 @@ export const assets = {
     discord: discordData,
     fonts: fontsData,
     github: githubData,
+    history: historyData,
     home: homeData,
     marks_legend: marks_legendData,
     menu: menuData,
