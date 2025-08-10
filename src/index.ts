@@ -268,7 +268,7 @@ export const burpman_burpingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"burpman_burping\");",
-        importInPG: "loadSprite(\"burpman_burping\", \"/crew/burpman_burping.png\");",
+        importInPG: "loadSprite(\"burpman_burping\", \"/crew/burpman_burping.png\", {\n    sliceX: 6,\n    sliceY: 5,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 25,\n            loop: true,\n            speed: 10,\n        },\n    },\n});",
     },
 };
 export const firingData: CrewAsset = {
