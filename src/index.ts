@@ -259,7 +259,7 @@ export const beenkingData: CrewAsset = {
     pack: "Emojis",
     imports: {
         importInCrew: "loadCrew(\"beenking\");",
-        importInPG: "loadSprite(\"beenking\", \"/crew/beenking.png\");",
+        importInPG: "loadSprite(\"beenking\", \"/crew/beenking.png\", {\n    sliceX: 9,\n    sliceY: 8,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 65,\n            loop: true,\n            speed: 62.5,\n        },\n    },\n});",
     },
 };
 export const burpman_burpingData: CrewAsset = {
