@@ -24,33 +24,84 @@ and this project adheres to
 
   // Load crew
   loadCrew("apple");
-  loadCrew("apple");
+  loadCrew("apple-o");
   ```
 
 - Added .ttf version of Happy Font
 
-- New Assets:
+- New Brand Assets:
   - `kaplayjs`: The new KAPLAY logo
   - `kaplay`: The new KAPLAY logo, without any dinos
   - `ka`: KAPLAY's K
   - `k`: Kaboom.js K
   - `old-kaplay`: Old KAPLAY logo
 
+- New Sprites:
+  - Beantle (Commissioned by Scriptie)
+  - Fire (Community asset by Erik)
+  - Jam
+  - Sok
+
+- New Icons:
+  - Menu
+  - Share
+  - Arrow
+  - Minus
+  - Pause
+  - Search
+  - History
+  - Cross Mark
+
+- New Emojis:
+  - Firing
+  - Been
+  - Beenking
+  - Wizarding
+  - Burpman Burping
+
+- Support for animated spritesheets added (used for gif emojis)
+  ```js
+  loadCrew("burpman_burping");
+  add([sprite("burpman_burping", { anim: "anim" })]);
+  ```
+
+- Sounds are now loadable and included:
+  - Burp
+  - Bean Voice
+  - Mark Voice
+  - Kaboom2000 Song
+
+- Origin was added to asset details "Official" | "Commission" | "Community"
+- Appearances were added - links to where sprite was used
+- Aliases were added, like lore alternative names for crew members
+- Search terms for assets to find them under different keywords (e.g. bobo - fish)
+- Added `relatedSprite` and `relatedSound` for linked assets (e.g. Bean, Bean Voice)
+- Added KAPLAYGROUND import code instructions
+
 ### Changed
 
-- Remaked Assets:
+- Remade Assets:
   - `api_book`
   - `art`
   - `assetbrew`
   - `discord`
+  - `github`
+  - `paper`
   - `play`
   - `plus`
+  - `save`
+  - `toolbox`
+  - `question_mark`
 
 - Changed Assets:
   - `play`: Updated colors
-  - `marroc`: Updated description
-  - `sukomi`: Updated description
+  - `note`: Fixed white background overflowing in a corner
+  - `copied`: Renamed to `check_mark`
+  - `lightening`: Renamed to `lightning`
 
-- Brand assets moved to `brandAssets`, so now they are separated from crew
-- Font assets moved to `fontAssets`, so now they are separated from crew
+- Assets are now moved to pack folders Brand, Emojis, Icons, KAWorld
+- Assets are further subcategorized by kind Sprites, Sounds, Fonts
+- Brand assets were moved to `Brand/Sprites`, so now they are separated from crew
+- Font assets were moved to `KAWorld/Fonts`, so now they are separated from crew
+- Updated various crew meta details, descriptions, tags, and secrets
 - Capitalized various names
