@@ -49,6 +49,7 @@ import { minusData as internal_minusData } from "../packs/Icons/Sprites/minus/mi
 import { paletteData as internal_paletteData } from "../packs/Icons/Sprites/palette/palette";
 import { paperData as internal_paperData } from "../packs/Icons/Sprites/paper/paper";
 import { pauseData as internal_pauseData } from "../packs/Icons/Sprites/pause/pause";
+import { pencilData as internal_pencilData } from "../packs/Icons/Sprites/pencil/pencil";
 import { playData as internal_playData } from "../packs/Icons/Sprites/play/play";
 import { plusData as internal_plusData } from "../packs/Icons/Sprites/plus/plus";
 import { question_markData as internal_question_markData } from "../packs/Icons/Sprites/question_mark/question_mark";
@@ -490,6 +491,15 @@ export const pauseData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"pause\");",
         importInPG: "loadSprite(\"pause\", \"/crew/pause.png\");",
+    },
+};
+export const pencilData: CrewAsset = {
+    ...internal_pencilData,
+    kind: "Sprite",
+    pack: "Icons",
+    imports: {
+        importInCrew: "loadCrew(\"pencil\");",
+        importInPG: "loadSprite(\"pencil\", \"/crew/pencil.png\");",
     },
 };
 export const playData: CrewAsset = {
@@ -1162,6 +1172,7 @@ export const assets = {
     palette: paletteData,
     paper: paperData,
     pause: pauseData,
+    pencil: pencilData,
     play: playData,
     plus: plusData,
     question_mark: question_markData,

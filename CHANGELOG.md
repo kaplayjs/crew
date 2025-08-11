@@ -48,6 +48,7 @@ and this project adheres to
   - Arrow
   - Minus
   - Pause
+  - Pencil
   - Search
   - History
   - Cross Mark
