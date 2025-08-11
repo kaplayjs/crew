@@ -39,6 +39,7 @@ and this project adheres to
 - New Sprites:
   - Beantle (Commissioned by Scriptie)
   - Fire (Community asset by Erik)
+  - Flowy
   - Jam
   - Sok
 

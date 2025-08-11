@@ -82,6 +82,7 @@ import { doorData as internal_doorData } from "../packs/KAWorld/Sprites/door/doo
 import { eggData as internal_eggData } from "../packs/KAWorld/Sprites/egg/egg";
 import { egg_crackData as internal_egg_crackData } from "../packs/KAWorld/Sprites/egg_crack/egg_crack";
 import { fireData as internal_fireData } from "../packs/KAWorld/Sprites/fire/fire";
+import { flowyData as internal_flowyData } from "../packs/KAWorld/Sprites/flowy/flowy";
 import { ghostinyData as internal_ghostinyData } from "../packs/KAWorld/Sprites/ghostiny/ghostiny";
 import { ghostyData as internal_ghostyData } from "../packs/KAWorld/Sprites/ghosty/ghosty";
 import { gigagantrumData as internal_gigagantrumData } from "../packs/KAWorld/Sprites/gigagantrum/gigagantrum";
@@ -773,6 +774,15 @@ export const fireData: CrewAsset = {
         importInPG: "loadSprite(\"fire\", \"/crew/fire.png\");",
     },
 };
+export const flowyData: CrewAsset = {
+    ...internal_flowyData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: "loadCrew(\"flowy\");",
+        importInPG: "loadSprite(\"flowy\", \"/crew/flowy.png\");",
+    },
+};
 export const ghostinyData: CrewAsset = {
     ...internal_ghostinyData,
     kind: "Sprite",
@@ -1205,6 +1215,7 @@ export const assets = {
     egg: eggData,
     egg_crack: egg_crackData,
     fire: fireData,
+    flowy: flowyData,
     ghostiny: ghostinyData,
     ghosty: ghostyData,
     gigagantrum: gigagantrumData,
