@@ -25,4 +25,5 @@ export const burpmanData: SpriteCrewItem = {
         favoriteColor: "green",
         gender: 0,
     },
+    relatedSound: "burp",
 };
