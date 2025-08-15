@@ -12,9 +12,9 @@ import { kaData as internal_kaData } from "../packs/Brand/Sprites/ka/ka";
 import { kaboomData as internal_kaboomData } from "../packs/Brand/Sprites/kaboom/kaboom";
 import { kajamData as internal_kajamData } from "../packs/Brand/Sprites/kajam/kajam";
 import { kaplayData as internal_kaplayData } from "../packs/Brand/Sprites/kaplay/kaplay";
+import { kaplay_dinoData as internal_kaplay_dinoData } from "../packs/Brand/Sprites/kaplay_dino/kaplay_dino";
 import { kaplaygroundData as internal_kaplaygroundData } from "../packs/Brand/Sprites/kaplayground/kaplayground";
 import { kaplayground_dinoData as internal_kaplayground_dinoData } from "../packs/Brand/Sprites/kaplayground_dino/kaplayground_dino";
-import { kaplay_dinoData as internal_kaplay_dinoData } from "../packs/Brand/Sprites/kaplay_dino/kaplay_dino";
 import { old_kaplayData as internal_old_kaplayData } from "../packs/Brand/Sprites/old_kaplay/old_kaplay";
 import { old_kaplaygroundData as internal_old_kaplaygroundData } from "../packs/Brand/Sprites/old_kaplayground/old_kaplayground";
 
@@ -195,6 +195,15 @@ export const kaplayData: CrewAsset = {
         importInPG: "loadSprite(\"kaplay\", \"/crew/kaplay.png\");",
     },
 };
+export const kaplay_dinoData: CrewAsset = {
+    ...internal_kaplay_dinoData,
+    kind: "Sprite",
+    pack: "Brand",
+    imports: {
+        importInCrew: "loadCrew(\"kaplay_dino\");",
+        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino.png\");",
+    },
+};
 export const kaplaygroundData: CrewAsset = {
     ...internal_kaplaygroundData,
     kind: "Sprite",
@@ -211,15 +220,6 @@ export const kaplayground_dinoData: CrewAsset = {
     imports: {
         importInCrew: "loadCrew(\"kaplayground_dino\");",
         importInPG: "loadSprite(\"kaplayground_dino\", \"/crew/kaplayground_dino.png\");",
-    },
-};
-export const kaplay_dinoData: CrewAsset = {
-    ...internal_kaplay_dinoData,
-    kind: "Sprite",
-    pack: "Brand",
-    imports: {
-        importInCrew: "loadCrew(\"kaplay_dino\");",
-        importInPG: "loadSprite(\"kaplay_dino\", \"/crew/kaplay_dino.png\");",
     },
 };
 export const old_kaplayData: CrewAsset = {
@@ -1145,9 +1145,9 @@ export const assets = {
     kaboom: kaboomData,
     kajam: kajamData,
     kaplay: kaplayData,
+    kaplay_dino: kaplay_dinoData,
     kaplayground: kaplaygroundData,
     kaplayground_dino: kaplayground_dinoData,
-    kaplay_dino: kaplay_dinoData,
     old_kaplay: old_kaplayData,
     old_kaplayground: old_kaplaygroundData,
 
