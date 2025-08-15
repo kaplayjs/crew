@@ -2,12 +2,10 @@ import {
     type Asset,
     type BitmapFontData,
     type KAPLAYPlugin,
-    type SpriteData,
     type SoundData,
+    type SpriteData,
 } from "kaplay";
-import { assets } from "./index.js";
-
-type Assets = typeof assets;
+import { type Assets, assets } from "./index.js";
 
 export type AssetsKey = {
     [K in keyof Assets]: Assets[K] extends { kind: "Sprite" } ? K | `${K}-o`
@@ -38,7 +36,9 @@ export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
             if (crewData.kind === "Sprite") {
                 return k.loadSprite(
                     name,
-                    crewData?.spritesheet ? crewData.spritesheet[image] : crewData[image],
+                    crewData?.spritesheet
+                        ? crewData.spritesheet[image]
+                        : crewData[image],
                     crewData?.loadSpriteOpt,
                 );
             }

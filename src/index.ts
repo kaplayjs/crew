@@ -1257,3 +1257,5 @@ export const assets = {
     zombean: zombeanData,
 } satisfies Record<string, CrewAsset>;
 export { crew };
+
+export * from "./types/crew";

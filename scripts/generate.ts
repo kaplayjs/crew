@@ -46,7 +46,9 @@ function parseProp(str: string, prop: string): string | undefined {
         return undefined;
     }
 
-    if (match.startsWith('"') && match.endsWith('"')) return match.slice(1, -1);
+    if (match.startsWith("\"") && match.endsWith("\"")) {
+        return match.slice(1, -1);
+    }
 
     return match;
 }
@@ -138,7 +140,19 @@ for (const packPath of packPaths) {
                 kind,
                 imports: {
                     crew: `loadCrew(\"${asset}\");`,
-                    pg: `load${kind == "Font" ? "Bitmap" : ""}${kind}(\"${asset}\", \"/crew/${asset}.${assetData?.fileFormat ?? "png"}\"${kind == "Font" ? `, ${assetData?.width}, ${assetData?.height}` : ``}${assetData?.loadSpriteOpt ? `, ${assetData.loadSpriteOpt}` : ""});`,
+                    pg: `load${
+                        kind == "Font" ? "Bitmap" : ""
+                    }${kind}(\"${asset}\", \"/crew/${asset}.${
+                        assetData?.fileFormat ?? "png"
+                    }\"${
+                        kind == "Font"
+                            ? `, ${assetData?.width}, ${assetData?.height}`
+                            : ``
+                    }${
+                        assetData?.loadSpriteOpt
+                            ? `, ${assetData.loadSpriteOpt}`
+                            : ""
+                    });`,
                 },
             });
         }
@@ -191,6 +205,8 @@ for (const pack of packs) {
 
 exportAssets += `} satisfies Record<string, CrewAsset>;\nexport { crew };\n`;
 
+let exportTypes = `export * from "./types/crew";\n`;
+
 const indexPath = path.join(srcPath, "index.ts");
 const indexContent =
     `// This file is generated automatically. Do not edit it manually.\n`
@@ -201,7 +217,9 @@ const indexContent =
     + "\n"
     + transformedAssets
     + "\n"
-    + exportAssets;
+    + exportAssets
+    + "\n"
+    + exportTypes;
 
 fs.writeFileSync(indexPath, indexContent);
 console.log("index.ts file generated successfully.");
