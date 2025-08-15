@@ -1,4 +1,5 @@
-import { type LoadSpriteOpt } from "kaplay";
+import { type Asset, type LoadSpriteOpt } from "kaplay";
+import type { assets } from "../index";
 
 export type Author = "tga" | "lajbel" | "misanthrope" | "erik";
 
@@ -131,3 +132,17 @@ export type CrewAsset = CrewItem & {
         importInPG: string;
     };
 };
+
+export type Assets = typeof assets;
+
+export type SpriteCrewAsset = {
+    [K in keyof Assets]: Assets[K] extends { kind: "Sprite" } ? K : never;
+}[keyof Assets];
+
+export type SoundCrewAsset = {
+    [K in keyof Assets]: Assets[K] extends { kind: "Sound" } ? K : never;
+}[keyof Assets];
+
+export type FontCrewAsset = {
+    [K in keyof Assets]: Assets[K] extends { kind: "Font" } ? K : never;
+}[keyof Assets];
