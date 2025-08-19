@@ -1,11 +1,18 @@
 import {
     type Asset,
     type BitmapFontData,
+    type KAPLAYCtx,
     type KAPLAYPlugin,
     type SoundData,
     type SpriteData,
 } from "kaplay";
-import { type Assets, assets } from "./index.js";
+import { assets } from "./index";
+import {
+    type Assets,
+    type FontCrewAsset,
+    type SoundCrewAsset,
+    type SpriteCrewAsset,
+} from "./types/crew";
 
 export type AssetsKey = {
     [K in keyof Assets]: Assets[K] extends { kind: "Sprite" } ? K | `${K}-o`
@@ -13,17 +20,26 @@ export type AssetsKey = {
 };
 
 export type CrewName = AssetsKey[keyof AssetsKey];
+type SpriteCrewAssetAndOutlined = SpriteCrewAsset | `${SpriteCrewAsset}-o`;
+
+type CrewKind = "sprite" | "sound" | "font";
+type CrewKeysByKind = {
+    "sprite": SpriteCrewAssetAndOutlined;
+    "sound": SoundCrewAsset;
+    "font": FontCrewAsset;
+};
 
 export type KAPLAYCrewPlugin = {
-    loadCrew(
-        crew: CrewName | `${CrewName}-o`,
+    loadCrew<T extends CrewKind>(
+        kind: T,
+        crew: CrewKeysByKind[T],
         name?: string,
     ): Asset<SpriteData> | Asset<BitmapFontData> | Asset<SoundData>;
 };
 
-export const crew: KAPLAYPlugin<KAPLAYCrewPlugin> = (k) => {
+export const crew = (k: KAPLAYCtx): KAPLAYCrewPlugin => {
     return {
-        loadCrew(crew, name) {
+        loadCrew(kind, crew, name) {
             name = name ?? crew;
             const image = crew.endsWith("-o") ? "outlined" : "sprite";
             const crewKey = crew.replace(/-o$/, "");

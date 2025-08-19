@@ -35,11 +35,12 @@ const k = kaplay({
     font: "happy",
 });
 
-k.loadCrew("apple");
-k.loadCrewFont("happy");
+k.loadCrew("sprite", "apple");
+k.loadCrew("sprite", "grape", "purplefruit");
+k.loadCrew("font", "happy");
 
 k.add([
-    k.sprite("apple"),
+    k.sprite("purplefruit"),
 ]);
 
 k.add([

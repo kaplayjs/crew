@@ -23,8 +23,8 @@ and this project adheres to
   });
 
   // Load crew
-  loadCrew("apple");
-  loadCrew("apple-o");
+  loadCrew("sprite", "apple");
+  loadCrew("sprite", "apple-o");
   ```
 
 - Added .ttf version of Happy Font
@@ -63,7 +63,7 @@ and this project adheres to
 
 - Support for animated spritesheets added (used for gif emojis)
   ```js
-  loadCrew("burpman_burping");
+  loadCrew("sprite", "burpman_burping");
   add([sprite("burpman_burping", { anim: "anim" })]);
   ```
 
@@ -76,8 +76,10 @@ and this project adheres to
 - Origin was added to asset details "Official" | "Commission" | "Community"
 - Appearances were added - links to where sprite was used
 - Aliases were added, like lore alternative names for crew members
-- Search terms for assets to find them under different keywords (e.g. bobo - fish)
-- Added `relatedSprite` and `relatedSound` for linked assets (e.g. Bean, Bean Voice)
+- Search terms for assets to find them under different keywords (e.g. bobo -
+  fish)
+- Added `relatedSprite` and `relatedSound` for linked assets (e.g. Bean, Bean
+  Voice)
 - Added KAPLAYGROUND import code instructions
 
 ### Changed
@@ -103,7 +105,8 @@ and this project adheres to
 
 - Assets are now moved to pack folders Brand, Emojis, Icons, KAWorld
 - Assets are further subcategorized by kind Sprites, Sounds, Fonts
-- Brand assets were moved to `Brand/Sprites`, so now they are separated from crew
+- Brand assets were moved to `Brand/Sprites`, so now they are separated from
+  crew
 - Font assets were moved to `KAWorld/Fonts`, so now they are separated from crew
 - Updated various crew meta details, descriptions, tags, and secrets
 - Capitalized various names

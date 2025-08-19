@@ -139,7 +139,7 @@ for (const packPath of packPaths) {
                 export: `${asset}Data`,
                 kind,
                 imports: {
-                    crew: `loadCrew(\"${asset}\");`,
+                    crew: `loadCrew(\"${kind.toLowerCase()}\", \"${asset}\");`,
                     pg: `load${
                         kind == "Font" ? "Bitmap" : ""
                     }${kind}(\"${asset}\", \"/crew/${asset}.${
