@@ -41,7 +41,8 @@ export const crew = (k: KAPLAYCtx): KAPLAYCrewPlugin => {
     return {
         loadCrew(kind, crew, name) {
             name = name ?? crew;
-            const image = crew.endsWith("-o") ? "outlined" : "sprite";
+            const isOutlined = crew.endsWith("-o");
+            const image = isOutlined ? "outlined" : "sprite";
             const crewKey = crew.replace(/-o$/, "");
 
             const crewData = assets[crewKey as keyof typeof assets];
@@ -62,8 +63,8 @@ export const crew = (k: KAPLAYCtx): KAPLAYCrewPlugin => {
                 return k.loadBitmapFont(
                     name,
                     crewData[image],
-                    crewData.width,
-                    crewData.height,
+                    crewData[isOutlined ? "width_o" : "width"],
+                    crewData[isOutlined ? "height_o" : "height"],
                 );
             }
             else if (crewData.kind === "Sound") {
