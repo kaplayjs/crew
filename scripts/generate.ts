@@ -61,8 +61,14 @@ type Pack = {
         import: string;
         export: string;
         imports: {
-            crew: string;
-            pg: string;
+            crew: {
+                original: string;
+                outlined?: string;
+            };
+            pg: {
+                original: string;
+                outlined?: string;
+            };
         };
         kind: string;
     }[];
@@ -132,6 +138,27 @@ for (const packPath of packPaths) {
                     loadSpriteOpt: prop("loadSpriteOpt"),
                 }
                 : undefined;
+            const hasOutlined = prop("outlined");
+
+            const importInPG = (forOutlined = false) => {
+                const assetName = asset + (forOutlined ? "-o" : "");
+
+                return `load${
+                    kind == "Font" ? "Bitmap" : ""
+                }${kind}(\"${assetName}\", \"/crew/${assetName}.${
+                    assetData?.fileFormat ?? "png"
+                }\"${
+                    kind == "Font"
+                        ? forOutlined
+                            ? `, ${assetData?.width_o}, ${assetData?.height_o}`
+                            : `, ${assetData?.width}, ${assetData?.height}`
+                        : ``
+                }${
+                    assetData?.loadSpriteOpt
+                        ? `, ${assetData.loadSpriteOpt}`
+                        : ``
+                });`
+            };
 
             pack.datas.push({
                 name: asset,
@@ -139,20 +166,16 @@ for (const packPath of packPaths) {
                 export: `${asset}Data`,
                 kind,
                 imports: {
-                    crew: `loadCrew(\"${kind.toLowerCase()}\", \"${asset}\");`,
-                    pg: `load${
-                        kind == "Font" ? "Bitmap" : ""
-                    }${kind}(\"${asset}\", \"/crew/${asset}.${
-                        assetData?.fileFormat ?? "png"
-                    }\"${
-                        kind == "Font"
-                            ? `, ${assetData?.width}, ${assetData?.height}`
-                            : ``
-                    }${
-                        assetData?.loadSpriteOpt
-                            ? `, ${assetData.loadSpriteOpt}`
-                            : ""
-                    });`,
+                    crew: {
+                        original: `loadCrew(\"${kind.toLowerCase()}\", \"${asset}\");`,
+                        ...(hasOutlined && {
+                            outlined: `loadCrew(\"${kind.toLowerCase()}\", \"${asset}-o\");`,
+                        }),
+                    },
+                    pg: {
+                        original: importInPG(),
+                        ...(hasOutlined && { outlined: importInPG(true) }),
+                    },
                 },
             });
         }
@@ -182,12 +205,24 @@ for (const pack of packs) {
         transformedAssets += `    kind: "${data.kind}",\n`;
         transformedAssets += `    pack: "${pack.name}",\n`;
         transformedAssets += `    imports: {\n`;
-        transformedAssets += `        importInCrew: \"${
-            escape(data.imports.crew)
+        transformedAssets += `        importInCrew: {\n`
+        transformedAssets += `            original: \"${
+            escape(data.imports.crew.original)
         }\",\n`;
-        transformedAssets += `        importInPG: \"${
-            escape(data.imports.pg)
+        if (data.imports.crew?.outlined)
+            transformedAssets += `            outlined: \"${
+                escape(data.imports.crew.outlined)
+            }\",\n`;
+        transformedAssets += `        },\n`;
+        transformedAssets += `        importInPG: {\n`
+        transformedAssets += `            original: \"${
+            escape(data.imports.pg.original)
         }\",\n`;
+        if (data.imports.pg?.outlined)
+            transformedAssets += `            outlined: \"${
+                escape(data.imports.pg.outlined)
+            }\",\n`;
+        transformedAssets += `        },\n`;
         transformedAssets += `    },\n`;
         transformedAssets += `};\n`;
     }

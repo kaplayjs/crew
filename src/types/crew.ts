@@ -128,8 +128,14 @@ type CrewAssetPack = "KAWorld" | "Icons" | "Brand" | "Emojis";
 export type CrewAsset = CrewItem & {
     pack: CrewAssetPack;
     imports: {
-        importInCrew: string;
-        importInPG: string;
+        importInCrew: {
+            original: string;
+            outlined?: string;
+        };
+        importInPG: {
+            original: string;
+            outlined?: string;
+        };
     };
 };
 
