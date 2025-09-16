@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2025-09-16
+
+### Changed
+
+- Crew data now includes both original and outlined asset version import
+  instructions - @imaginarny
+
+### Fixed
+
+- Outlined fonts (e.g. `happy-o`) loaded using crew plugin now use correct
+  dimensions - @imaginarny
+
 ## [2.0.0] - 2025-08-25
 
 ### Added
@@ -13,6 +25,7 @@ and this project adheres to
 - **Crew Plugin**!
 
   Now you can load crew sprites directly on your game using `crew` plugin:
+
   ```js
   import { crew } from "@kaplayjs/crew";
   import kaplay from "kaplay";
@@ -62,6 +75,7 @@ and this project adheres to
   - Burpman Burping
 
 - Support for animated spritesheets added (used for gif emojis)
+
   ```js
   loadCrew("sprite", "burpman_burping");
   add([sprite("burpman_burping", { anim: "anim" })]);
