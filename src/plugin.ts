@@ -15,18 +15,20 @@ import {
 } from "./types/crew";
 
 export type AssetsKey = {
-    [K in keyof Assets]: Assets[K] extends { kind: "Sprite" } ? K | `${K}-o`
+    [K in keyof Assets]: Assets[K] extends { outlined?: unknown }
+        ? K | `${K}-o`
         : K;
 };
 
 export type CrewName = AssetsKey[keyof AssetsKey];
 type SpriteCrewAssetAndOutlined = SpriteCrewAsset | `${SpriteCrewAsset}-o`;
+type FontCrewAssetAndOutlined = FontCrewAsset | `${FontCrewAsset}-o`;
 
 type CrewKind = "sprite" | "sound" | "font";
 type CrewKeysByKind = {
     "sprite": SpriteCrewAssetAndOutlined;
     "sound": SoundCrewAsset;
-    "font": FontCrewAsset;
+    "font": FontCrewAssetAndOutlined;
 };
 
 export type KAPLAYCrewPlugin = {
