@@ -112,6 +112,7 @@ import { onionData as internal_onionData } from "../packs/KAWorld/Sprites/onion/
 import { pineappleData as internal_pineappleData } from "../packs/KAWorld/Sprites/pineapple/pineapple";
 import { pointerData as internal_pointerData } from "../packs/KAWorld/Sprites/pointer/pointer";
 import { portalData as internal_portalData } from "../packs/KAWorld/Sprites/portal/portal";
+import { pumpkaData as internal_pumpkaData } from "../packs/KAWorld/Sprites/pumpka/pumpka";
 import { skullerData as internal_skullerData } from "../packs/KAWorld/Sprites/skuller/skuller";
 import { sokData as internal_sokData } from "../packs/KAWorld/Sprites/sok/sok";
 import { spikeData as internal_spikeData } from "../packs/KAWorld/Sprites/spike/spike";
@@ -1648,6 +1649,21 @@ export const portalData: CrewAsset = {
         },
     },
 };
+export const pumpkaData: CrewAsset = {
+    ...internal_pumpkaData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"pumpka\");",
+            outlined: "loadCrew(\"sprite\", \"pumpka-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"pumpka\", \"/crew/pumpka.png\");",
+            outlined: "loadSprite(\"pumpka-o\", \"/crew/pumpka-o.png\");",
+        },
+    },
+};
 export const skullerData: CrewAsset = {
     ...internal_skullerData,
     kind: "Sprite",
@@ -1909,6 +1925,7 @@ export const assets = {
     pineapple: pineappleData,
     pointer: pointerData,
     portal: portalData,
+    pumpka: pumpkaData,
     skuller: skullerData,
     sok: sokData,
     spike: spikeData,
