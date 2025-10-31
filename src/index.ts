@@ -25,6 +25,7 @@ import { beenkingData as internal_beenkingData } from "../packs/Emojis/Sprites/b
 import { burpman_burpingData as internal_burpman_burpingData } from "../packs/Emojis/Sprites/burpman_burping/burpman_burping";
 import { firingData as internal_firingData } from "../packs/Emojis/Sprites/firing/firing";
 import { pogData as internal_pogData } from "../packs/Emojis/Sprites/pog/pog";
+import { sparklingData as internal_sparklingData } from "../packs/Emojis/Sprites/sparkling/sparkling";
 import { wizardingData as internal_wizardingData } from "../packs/Emojis/Sprites/wizarding/wizarding";
 
 // Icons
@@ -115,7 +116,12 @@ import { portalData as internal_portalData } from "../packs/KAWorld/Sprites/port
 import { pumpkaData as internal_pumpkaData } from "../packs/KAWorld/Sprites/pumpka/pumpka";
 import { skullerData as internal_skullerData } from "../packs/KAWorld/Sprites/skuller/skuller";
 import { sokData as internal_sokData } from "../packs/KAWorld/Sprites/sok/sok";
+import { sparkData as internal_sparkData } from "../packs/KAWorld/Sprites/spark/spark";
+import { sparkleData as internal_sparkleData } from "../packs/KAWorld/Sprites/sparkle/sparkle";
+import { sparklesData as internal_sparklesData } from "../packs/KAWorld/Sprites/sparkles/sparkles";
+import { spider_webData as internal_spider_webData } from "../packs/KAWorld/Sprites/spider_web/spider_web";
 import { spikeData as internal_spikeData } from "../packs/KAWorld/Sprites/spike/spike";
+import { starData as internal_starData } from "../packs/KAWorld/Sprites/star/star";
 import { steelData as internal_steelData } from "../packs/KAWorld/Sprites/steel/steel";
 import { sukomiData as internal_sukomiData } from "../packs/KAWorld/Sprites/sukomi/sukomi";
 import { sunData as internal_sunData } from "../packs/KAWorld/Sprites/sun/sun";
@@ -405,6 +411,21 @@ export const pogData: CrewAsset = {
         importInPG: {
             original: "loadSprite(\"pog\", \"/crew/pog.png\");",
             outlined: "loadSprite(\"pog-o\", \"/crew/pog-o.png\");",
+        },
+    },
+};
+export const sparklingData: CrewAsset = {
+    ...internal_sparklingData,
+    kind: "Sprite",
+    pack: "Emojis",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"sparkling\");",
+            outlined: "loadCrew(\"sprite\", \"sparkling-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"sparkling\", \"/crew/sparkling.png\", {\n    sliceX: 5,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 4,\n            loop: true,\n            speed: 10,\n        },\n    },\n});",
+            outlined: "loadSprite(\"sparkling-o\", \"/crew/sparkling-o.png\", {\n    sliceX: 5,\n    anims: {\n        \"anim\": {\n            from: 0,\n            to: 4,\n            loop: true,\n            speed: 10,\n        },\n    },\n});",
         },
     },
 };
@@ -1694,6 +1715,66 @@ export const sokData: CrewAsset = {
         },
     },
 };
+export const sparkData: CrewAsset = {
+    ...internal_sparkData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"spark\");",
+            outlined: "loadCrew(\"sprite\", \"spark-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"spark\", \"/crew/spark.png\");",
+            outlined: "loadSprite(\"spark-o\", \"/crew/spark-o.png\");",
+        },
+    },
+};
+export const sparkleData: CrewAsset = {
+    ...internal_sparkleData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"sparkle\");",
+            outlined: "loadCrew(\"sprite\", \"sparkle-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"sparkle\", \"/crew/sparkle.png\");",
+            outlined: "loadSprite(\"sparkle-o\", \"/crew/sparkle-o.png\");",
+        },
+    },
+};
+export const sparklesData: CrewAsset = {
+    ...internal_sparklesData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"sparkles\");",
+            outlined: "loadCrew(\"sprite\", \"sparkles-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"sparkles\", \"/crew/sparkles.png\");",
+            outlined: "loadSprite(\"sparkles-o\", \"/crew/sparkles-o.png\");",
+        },
+    },
+};
+export const spider_webData: CrewAsset = {
+    ...internal_spider_webData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"spider_web\");",
+            outlined: "loadCrew(\"sprite\", \"spider_web-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"spider_web\", \"/crew/spider_web.png\");",
+            outlined: "loadSprite(\"spider_web-o\", \"/crew/spider_web-o.png\");",
+        },
+    },
+};
 export const spikeData: CrewAsset = {
     ...internal_spikeData,
     kind: "Sprite",
@@ -1706,6 +1787,21 @@ export const spikeData: CrewAsset = {
         importInPG: {
             original: "loadSprite(\"spike\", \"/crew/spike.png\");",
             outlined: "loadSprite(\"spike-o\", \"/crew/spike-o.png\");",
+        },
+    },
+};
+export const starData: CrewAsset = {
+    ...internal_starData,
+    kind: "Sprite",
+    pack: "KAWorld",
+    imports: {
+        importInCrew: {
+            original: "loadCrew(\"sprite\", \"star\");",
+            outlined: "loadCrew(\"sprite\", \"star-o\");",
+        },
+        importInPG: {
+            original: "loadSprite(\"star\", \"/crew/star.png\");",
+            outlined: "loadSprite(\"star-o\", \"/crew/star-o.png\");",
         },
     },
 };
@@ -1838,6 +1934,7 @@ export const assets = {
     burpman_burping: burpman_burpingData,
     firing: firingData,
     pog: pogData,
+    sparkling: sparklingData,
     wizarding: wizardingData,
 
     // Icons
@@ -1928,7 +2025,12 @@ export const assets = {
     pumpka: pumpkaData,
     skuller: skullerData,
     sok: sokData,
+    spark: sparkData,
+    sparkle: sparkleData,
+    sparkles: sparklesData,
+    spider_web: spider_webData,
     spike: spikeData,
+    star: starData,
     steel: steelData,
     sukomi: sukomiData,
     sun: sunData,
