@@ -14,6 +14,13 @@ export const pumpkaData: SpriteCrewItem = {
     origin: "Official",
     sprite: pumpkaSprite,
     outlined: pumpkaSpriteO,
+    aliases: [
+        {
+            name: "Orange Bean",
+            description:
+                "Pumpka doesn't know what a bean is, but he likes it being orange",
+        },
+    ],
     crewmeta: {
         birthday: "23/10", // actual day created
         age: 6,
