@@ -8,7 +8,7 @@ export const katData: SpriteCrewItem = {
     description: "A cute alien cat.",
     author: "lajbel",
     secret: "Is the Luluxia's pet.",
-    tags: ["crew"],
+    tags: ["crew", "animals"],
     type: "Sprite",
     origin: "Commission",
     sprite: katSprite,

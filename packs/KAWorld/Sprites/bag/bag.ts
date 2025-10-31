@@ -11,7 +11,7 @@ export const bagData: SpriteCrewItem = {
     secret:
         "He likes much eating grass, but more than that, he likes eating snow.",
     author: "tga",
-    tags: ["crew"],
+    tags: ["crew", "animals"],
     type: "Sprite",
     origin: "Official",
     crewmeta: {

@@ -8,7 +8,7 @@ export const dinoData: SpriteCrewItem = {
     description: "The dinosaur",
     author: "lajbel",
     secret: "Roar",
-    tags: ["brand"],
+    tags: ["brand", "animals"],
     type: "Sprite",
     origin: "Official",
     sprite: dinoSprite,

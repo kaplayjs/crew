@@ -8,7 +8,7 @@ export const sukomiData: SpriteCrewItem = {
     description: "The best friend of Bobo! Addicted to math.",
     author: "lajbel",
     secret: "MF's fish",
-    tags: ["crew"],
+    tags: ["crew", "animals"],
     type: "Sprite",
     origin: "Official",
     sprite: sukomiSprite,

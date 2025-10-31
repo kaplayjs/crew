@@ -8,7 +8,7 @@ export const beantleData: SpriteCrewItem = {
     description: "A Bean Beetle, Epilachna varivestis. It's actually real.",
     author: "lajbel",
     secret: "It's Scriptie's friend.",
-    tags: ["crew"],
+    tags: ["crew", "animals"],
     type: "Sprite",
     origin: "Commission",
     sprite: beantleSprite,
